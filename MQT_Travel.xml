@@ -12,7 +12,7 @@
   <portal n="Tusker Barracks" a="-100.51667,8.78333" al="35330" e="-0.4,90.7" min="40" c="8A02011E" t="639300421733366058" />
   <portal n="Wicked Wares Portal" a="33.57977,56.81931" e="45.5,37.1" t="639300421769496438" />
   <portal n="Mountainside Mischief" a="33.6152,56.74706" e="-82.8,-10.2" min="150" t="639300421770786452" />
-  <portal n="Tou Tou Tier 13" a="-29.12259,91.6489" e="-30.3,94.7" c="F25B010A" t="639300421914377961" />
+  <portal n="Tou Tou Tier 13" a="-29.12259,91.6489" e="-30.3,94.7" c="F25B010A" in="tier12" t="639300421914377961" />
   <portal n="Enlightened Facility Hub" a="-64.47484,-100.91574" al="303" e="89.2,42.7" c="012F0116" t="639300425833908380" />
   <portal n="Surface" a="58.77917,-100.81667" al="457" e="34.8,54.4" c="01C90231" t="639300443398363220" />
   <portal n="Olthoi Tunnel" a="-62.76366,96.20041" e="64,80.5" c="F7300128" t="639300427665806915" />
@@ -116,7 +116,7 @@
   <portal n="Suntik" a="-100.55833,8.575" al="35330" e="16.4,3.8" min="35" c="8A02019D" t="639300472279145060" />
   <portal n="Banderling Camp" a="-100.51673,8.61639" al="35330" e="43.6,24.9" min="35" c="8A0201A4" t="639300472279725066" />
   <start k="gem" n="Tou Tou Endgame Portal Gem v12" e="-30.41333,94.68579" t="639300277850115401" />
-  <start k="gem" n="Vaulted Dungeons Recall Gem" e="-17.23333,-30.66667" el="22890" t="639300333831989182" />
+  <start k="gem" n="Vaulted Dungeons Recall Gem" e="-17.23333,-30.66667" el="22890" o="1" t="639300503100760359" />
   <start k="spell" n="Bur Recall" e="22.55833,-101.28333" el="156" t="639300420948807759" />
   <start k="spell" n="Colosseum Recall" e="37.99515,-101.78333" el="175" t="639300421294641428" />
   <start k="spell" n="Facility Hub Recall" e="-100.72468,8.69433" el="35330" t="639300421634915021" />
@@ -357,7 +357,6 @@
   <point n="Bandit Hilt Chest" ty="Landmark" c="66.5,53.1" />
   <point n="Bog" ty="Landmark" c="-20.4,97.6" />
   <point n="Aun Kelauri-Keh Fire" ty="NPC" c="53.4,-79" />
-  <point n="Gloomfin" ty="Dungeon" c="-9.9,71.1" />
   <point n="Prof Ruggan" ty="Dungeon" c="-54.7,73.7" />
   <point n="Anachonistic Portal" ty="Dungeon" c="12.5,0.2" note="TS2" />
   <point n="Fir Tree for Charm" ty="Landmark" c="35.6,6.1" />
@@ -375,6 +374,129 @@
   <point n="Tall Tree" ty="NPC" c="51.89,-72.79" auto="1" />
   <point n="Eye-covered Tentacles of T'thuun" ty="NPC" c="51.87,-72.73" auto="1" />
   <point n="Diseased Carnivorous Carenzi Liver" ty="NPC" c="51.69,-73.01" auto="1" />
+  <point n="Scrivener of Creature Magic" ty="Vendor" c="33.48,56.58" auto="1" />
+  <point n="Scrivener of War Magic" ty="Vendor" c="33.51,56.61" auto="1" />
+  <point n="Scrivener of Item Magic" ty="Vendor" c="33.47,56.61" auto="1" />
+  <point n="Scrivener of Life Magic" ty="Vendor" c="33.49,56.58" auto="1" />
+  <point n="Shopkeep Mirinda" ty="Vendor" c="33.38,56.62" auto="1" />
+  <point n="Healer Dragando the Leech" ty="Vendor" c="33.59,56.72" auto="1" />
+  <point n="Weapon Imbue Vendor" ty="Vendor" c="33.59,56.87" auto="1" />
+  <point n="Free Weapon Vendor" ty="Vendor" c="33.61,56.93" auto="1" />
+  <point n="Melee Rare Vendor" ty="Vendor" c="33.63,56.94" auto="1" />
+  <point n="Emissary of Asheron" ty="NPC" c="33.61,56.87" auto="1" />
+  <point n="Primalist" ty="NPC" c="33.35,56.78" auto="1" />
+  <point n="Necromancer" ty="NPC" c="33.35,56.79" auto="1" />
+  <point n="Naturalist" ty="NPC" c="33.35,56.77" auto="1" />
+  <point n="Thrown Weapons Mastery" ty="NPC" c="33.37,56.82" auto="1" />
+  <point n="Magic Mastery" ty="NPC" c="33.36,56.82" auto="1" />
+  <point n="Crossbow Mastery" ty="NPC" c="33.38,56.82" auto="1" />
+  <point n="Bow Mastery" ty="NPC" c="33.39,56.82" auto="1" />
+  <point n="Two Handed Combat Mastery" ty="NPC" c="33.43,56.82" auto="1" />
+  <point n="Unarmed Combat Mastery" ty="NPC" c="33.44,56.82" auto="1" />
+  <point n="Sword Mastery" ty="NPC" c="33.45,56.82" auto="1" />
+  <point n="Umbral Guard" ty="NPC" c="33.36,56.91" auto="1" />
+  <point n="Staves Mastery" ty="NPC" c="33.45,56.82" auto="1" />
+  <point n="Spears Mastery" ty="NPC" c="33.46,56.82" auto="1" />
+  <point n="Mace Mastery" ty="NPC" c="33.47,56.82" auto="1" />
+  <point n="Dagger Mastery" ty="NPC" c="33.48,56.82" auto="1" />
+  <point n="Axe Mastery" ty="NPC" c="33.48,56.82" auto="1" />
+  <point n="Blackmoor's Page" ty="NPC" c="33.56,56.9" auto="1" />
+  <point n="Arcanum Broker" ty="Vendor" c="33.44,56.54" auto="1" />
+  <point n="Cainard Deck" ty="NPC" c="33.37,56.68" auto="1" />
+  <point n="Infinite Leaftide Buffer" ty="NPC" c="33.6,56.82" auto="1" />
+  <point n="Jacob Durstan" ty="NPC" c="33.61,56.82" auto="1" />
+  <point n="Aydra the Redistributor" ty="Vendor" c="33.61,56.82" auto="1" />
+  <point n="Bags Goes The Bagger" ty="Vendor" c="33.62,56.82" auto="1" />
+  <point n="Varinia" ty="NPC" c="33.64,56.81" auto="1" />
+  <point n="Marid" ty="Vendor" c="33.64,56.8" auto="1" />
+  <point n="Monroe" ty="NPC" c="33.64,56.8" auto="1" />
+  <point n="Master of Slayers" ty="NPC" c="33.64,56.79" auto="1" />
+  <point n="Wedding Planner" ty="Vendor" c="33.52,56.75" auto="1" />
+  <point n="John" ty="NPC" c="33.59,56.74" auto="1" />
+  <point n="Jump Greeter" ty="NPC" c="33.6,56.75" auto="1" />
+  <point n="Distraught Hunter" ty="NPC" c="33.57,56.69" auto="1" />
+  <point n="Elysa Strathelar" ty="NPC" c="33.4,56.63" auto="1" />
+  <point n="Ancient Statue of unknown origin" ty="Vendor" c="33.5,56.93" auto="1" />
+  <point n="Festival Vendor" ty="Vendor" c="33.53,56.74" auto="1" />
+  <point n="Aritta" ty="NPC" c="33.41,56.57" auto="1" />
+  <point n="Aurelia the Reconciler" ty="NPC" c="33.51,56.95" auto="1" />
+  <point n="Dean of Admissions" ty="Vendor" c="33.53,56.59" auto="1" />
+  <point n="Professor of Life Magic" ty="NPC" c="33.52,56.59" auto="1" />
+  <point n="Professor of Creature Magic" ty="NPC" c="33.52,56.59" auto="1" />
+  <point n="Professor of Item Magic" ty="NPC" c="33.52,56.58" auto="1" />
+  <point n="J.Crane" ty="NPC" c="33.65,56.52" auto="1" />
+  <point n="Beevis" ty="NPC" c="33.66,56.51" auto="1" />
+  <point n="Chuck E Cheese" ty="NPC" c="33.65,56.52" auto="1" />
+  <point n="Demiscus" ty="NPC" c="33.67,56.5" auto="1" />
+  <point n="Mocari" ty="NPC" c="33.64,56.52" auto="1" />
+  <point n="Jeremy" ty="NPC" c="33.69,56.48" auto="1" />
+  <point n="Keith" ty="NPC" c="33.69,56.48" auto="1" />
+  <point n="Shade of Dooks" ty="NPC" c="33.63,56.52" auto="1" />
+  <point n="Eggs" ty="NPC" c="33.63,56.52" auto="1" />
+  <point n="Opilio" ty="NPC" c="33.66,56.51" auto="1" />
+  <point n="Exploration Marker" ty="NPC" c="33.95,56.55" auto="1" />
+  <point n="Translator Aun Laokhe" ty="NPC" c="33.5,56.84" auto="1" />
+  <point n="Town Crier" ty="NPC" c="33.54,56.64" auto="1" />
+  <point n="Agent of the Arcanum" ty="NPC" c="33.51,56.89" auto="1" />
+  <point n="Apprentice Alchemist" ty="NPC" c="33.44,56.76" auto="1" />
+  <point n="Rift Exchanger" ty="Vendor" c="33.67,56.42" auto="1" />
+  <point n="Hob the Storyteller" ty="NPC" c="33.68,56.44" auto="1" />
+  <point n="Professor of War Magic" ty="NPC" c="33.53,56.57" auto="1" />
+  <point n="Professor of Void Magic" ty="NPC" c="33.53,56.57" auto="1" />
+  <point n="Fiun of Enlightenment" ty="NPC" c="33.55,56.95" auto="1" />
+  <point n="Fiun of Great Enlightenment" ty="NPC" c="33.5,56.91" auto="1" />
+  <point n="Emerald the Enchantress" ty="Vendor" c="33.6,56.82" auto="1" />
+  <point n="Aun Ri Scale" ty="NPC" c="33.64,56.74" auto="1" />
+  <point n="Aun Ri Scale's Assistant" ty="Vendor" c="33.64,56.73" auto="1" />
+  <point n="Leopold the Enlightened" ty="NPC" c="33.53,56.9" auto="1" />
+  <point n="Din-Din" ty="NPC" c="33.68,56.5" auto="1" />
+  <point n="Vengeful Zefir" ty="NPC" c="33.68,56.49" auto="1" />
+  <point n="Tou Tou Tier LS" ty="Lifestone" c="-30,95" si="tier11+" />
+  <point n="Tier 11+ Drop Point" ty="Custom" c="-30.4,94.7" si="tier11+" />
+  <point n="Xi Hau-Lai the Weaponsmith" ty="Vendor" c="-30.37,94.82" auto="1" si="tier11+" />
+  <point n="Li Huan, Lantern Keeper" ty="NPC" c="-30.3,94.7" auto="1" si="tier11+" />
+  <point n="Watch Mason Derwyn" ty="NPC" c="-30.4,94.83" auto="1" si="tier11+" />
+  <point n="Watch Scout Maren" ty="NPC" c="-30.39,94.83" auto="1" si="tier11+" />
+  <point n="Watch Sergeant Brandel" ty="NPC" c="-30.41,94.83" auto="1" si="tier11+" />
+  <point n="Watch Sergeant Aya Ki" ty="NPC" c="-30.41,94.83" auto="1" si="tier11+" />
+  <point n="Fen Hau-Lai the Armorer" ty="Vendor" c="-30.33,94.68" auto="1" si="tier11+" />
+  <point n="Quartermaster Vasco" ty="NPC" c="-30.38,94.82" auto="1" si="tier11+" />
+  <point n="Watch Fisher Nan Su" ty="NPC" c="-30.39,94.83" auto="1" si="tier11+" />
+  <point n="Isin Dule" ty="NPC" c="-30.2,94.85" auto="1" si="tier11+" />
+  <point n="Watch Huntmaster Roan" ty="NPC" c="-30.42,94.81" auto="1" si="tier11+" />
+  <point n="Watch Gravekeeper Oda Rin" ty="NPC" c="-30.4,94.83" auto="1" si="tier11+" />
+  <point n="Watch Warden Hama" ty="NPC" c="-30.38,94.83" auto="1" si="tier11+" />
+  <point n="Garbage Barrel" ty="NPC" c="-30.36,94.81" auto="1" si="tier11+" />
+  <point n="Aun Amanaualuan the Elder Shaman" ty="Vendor" c="-30.39,94.78" auto="1" si="tier11+" />
+  <point n="Town Crier" ty="NPC" c="-30.37,94.7" auto="1" si="tier11+" />
+  <point n="Watch Envoy Sen Arau" ty="NPC" c="-30.41,94.76" auto="1" si="tier11+" />
+  <point n="Cletus Pennington" ty="NPC" c="-31.73,94.11" auto="1" si="tier11+" />
+  <point n="Elder Tou Shan" ty="NPC" c="-27.76,95.93" auto="1" si="tier11+" />
+  <point n="Garbage Barrel" ty="NPC" c="-29.03,91.7" auto="1" si="tier11+" />
+  <point n="Ghost of Armorer Xao Fen" ty="NPC" c="-29.04,91.75" auto="1" si="tier11+" />
+  <point n="Ghost of Rou Beh the Bowyer" ty="NPC" c="-29.07,91.75" auto="1" si="tier11+" />
+  <point n="Ghost of Bai-Nu Ru the Weaponsmith" ty="NPC" c="-29.08,91.75" auto="1" si="tier11+" />
+  <point n="Ghost of Mi Chi the Barkeep" ty="NPC" c="-29.11,91.75" auto="1" si="tier11+" />
+  <point n="Ghost of Healer Rili Sou" ty="NPC" c="-29.1,91.75" auto="1" si="tier11+" />
+  <point n="Ghost of Jeweler Lo Dai-Ou" ty="NPC" c="-29.05,91.75" auto="1" si="tier11+" />
+  <point n="Isin Dule" ty="NPC" c="-30.2,94.85" auto="1" />
+  <point n="Watch Huntmaster Roan" ty="NPC" c="-30.42,94.81" auto="1" />
+  <point n="Li Huan, Lantern Keeper" ty="NPC" c="-30.3,94.7" auto="1" />
+  <point n="Watch Sergeant Brandel" ty="NPC" c="-30.41,94.83" auto="1" />
+  <point n="Watch Sergeant Aya Ki" ty="NPC" c="-30.41,94.83" auto="1" />
+  <point n="Watch Gravekeeper Oda Rin" ty="NPC" c="-30.4,94.83" auto="1" />
+  <point n="Watch Mason Derwyn" ty="NPC" c="-30.4,94.83" auto="1" />
+  <point n="Watch Fisher Nan Su" ty="NPC" c="-30.39,94.83" auto="1" />
+  <point n="Watch Scout Maren" ty="NPC" c="-30.39,94.83" auto="1" />
+  <point n="Watch Warden Hama" ty="NPC" c="-30.38,94.83" auto="1" />
+  <point n="Quartermaster Vasco" ty="NPC" c="-30.38,94.82" auto="1" />
+  <point n="Garbage Barrel" ty="NPC" c="-30.36,94.81" auto="1" />
+  <point n="Aun Amanaualuan the Elder Shaman" ty="Vendor" c="-30.39,94.78" auto="1" />
+  <point n="Xi Hau-Lai the Weaponsmith" ty="Vendor" c="-30.37,94.82" auto="1" />
+  <point n="Fen Hau-Lai the Armorer" ty="Vendor" c="-30.33,94.68" auto="1" />
+  <point n="Town Crier" ty="NPC" c="-30.37,94.7" auto="1" />
+  <point n="Watch Envoy Sen Arau" ty="NPC" c="-30.41,94.76" auto="1" />
+  <boundary k="tier11+" pts="-33.10378,93.44498;-33.09833,93.33494;-33.10546,93.2752;-33.09536,92.97287;-33.10355,92.90133;-33.10332,92.83536;-33.07158,92.78073;-33.05315,92.7615;-33.0528,92.74958;-33.09754,92.67893;-33.10269,92.63671;-33.09517,92.28528;-33.10245,92.172;-33.09765,92.07896;-33.1051,91.99235;-33.10088,91.91155;-33.10669,91.85976;-33.10126,91.74711;-33.10723,91.7143;-33.09651,91.51711;-33.10314,91.48469;-33.09558,91.34978;-33.0992,91.0183;-33.08009,90.91866;-33.08165,90.87918;-33.07261,90.82575;-33.09112,90.80898;-33.15379,90.77341;-33.1086,90.74757;-33.02792,90.75559;-33.00643,90.75;-32.9778,90.71414;-32.94751,90.7036;-32.90978,90.71049;-32.86421,90.72732;-32.84978,90.74032;-32.84491,90.77659;-32.83165,90.79712;-32.79427,90.81587;-32.70252,90.89749;-32.56773,90.88179;-32.53173,90.90477;-32.49235,90.91492;-32.4544,90.93406;-32.3789,90.90593;-32.29504,90.89509;-32.01299,90.89515;-31.80893,90.90232;-31.78591,90.89714;-31.55767,90.90541;-31.53023,90.89923;-31.29083,90.9027;-31.26192,90.89619;-31.12735,90.90107;-31.10421,90.89586;-30.94905,90.90148;-30.86412,90.89193;-30.75118,90.89603|-33.10145,96.44811;-33.10378,93.44498" t="639300585855428779" />
   <flag k="goarrow-imported" />
   <flag k="wm-off-Housing" />
   <flag k="wm-npcs" />
@@ -386,7 +508,7 @@
   <indoor lb="0106" />
   <char key="InfiniteLeaftide-Melkoran" />
   <char key="InfiniteLeaftide-Melka Summoner">
-    <start k="spell" n="Portal Recall" e="52.57697,-73.11066" t="639300482412611991" />
+    <start k="spell" n="Portal Recall" e="52.90637,-100.93087" el="450" t="639300503504224692" />
     <start k="spell" n="Lifestone Recall" e="33.59831,56.78439" t="639300421824097012" />
     <start k="spell" n="Lifestone Sending" e="-29.03695,91.66072" t="639300421988618740" />
   </char>
