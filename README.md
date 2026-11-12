@@ -1,6 +1,11 @@
 Melk's Plugins for Asheron's Call (InfiniteLeaftide)
 =====================================================
 
+QB updates -
+Copy the Travel folder into your MelkQB folder.
+Copy MQT_Travel.xml into your MelkQB folder as well (the base, not in travel)
+
+
 Which zip do I want?
 --------------------
   MelksPlugins_All.zip         <- START HERE. The three Decal plugins together (MelkTank, MelksQB,
