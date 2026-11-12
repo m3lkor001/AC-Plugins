@@ -1,0 +1,7 @@
+<MelkTankRoute name="MelksQB Travel" mode="0" arrive="2.5" stuck="2" stuckback="2" stuckafter="1">
+  <Step kind="Point" ns="52.354978716373445" ew="-72.988604295253765" z="122.4976134951734" text="" wait="1000" />
+  <Step kind="Point" ns="52.203319144248965" ew="-72.959069530169174" z="134.40202028580904" text="" wait="1000" />
+  <Step kind="Point" ns="52.051659572124478" ew="-72.929534765084583" z="137.91951297507148" text="" wait="1000" />
+  <Step kind="Point" ns="51.9" ew="-72.9" z="143.00000000000037" text="" wait="1000" />
+  <Step kind="Point" ns="51.8" ew="-72.7" z="132" text="" wait="1000" />
+</MelkTankRoute>
