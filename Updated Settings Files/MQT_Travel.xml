@@ -153,7 +153,7 @@
   <portal n="Portal to Town Network" a="-62.0608,-51.3015" in="-" t="639302020805802561" />
   <portal n="Colossus Foundry Portal" a="-61.99445,-51.32261" c="3F310100" t="639302020813022641" />
   <portal n="Toxic Tunnels Portal" a="-59.16498,-50.96237" e="-90.19167,-100.98333" el="272" min="100" in="-" t="639302022243868432" />
-  <portal n="Wailing Cells" a="-17.23333,-30.75" al="22890" e="53.03459,-100.82696" el="450" c="596A0100" in="v3" si="v3" t="639309387428567264" />
+  <portal n="Wailing Cells" a="-17.23333,-30.75" al="22890" e="53.04875,-100.72304" el="450" c="596A0100" in="v3" si="v3" t="639310775826221595" />
   <portal n="Tusgian Barracks" a="-17.15,-30.66667" al="22890" c="596A0104" in="v3" si="v3" t="639309306454693354" />
   <portal n="Tyrant's Quarry" a="-17.31667,-30.66667" al="22890" e="79.98971,-101.31421" el="229" c="596A0108" in="v3" si="v3" t="639309911770397798" />
   <portal n="Tumerok Tunnels" a="-17.26763,-30.63237" al="22890" c="596A010B" si="v3" t="639302036087492732" />
@@ -790,6 +790,11 @@
   <portal n="Direlands Southeast Shore" a="-83.35782,45.70124" in="-" t="639309982893720985" />
   <portal n="Simple Hive Portal" a="46.55036,-76.0227" in="-" t="639309992677968038" />
   <portal n="North Direlands Valley Junction" a="-86.7125,45.01271" in="-" t="639310003869621526" />
+  <portal n="Tyrant's Quarry" a="-17.31667,-30.66667" al="22890" c="596A0108" in="v3" t="639310775631569866" />
+  <portal n="Tusgian Barracks" a="-17.15,-30.66667" al="22890" c="596A0104" t="639310775631570658" />
+  <portal n="Wailing Cells" a="-17.23333,-30.75" al="22890" c="596A0100" t="639310775631570830" />
+  <portal n="Chamber of Idols" a="-17.23333,-30.58333" al="22890" c="596A010C" t="639310775631570963" />
+  <portal n="Tumerok Tunnels" a="-17.26764,-30.63236" al="22890" c="596A010B" t="639310775647488219" />
   <start k="gem" n="Tou Tou Endgame Portal Gem v12" e="-30.41333,94.68579" t="639300277850115401" />
   <start k="gem" n="Vaulted Dungeons Recall Gem" e="-17.23333,-30.66667" el="22890" o="1" t="639310456668194209" />
   <start k="spell" n="Bur Recall" e="22.55833,-101.28333" el="156" t="639300420948807759" />
