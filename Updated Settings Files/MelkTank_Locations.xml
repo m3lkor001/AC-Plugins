@@ -12,7 +12,7 @@
   <L lb="0110" default="Nexus" seen="639301744166404915" updated="639301744166404915" />
   <L lb="0111" default="Unknown" name="AC Storage" seen="639301752168705867" updated="639301752168705867" />
   <L lb="013A" default="Unknown" name="Night Club" seen="639300157727906234" updated="639300157727906234" />
-  <L lb="016C" default="The Marketplace of Dereth" seen="639309729763846432" updated="639309729763846433" />
+  <L lb="016C" default="The Marketplace of Dereth" seen="639310948526720113" updated="639310948526720114" />
   <L lb="017A" default="Unknown" seen="639303645507748083" updated="639303645507750210" />
   <L lb="0188" default="Unknown" name="Mines of Despair" seen="639296891758547133" updated="639296900107610091" />
   <L lb="01AE" default="Unknown" name="Colier Mine" seen="639296899879507557" updated="639296899956678414" />
@@ -70,12 +70,12 @@
   <L lb="01CD" v="2" default="The Trough" seen="639308082267460927" updated="639308082267462995" />
   <L lb="02FA" v="2" default="Unknown" name="7500 QB Lounge" seen="639301753393378896" updated="639301753881350541" />
   <L lb="5748" v="2" default="Unknown" seen="639301924104769204" updated="639301924104769204" />
-  <L lb="5756" v="2" default="Unknown" name="Prestige Palace" seen="639308821891433996" updated="639308821891434040" />
+  <L lb="5756" v="2" default="Unknown" name="Prestige Palace" seen="639310947453234059" updated="639310947453234097" />
   <L lb="5B46" v="2" default="Unknown" seen="639301925355151706" updated="639301925355151706" />
   <L lb="6143" v="2" default="Unknown" name="Penthouse Penthouse" seen="639308488480913917" updated="639308488480913919" />
   <L lb="8A02" v="2" default="Unknown" name="Enlightened Facility Hub" seen="639301965656396934" updated="639301965656396934" />
   <L lb="00CE" v="3" default="Unknown" seen="639308675798662612" updated="639308675798662613" />
-  <L lb="00E5" v="3" default="Unknown" name="Tyrant's Quarry" seen="639310928569897761" updated="639310928569900026" />
+  <L lb="00E5" v="3" default="Unknown" name="Tyrant's Quarry" seen="639311084791093634" updated="639311084791095778" />
   <L lb="01C2" v="3" default="Wailing Cells" name="Wailing Cells" seen="639310867629724816" updated="639310867629724818" />
   <L lb="02FA" v="3" default="Unknown" name="7500 QB Lounge" seen="639308488288068938" updated="639308488288068940" />
   <L lb="5649" v="3" default="Unknown" name="Chamber of Idols" seen="639308677292078678" updated="639308677292080776" />
