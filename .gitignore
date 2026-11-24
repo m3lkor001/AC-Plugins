@@ -1,3 +1,20 @@
+# Allowlist: only the zips, README and shared settings are published.
+# Any other script, note, log or check added here stays on the PC.
+/*
+!/.gitignore
+!/README.md
+!/*.zip
+!/Linux/
+/Linux/*
+!/Linux/*.zip
+!/Windows/
+/Windows/*
+!/Windows/*.zip
+!/source/
+/source/*
+!/source/*.zip
+!/Updated Settings Files/
+
 # kept on the PC, not in the repo
 _to_delete/
 Unused/
