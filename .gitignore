@@ -1,0 +1,13 @@
+# kept on the PC, not in the repo
+_to_delete/
+Unused/
+# leftovers from copying big files over in pieces
+*.zip.[0-9][0-9][0-9]
+*.joining
+# the repo's .git copied over in pieces (setup)
+PackagesGit.zip
+update-settings.sh
+# kept on the PC only: the packaging scripts and the notes for Claude Code
+build-packages.py
+CLAUDE.md
+*.building

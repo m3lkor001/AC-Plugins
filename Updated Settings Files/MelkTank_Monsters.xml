@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Monsters>
+  <Monster>
+    <Name>&lt;&lt; DEFAULT &gt;&gt;</Name>
+    <Priority>1</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>1</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>1</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Finneas the Foul</Name>
+    <Priority>2</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>1</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Shallows Moarsman</Name>
+    <Priority>1</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>1</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Old Eightlegs</Name>
+    <Priority>2</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>8</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Sea Spider</Name>
+    <Priority>1</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>8</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Squishy Stan</Name>
+    <Priority>2</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>1</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Soggy Sleech</Name>
+    <Priority>1</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>1</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Damned Skippy</Name>
+    <Priority>2</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>8</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Dread Sentry</Name>
+    <Priority>1</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>8</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Chompy Charlene</Name>
+    <Priority>2</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>7</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Coastal Shark</Name>
+    <Priority>1</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>7</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Old Breakwater</Name>
+    <Priority>2</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>5</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Tidepool Golem</Name>
+    <Priority>1</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>5</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Unhinged Sanjo</Name>
+    <Priority>2</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>2</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Dread Miner</Name>
+    <Priority>1</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>2</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Scurvy Gregg</Name>
+    <Priority>2</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>2</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Cursed Plunderer</Name>
+    <Priority>1</Priority>
+    <Slots>00000000000001</Slots>
+    <Dmg>0</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>2</PetDmg>
+  </Monster>
+  <Monster>
+    <Name>Winning Idol</Name>
+    <Priority>1</Priority>
+    <Slots>00000001100000</Slots>
+    <Dmg>7</Dmg>
+    <ExVuln>0</ExVuln>
+    <Weapon>&lt;AUTO&gt;</Weapon>
+    <Offhand>&lt;AUTO&gt;</Offhand>
+    <PetDmg>1</PetDmg>
+  </Monster>
+</Monsters>

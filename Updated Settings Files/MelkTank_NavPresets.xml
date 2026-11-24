@@ -1,0 +1,32 @@
+<NavPresets>
+  <Preset name="Mob Pack" mode="0" arrive="2.5">
+    <Step kind="PlayerSkip" ns="0" ew="0" z="0" text="30" wait="1000" op="nomobs" count="3" />
+    <Step kind="Toggle" ns="0" ew="0" z="0" text="combat on" wait="1000" />
+    <Step kind="Wait" ns="0" ew="0" z="0" text="" wait="1000" />
+    <Step kind="Toggle" ns="0" ew="0" z="0" text="combat off" wait="1000" />
+  </Preset>
+  <Preset name="StartLoopNoLoot" mode="0" arrive="2.5">
+    <Step kind="Toggle" ns="0" ew="0" z="0" text="looting on" wait="1000" />
+    <Step kind="Toggle" ns="0" ew="0" z="0" text="summoning on" wait="1000" />
+    <Step kind="Command" ns="0" ew="0" z="0" text="/b d" wait="400" />
+    <Step kind="Toggle" ns="0" ew="0" z="0" text="reset kills/hr" wait="1000" />
+    <Step kind="Command" ns="0" ew="0" z="0" text="/mtank set LootOnlyRare On" wait="100" />
+    <Step kind="Command" ns="0" ew="0" z="0" text="/mtank navset PetNoSummonInFight on" wait="100" />
+    <Step kind="Command" ns="0" ew="0" z="0" text="/mtank navset PetOnlyInCombat off" wait="100" />
+  </Preset>
+  <Preset name="Mob Pack Player Skip" mode="0" arrive="2.5">
+    <Step kind="PlayerSkip" ns="0" ew="0" z="0" text="30" wait="1000" op="nomobs" count="3" />
+    <Step kind="Toggle" ns="0" ew="0" z="0" text="combat on" wait="1000" />
+    <Step kind="Wait" ns="0" ew="0" z="0" text="" wait="1000" />
+    <Step kind="Toggle" ns="0" ew="0" z="0" text="combat off" wait="1000" />
+  </Preset>
+  <Preset name="StartLoopLoot" mode="0" arrive="2.5">
+    <Step kind="Toggle" ns="0" ew="0" z="0" text="looting on" wait="1000" />
+    <Step kind="Toggle" ns="0" ew="0" z="0" text="summoning on" wait="1000" />
+    <Step kind="Command" ns="0" ew="0" z="0" text="/b d" wait="400" />
+    <Step kind="Toggle" ns="0" ew="0" z="0" text="reset kills/hr" wait="1000" />
+    <Step kind="Command" ns="0" ew="0" z="0" text="/mtank set LootOnlyRare Off" wait="100" />
+    <Step kind="Command" ns="0" ew="0" z="0" text="/mtank navset PetNoSummonInFight on" wait="100" />
+    <Step kind="Command" ns="0" ew="0" z="0" text="/mtank navset PetOnlyInCombat off" wait="100" />
+  </Preset>
+</NavPresets>

@@ -1,0 +1,2271 @@
+# VTank's game info for MelkTank - from VTank's gameinfodb (2025-11-17). Change it as you like: MelkTank reads it again
+# within a few seconds of it being saved. Your own Monster DB entries (Settings\MelkTank_MonsterDb.txt) still win over it.
+# A section left out (or this whole file deleted) falls back to MelkTank's built-in copy; a deleted file is written again.
+# Damage types: Slash, Pierce, Bludgeon, Acid, Lightning, Cold, Fire - an order is best first.
+# '#' starts a comment (at the start of a line, or after a space).
+
+[species]
+# species number = damage order
+-1 = Pierce, Slash, Bludgeon, Acid, Lightning, Cold, Fire
+0 = Bludgeon
+1 = Pierce, Slash, Bludgeon, Cold, Fire, Lightning, Acid # Olthoi
+2 = Lightning, Fire, Cold, Bludgeon, Slash, Pierce, Acid # Banderling
+3 = Fire, Pierce, Bludgeon, Acid, Cold, Slash, Lightning # Drudge
+4 = Fire, Pierce, Lightning, Acid, Bludgeon, Cold, Slash # Mosswart
+5 = Lightning, Acid, Bludgeon, Slash, Pierce, Cold, Fire # Lugian
+6 = Bludgeon, Slash, Cold, Acid, Pierce, Lightning, Fire # Tumerok
+7 = Slash, Bludgeon, Pierce, Fire, Acid, Cold, Lightning # Mite
+8 = Fire, Slash, Pierce, Cold, Acid, Bludgeon, Lightning # Tusker
+9 = Pierce, Bludgeon, Slash, Acid, Fire, Cold, Lightning # PhyntosWasp
+10 = Pierce, Lightning, Bludgeon, Slash, Cold, Acid, Fire # Rat
+11 = Bludgeon # Auroch
+12 = Bludgeon # Cow
+13 = Pierce, Acid, Slash, Cold, Fire, Lightning, Bludgeon # Golem
+14 = Fire, Acid, Bludgeon, Pierce, Lightning, Slash, Cold # Undead
+15 = Bludgeon, Slash, Pierce # Gromnie
+16 = Cold, Bludgeon, Lightning, Acid, Slash, Pierce, Fire # Reedshark
+17 = Bludgeon, Slash, Acid, Pierce, Cold, Lightning, Fire # Armoredillo
+18 = Bludgeon # Fae
+19 = Fire, Slash, Pierce, Bludgeon, Acid, Cold, Lightning # Virindi
+20 = Bludgeon, Slash, Pierce, Acid, Lightning, Cold # Wisp
+21 = Slash, Lightning, Fire, Acid # Knathtead
+22 = Fire, Bludgeon, Pierce, Lightning, Slash, Acid, Cold # Shadow
+23 = Fire, Slash, Pierce, Acid, Bludgeon, Cold, Lightning # Mattekar
+24 = Fire, Acid, Bludgeon # Mumiyah
+25 = Bludgeon # Rabbit
+26 = Cold, Bludgeon, Slash, Fire # Sclavus
+27 = Slash, Bludgeon, Pierce # ShallowsShark
+28 = Cold, Acid, Slash # Monouga
+29 = Lightning, Cold, Bludgeon # Zefir
+30 = Pierce, Bludgeon, Slash # Skeleton
+31 = Fire, Slash, Pierce, Bludgeon, Acid, Lightning, Cold # Human
+32 = Cold, Pierce, Acid # Shreth
+33 = Bludgeon, Slash, Pierce # Chittick
+34 = Bludgeon, Slash, Pierce # Moarsman
+35 = Pierce, Slash, Bludgeon # OlthoiLarvae
+36 = Bludgeon, Fire, Slash # Slithis
+37 = Bludgeon # Deru
+38 = Cold, Bludgeon, Slash # FireElemental
+39 = Fire, Bludgeon, Pierce # Snowman
+40 = Bludgeon # Unknown
+41 = Bludgeon # Bunny
+42 = Acid, Bludgeon, Slash # LightningElemental
+43 = Bludgeon # Rockslide
+44 = Bludgeon, Slash, Pierce # Grievver
+45 = Bludgeon, Cold, Acid # Niffis
+46 = Fire, Slash, Bludgeon, Pierce, Acid, Lightning, Cold # Ursuin
+47 = Pierce, Slash, Bludgeon # Crystal
+48 = Cold, Bludgeon, Slash, Acid, Pierce, Fire, Lightning # HollowMinion
+49 = Fire, Bludgeon, Slash, Pierce # Scarecrow
+50 = Bludgeon, Fire, Pierce # Idol
+51 = Bludgeon, Pierce, Slash # Empyrean
+52 = Fire, Bludgeon, Pierce, Slash # Hopeslayer
+53 = Cold, Pierce, Bludgeon, Lightning, Fire, Acid, Slash # Doll
+54 = Cold, Bludgeon, Slash, Pierce # Marionette
+55 = Pierce, Cold, Lightning, Bludgeon, Fire, Acid, Slash # Carenzi
+56 = Cold, Pierce, Acid # Siraluun
+57 = Bludgeon, Slash, Cold, Acid, Pierce, Lightning, Fire # AunTumerok
+58 = Bludgeon, Slash, Cold, Acid, Pierce, Lightning, Fire # HeaTumerok
+59 = Cold, Bludgeon, Slash, Acid, Pierce, Fire, Lightning # Simulacrum
+60 = Lightning, Bludgeon, Slash # AcidElemental
+61 = Fire, Bludgeon, Slash # FrostElemental
+62 = Bludgeon, Slash, Pierce # Elemental
+63 = Acid, Lightning, Fire, Cold, Pierce, Bludgeon, Slash # Statue
+64 = Bludgeon # Wall
+65 = Bludgeon # AlteredHuman
+66 = Bludgeon # Device
+67 = Bludgeon # Harbinger
+68 = Bludgeon # DarkSarcophagus
+69 = Bludgeon # Chicken
+70 = Lightning, Acid, Slash, Bludgeon, Pierce # GotrokLugian
+71 = Pierce, Cold, Lightning, Slash, Bludgeon, Fire, Acid # Margul
+72 = Bludgeon # BleachedRabbit
+73 = Bludgeon # NastyRabbit
+74 = Bludgeon # GrimacingRabbit
+75 = Cold, Slash, Bludgeon, Fire, Pierce, Lightning, Acid # Burun
+76 = Bludgeon # Target
+77 = Fire, Bludgeon, Slash, Pierce, Acid, Lightning, Cold # Ghost
+78 = Lightning, Fire, Cold, Bludgeon, Acid, Slash, Pierce # Fiun
+79 = Bludgeon, Slash, Fire, Cold, Lightning, Acid, Pierce # Eater
+80 = Fire, Bludgeon, Pierce, Slash # Penguin
+81 = Pierce, Slash, Fire, Bludgeon, Acid, Lightning, Cold # Ruschk
+82 = Bludgeon, Pierce, Slash # Thrungus
+83 = Lightning, Bludgeon, Slash, Pierce # ViamontianKnight
+84 = Pierce, Bludgeon, Slash # Remoran
+85 = Bludgeon # Swarm
+86 = Bludgeon, Slash, Pierce # Moar
+87 = Bludgeon # EnchantedArms
+88 = Pierce, Slash, Bludgeon # Sleech
+89 = Slash, Pierce, Bludgeon # Mukkir
+90 = Bludgeon # Merwart
+91 = Bludgeon # Food
+92 = Pierce, Slash, Bludgeon # ParadoxOlthoi
+93 = Bludgeon # Harvest
+94 = Bludgeon # Energy
+95 = Fire, Bludgeon, Pierce, Slash # Apparition
+96 = Bludgeon # Aerbax
+97 = Fire # Touched
+98 = Bludgeon, Slash, Pierce # BlightedMoarsman
+99 = Acid, Lightning, Pierce, Slash, Fire, Cold, Bludgeon # GearKnight
+100 = Fire, Acid, Bludgeon, Slash, Pierce, Cold, Lightning # Gurog
+101 = Acid, Pierce, Fire, Slash, Bludgeon, Lightning, Cold # Anekshay
+
+[overrides]
+# a monster with its own damage order (not its species')
+Magma Golem = Cold, Pierce, Slash, Bludgeon
+Mist Golem = Cold, Lightning, Acid, Fire, Bludgeon, Slash, Pierce
+Nubilous Golem = Lightning, Cold, Acid, Bludgeon, Slash, Pierce
+Plasma Golem = Lightning, Cold, Acid, Bludgeon, Slash, Pierce
+Vapor Golem = Cold, Lightning, Acid, Fire, Bludgeon, Slash, Pierce
+Damaged Glacial Golem = Fire, Pierce, Slash, Bludgeon
+Fractured Glacial Golem = Fire, Pierce, Slash, Bludgeon
+Tanada Nanjou Shou-jen = Acid, Lightning, Fire, Cold
+Disgraced Nanjou Shou-jen = Acid, Lightning, Fire, Cold
+Magma Golem Exarch = Cold, Pierce, Slash, Bludgeon
+Pillar of Fire = Cold, Bludgeon, Slash
+Infused Blood Golem = Cold, Acid, Lightning, Pierce, Slash, Fire, Bludgeon
+Infused Empyrean Blood Golem = Cold, Acid, Lightning, Bludgeon, Fire, Slash, Pierce
+Sapphire Golem = Slash, Acid, Pierce, Cold, Fire, Lightning, Bludgeon
+High Priestess Xik Minru = Pierce, Bludgeon, Slash
+Contained Rift = Bludgeon, Pierce, Slash
+Ebon Rift = Bludgeon, Pierce, Slash
+Fallen Rift = Bludgeon, Pierce, Slash
+Narrow Rift = Bludgeon, Pierce, Slash
+Quiddity Rift = Bludgeon, Pierce, Slash
+Shallow Rift = Bludgeon, Pierce, Slash
+Tenebrous Rift = Bludgeon, Pierce, Slash
+Umbral Rift = Bludgeon, Pierce, Slash
+Unstable Rift = Bludgeon, Pierce, Slash
+Aqueous Golem = Lightning, Fire, Cold, Acid, Bludgeon, Pierce, Slash
+Wave Golem = Lightning, Fire, Cold, Acid, Bludgeon, Pierce, Slash
+Unstable Magma Golem = Cold, Pierce, Slash, Bludgeon
+Behemoth of Tenkarrdun = Cold, Pierce, Slash, Bludgeon
+Small Magma Golem = Cold, Pierce, Slash, Bludgeon
+Atlan's Crafting Golem = Cold, Pierce, Slash, Bludgeon
+Bur Lizk = Cold, Lightning, Slash, Bludgeon
+Dust Golem = Cold, Lightning, Fire, Acid, Slash, Pierce, Bludgeon
+Ancient Magma Golem = Cold, Pierce, Slash, Bludgeon
+Frozen Ice Golem = Fire, Pierce, Slash, Bludgeon
+Frozen Glacial Golem = Fire, Pierce, Slash, Bludgeon
+Forge Golem = Cold, Lightning, Acid, Pierce, Slash, Bludgeon
+Frozen Gearknight = Fire
+Diaphanous Nephol Golem = Cold, Lightning, Acid, Fire, Bludgeon, Slash, Pierce
+Tenuous Nephol Golem = Cold, Lightning, Acid, Fire, Bludgeon, Slash, Pierce
+Turbid Nephol Golem = Cold, Lightning, Acid, Fire, Bludgeon, Slash, Pierce
+Wall of Ice = Fire, Pierce, Slash, Bludgeon, Acid, Lightning
+Scold = Cold, Pierce, Slash, Bludgeon
+Scold Chunk = Cold, Pierce, Slash, Bludgeon
+Scold Lump = Cold, Pierce, Slash, Bludgeon
+Freezing Mist Golem = Cold, Lightning, Acid, Fire, Bludgeon, Slash, Pierce
+Frost Golem = Fire, Lightning, Cold, Acid
+Elite Guardian = Cold, Fire
+Enraged Ancient Soul = Fire, Acid, Pierce, Lightning, Cold, Bludgeon, Slash
+Mudmouth = Fire, Lightning, Acid, Cold, Pierce, Slash, Bludgeon
+Fiery Defender = Cold, Bludgeon, Lightning, Pierce, Slash, Acid
+Follower of Deewain = Lightning, Acid, Pierce, Slash, Cold, Bludgeon, Fire
+Chilled Defender = Lightning, Acid, Fire, Pierce, Bludgeon, Slash, Cold
+Charged Defender = Cold, Acid, Lightning, Bludgeon, Pierce, Slash
+Iron Golem Samurai = Acid, Lightning, Cold, Fire, Bludgeon, Pierce, Slash
+Clay Golem Samurai = Pierce, Cold, Fire, Lightning, Acid, Bludgeon, Slash
+Bronze Golem Samurai = Lightning, Acid, Cold, Fire, Bludgeon, Pierce, Slash
+Spectral Nanjou Shou-jen = Pierce, Fire, Bludgeon, Acid, Lightning, Cold, Slash
+Spectral Samurai = Cold, Lightning, Acid, Bludgeon, Pierce, Fire, Slash
+Spectral Claw Master = Pierce, Fire, Bludgeon, Acid, Lightning, Cold, Slash
+
+[monsters]
+# name | species number | max health
+A'nekshay | 101 | 2610
+A'nekshay Dave | 101 | 450000
+A'nekshay Servant | 101 | 2615
+A'nekshay Slave | 101 | 2615
+A'nekshay Temple Guardian | 101 | 2610
+A'nekshay Temple Servant | 101 | 3000
+A'nekshen Corrupt Storm Reaver | 101 | 8200
+A'nekshen Corrupt Thorn Reaver | 101 | 8200
+A'nekshen Storm Caller | 101 | 8200
+A'nekshen Storm Corruptor | 101 | 8200
+A'nekshen Storm Reaver | 101 | 8200
+A'nekshen Thorn Corruptor | 101 | 8200
+A'nekshen Thorn Dancer | 101 | 8200
+A'nekshen Thorn Reaver | 101 | 8200
+Abhorrent Eater | 79 | 693
+Abnormal Slug | 1 | 15500
+Abominable Snowman | 39 | 5180
+Abyssal Child | 22 | 580
+Abyssal Shadow | 22 | 450
+Abyssal Totem | -1 | -1
+Accursed Miner | 30 | 33
+Acid Crystal | 47 | 3000
+Acidic Coral Golem | 13 | 600
+Acidic Crystal | 13 | 6555985
+Acidic Crystal Lord | 88 | 987138944
+Acidic Crystal Mist | 13 | 6555985
+Acidic Diamond Golem | 13 | 575
+Acolyte of Breath | 31 | 230
+Acolyte of Storms | 31 | 230
+Acolyte of Wind | 31 | 230
+Adamantine Golem | 13 | 500500
+Adept of Acid | 83 | 513
+Adept of Fire | 83 | 513
+Adept of Frost | 83 | 513
+Adept of Lightning | 83 | 513
+Adolescent Ash Gromnie | 15 | 5000
+Adolescent Azure Gromnie | 15 | 5000
+Adolescent Ivory Gromnie | 15 | 5000
+Adolescent Olthoi | 1 | 40
+Adolescent Rust Gromnie | 15 | 5000
+Adult Reedshark | 16 | 60
+Aerbax | 19 | 100200
+Aerfalle's Weakened Apprentice | 14 | 500
+Afessa Sclavus Soldier | 26 | 2200
+Afesse Sclavus | 26 | 420
+Affliction Wisp | 20 | 360
+Aggregate Crystalline Wisp | 20 | 1520
+Aggressive Penguin | 80 | 30
+Aggressive Swarm | 85 | 1880
+Agitated Desert Phyntos Swarm | 9 | 850
+Altered Drudge | 3 | 215
+Altered Olthoi | 1 | 280
+Amethyst Gromnie | 15 | 600
+Amploth Raider | 70 | 125
+Ancient Aqueous Knight | 62 | 3500
+Ancient Coral Golem | 13 | 650
+Ancient Diamond Golem | 13 | 560
+Ancient Luminary Knight | 62 | 3500
+Ancient Magma Golem | 13 | 2350
+Ancient Mu-miyah | 14 | 130
+Ancient Mud Golem | 13 | 8820
+Ancient Oak | 13 | 3000750
+Ancient Platinum Golem | 13 | 100640
+Ancient Sandstone Golem | 13 | 9000
+Ancient Soul | 14 | 950
+Ancient Tenebrous Knight | 62 | 3500
+Ancient Water Golem | 13 | 8600
+Annihilator | 8 | 5000
+Apostate Excavation Foreman | 19 | 3000
+Apostate Excavation Master | 19 | 6000
+Apostate Grand Director | 19 | 100000
+Apostate Master | 19 | 6000
+Apostate Nexus Hollow Minion | 48 | 1000
+Apostate Nexus Master | 19 | 8000
+Apostate Overseer | 19 | 7500
+Apostate Rift Aggressor | 19 | 1100
+Apostate Sapper | 19 | 1000
+Apostate Servant | 19 | 1000
+Apostate Virindi Executor | 19 | 2875
+Apostate Virindi Inquisitor | 19 | 2875
+Apozim | 60 | 200
+Aqueous Golem | 13 | 2350
+Aqueous Guard | 62 | 4130
+Archfiend | 30 | 5000
+Ardent Moar | 86 | 2425
+Ardent Moarsman | 34 | 2000
+Armored Skeleton | 30 | 350
+Armored Skeleton Lord | 30 | 475
+Armored Tusker | 8 | 650
+Artifex of the Elements | 19 | 5000
+Artifex of the Living Darkness | 19 | 5000
+Artifex of the Singularity | 19 | 5000
+Artifice Proctor | 62 | 2000
+Ascendant Drudge | 3 | 245
+Ascendant Tumerok | 6 | 365
+Ash Gromnie | 15 | 90
+Ashen Bones | 30 | 340
+Ashen Moarsman | 34 | 100
+Ashris Niffis | 45 | 3800
+Aspect of Avarice | 19 | 320200
+Aspect of Rage | 19 | 150000
+Aspect of Torment | 19 | 150000
+Assailer | 8 | 700
+Assassin | 31 | 180
+Aste Sclavus | 26 | 88
+Aste Sclavus Lord | 26 | 238
+Aste Soul Harrier | 26 | 238
+Astis Niffis | 45 | 3180
+Astyrrian | 42 | 450
+Atlan's Crafting Golem | 13 | 2000
+Augmented Drudge | 3 | 225
+Augmented Eviscerator | 1 | 3390
+Augmented Olthoi | 1 | 380
+Augmented Swarm Demon | 1 | 3650
+Augmented Tumerok | 6 | 350
+Aun Elder Shaman | 57 | 425
+Aun Herbalist | 57 | 425
+Aun Hunter | 57 | 80
+Aun Itealuan | 57 | 160
+Aun Nualuan | 57 | 160
+Aun Ralirea | 57 | 330
+Auroch Bull | 11 | 85
+Auroch Cow | 11 | 80
+Auroch Fire Bull | 11 | 100
+Auroch Fire Cow | 11 | 95
+Auroch Fire Yearling | 11 | 70
+Auroch Yearling | 11 | 55
+Avalanche | 62 | 500
+Avarice | 19 | 500
+Azael Zefir | 29 | 250
+Azaxis | 19 | 25000
+Azure Gromnie | 15 | 48
+Baby Penguin | 80 | 30
+Baby Thrungus | 82 | 3
+Badlands Champion | 56 | 2168
+Badlands Siraluun | 56 | 500
+Bael'Zharon, The Hopeslayer | 52 | 966666752
+Bak'tshay | 101 | 3000
+Bak'tshay Guard | 101 | 3500
+Bak'tshay Lady | 101 | 15130
+Bak'tshay Servant | 101 | 4850
+Bak'tshay Slave | 101 | 5850
+Bak'tshay Soldier | 101 | 6850
+Baktak the Human Slayer | 3 | 280
+Banderling Aggressor | 2 | 610
+Banderling Antagonist | 2 | 438
+Banderling Bandit | 2 | 160
+Banderling Berserker | 2 | 295
+Banderling Blade | 2 | 105
+Banderling Bloodblade | 2 | 130
+Banderling Breeder | 2 | 105
+Banderling Captain | 2 | 90
+Banderling Champion | 2 | 12000
+Banderling Chief | 2 | 130
+Banderling Crusher | 2 | 1710
+Banderling Enforcer | 2 | 400
+Banderling Guard | 2 | 100
+Banderling Hierophant | 2 | 6000
+Banderling Leader | 2 | 135
+Banderling Mangler | 2 | 560
+Banderling Mauler | 2 | 560
+Banderling Ogre | 2 | 105
+Banderling Paragon | 2 | 10000
+Banderling Predator | 2 | 500
+Banderling Raider | 2 | 83
+Banderling Raider Guardian | 2 | 83
+Banderling Raver | 2 | 105
+Banderling Rogue | 2 | 225
+Banderling Savage | 2 | 600
+Banderling Scalper | 2 | 500
+Banderling Scout | 2 | 50
+Banderling Slayer | 2 | 440
+Banderling Smasher | 2 | 1710
+Banderling Striker | 2 | 220
+Banderling Thrasher | 2 | 600
+Bandit | 31 | 35
+Bandit Lord | 31 | 210
+Bandit Mage | 31 | 200
+Bandit Mana Hunter | 31 | 1500
+Bandit Mana Hunter Boss | 31 | 9510
+Bane Grievver | 44 | 538
+Banished Banderling | 2 | 760
+Banished Drudge | 3 | 425
+Banished Grievver | 44 | 1295
+Banished Lugian | 5 | 590
+Banished Monouga | 28 | 555
+Banished Mu-miyah | 14 | 365
+Banished Olthoi | 1 | 550
+Banished Phyntos Wasp | 9 | 425
+Banished Shadow | 22 | 620
+Banished Tumerok | 6 | 530
+Banished Tusker | 8 | 575
+Barbaric Mukkir | 89 | 2703
+Barbaric Ruschk | 81 | 105
+Barker Mosswart | 4 | 80
+Baron Nuvillus | 30 | 400
+Baron of Colier | 14 | 113
+Basalt Golem | 13 | 260
+Battered Doll | 53 | 115
+Battle Hardend Archer | 83 | 25325
+Battle Hardend Soldier | 83 | 30450
+Battle Hardend Void Mage | 83 | 30450
+Battle Hardend War Mage | 83 | 30450
+Battle Lord Gregor | 14 | 20000
+Beaten Doll | 53 | 110
+Beefy Chrysoberyl Cow | 12 | 22144920
+Beefy Frozen Cow | 12 | 22144920
+Beefy Rynthid Cow | 12 | 22144920
+Beefy Sand Cow | 12 | 22144920
+Beefy Shadow Cow | 12 | 32144920
+Beefy Undead Cow | 12 | 22144920
+Befouled Doll | 53 | 1050
+Behemoth of Tenkarrdun | 13 | 800
+Benedino | 31 | 2000
+Benek Niffis | 45 | 3180
+Biaka | 71 | 7500
+Biaka Mukkir | 89 | 24305
+Bile Grievver | 44 | 5000
+Black Bunny | 41 | 3
+Black Coral Golem | 13 | 500
+Black Coral Golem Viceroy | 13 | 3250
+Black Morel Thrungus | 82 | 2922
+Black Olive | 21 | 1029330
+Black Phyntos Hive | -1 | -1
+Black Phyntos Swarm | 9 | 350
+Black Phyntos Wasp | 9 | 225
+Black Rabbit | 25 | 5
+Black Rat | 10 | 20
+Blade Captain | 99 | 125000
+Blade Champion | 99 | 325000
+Blade Lieutenant | 99 | 53000
+Blessed Moarsman | 34 | 2000
+Blight Lictor | 14 | 1000
+Blight Rat | 10 | 1000
+Blight Revenant | 14 | 443
+Blight Spirit | 77 | 475
+Blighted Ardent Moarsman | 34 | 2000
+Blighted Bane Grievver | 44 | 538
+Blighted Coral Golem | 13 | 550
+Blighted Coral Golem Viceroy | 13 | 3350
+Blighted Dire Ursuin | 46 | 215
+Blighted Hoary Armoredillo | 17 | 265
+Blighted Oak Golem | 13 | 260
+Blighted Pyreal Golem | 13 | 460
+Blighted Sotiris Hollow Minion | 48 | 130
+Blighted Verdant Moarsman | 34 | 2000
+Blizzard | 62 | 500
+Bloated Eater | 79 | 785
+Blockade Guard | 83 | 460
+Blood Curse Rat | 10 | 1350
+Blood Fiend | 30 | 600
+Blood Shreth | 32 | 38
+Blood Shrethlet | 32 | 20
+Bloodstone | 47 | 20125
+Bloodstone Crystal Stockpile | -1 | -1
+Bloodstone Fragment | 47 | 3000
+Bloodstone Shard | 47 | 5000
+Bloodthirsty Monouga | 28 | 420
+Blue Dragon | 79 | 68200
+Blue Phyntos Wasp | 9 | 30
+Bokrok Lugian | 5 | 450
+Bone Scourge | 30 | 500
+Bonecrunch | 3 | 30000
+Boreas | 62 | 40000352
+Boss-Smasher | 32 | 25000
+Bound Coral Golem | 13 | 600
+Bound Crystal Golem | 13 | 1000
+Bound Light Falatacot | 77 | 15210
+Bound Pyre Champion | 30 | 12250
+Bound Spectral Handmaiden | 77 | 490
+Bovine Henchman | 12 | 10400
+Bovine Wench | 12 | 9400
+Brass Gromnie | 15 | 390
+Brier Wasp | 9 | 8200
+Brier Wasp Hive | 9 | -1
+Brier Wasp Swarm | 9 | 10200
+Brigand | 31 | 70
+Bright Aetherium Ore Stockpile | 40 | -1
+Brilliant Crystal | 47 | 5001
+Broken Doll | 53 | 100
+Broken Fragment | 47 | 30
+Bronze Armoredillo | 17 | 100
+Bronze Armoredillo Pup | 17 | 50
+Bronze Gauntlet Guardian | 99 | 365
+Bronze Gauntlet Heavy Scout | 99 | 9975
+Bronze Gauntlet Knight | 99 | 808
+Bronze Gauntlet Lesser Lord | 99 | 460
+Bronze Gauntlet Trooper | 99 | 325
+Bronze Golem Kachi | 13 | 7750
+Bronze Golem Samurai | 13 | 5250
+Bronze Golem Sekkou | 13 | 4950
+Bronze Statue of a Banderling | 63 | 180
+Bronze Statue of a Drudge | 3 | 75
+Bronze Statue of a Golem | 63 | 200
+Bronze Statue of a Grievver | 63 | 538
+Bronze Statue of a Gromnie | 15 | 90
+Bronze Statue of a Mosswart | 4 | 90
+Bronze Statue of a Reedshark | 16 | 70
+Bronze Statue of a Sclavus | 63 | 190
+Bronze Statue of a Shadow | 63 | 620
+Bronze Statue of a Skeleton | 63 | 210
+Bronze Statue of a Tumerok | 63 | 250
+Bronze Statue of a Virindi | 63 | 175
+Bronze Statue of a Zharalim | 63 | 255
+Bronze Statue of Ben Ten | 63 | 235
+Bronze Statue of Thorsten Cragstone | 63 | 245
+Brood Mother | 98 | 2000
+Brown Armoredillo | 17 | 60
+Brown Armoredillo Pup | 17 | 30
+Brown Bunny | 41 | 3
+Brown Mouse | 10 | 6
+Brown Rabbit | 25 | 5
+Brown Rat | 10 | 30
+Brumal | 61 | 200
+Brutish Monouga | 28 | 190
+Buillic | 60 | 230
+Bur Lizk | 14 | 8000
+Burning Biaka | 71 | 194900
+Burning Hellion | 71 | 124888
+Burning Pillar | 47 | 5000
+Burning Puppeteer | 54 | 2000250
+Burning Sands Golem | 13 | 15000
+Burning Virindi Paradox | 19 | 165000
+Burnt Pizza | 62 | 120630
+Burnt Void Knight | 22 | 96150
+Burrowing Grievver | 44 | 2150
+Burun Ruuk Adept | 75 | 250
+Burun Ruuk Adherent | 75 | 315
+Burun Ruuk Fiend | 75 | 385
+Burun Ruuk Lout | 75 | 325
+Burun Ruuk Ruffian | 75 | 280
+Burun Ruuk Savage | 75 | 425
+Burun Ruuk Scamp | 75 | 200
+Burun Ruuk Seer | 75 | 340
+Burun Ruuk Shaman | 75 | 460
+Burun Ruuk Soothsayer | 75 | 410
+Bushi Gatekeeper | 77 | 2850
+Butcherous Eater | 79 | 1066600
+Calamitous Rat | 10 | 8001
+Canescent Mattekar | 23 | 400
+Captain Burnja | 3 | 10000
+Captain Donnarion | 31 | 1415
+Captain Waliknua | 6 | 520
+Carenzi Burrower | 55 | 100
+Carenzi Pouchling | 55 | 30
+Carenzi Sentry | 55 | 55
+Carenzi Stalker | 55 | 200
+Carnivorous Armoredillo | 17 | 2740
+Carnivorous Carenzi | 55 | 440
+Carpenter Wasp | 9 | 25
+Carrion Shreth | 32 | 25
+Carrion Shrethlet | 32 | 15
+Caustic | 60 | 250
+Caustic Guard | 62 | 4130
+Caustic Olthoi Eviscerator | 650 | 601800
+Caustic Thrungus | 82 | 2923
+Cave Penguin | 80 | 900
+Cave Ursuin | 46 | 360
+Celestial Hand Scout | 31 | 1000
+Chained Tusker | 8 | 500
+Chakron Flux Virindi Master | 19 | 350
+Chakron Flux Virindi Servant | 19 | 350
+Champion Bullgara | 4 | 3225
+Champion of the Blood | 30 | 1758
+Change | 19 | 500
+Chaos | 19 | 500
+Chaos Wisp | 20 | 400
+Charge | 42 | 125
+Charged Defender | 13 | 25325
+Charged Pillar | 47 | 5000
+Charred Miner | 30 | 753
+Charred Skeleton | 30 | 73
+Chick | 69 | 1
+Chicken | 69 | 3
+Chief Grogbash | 2 | 3225
+Child of Artifice | 62 | 10000
+Child of Enchantment | 62 | 10000
+Child of Strife | 62 | 10000
+Child of Verdancy | 62 | 10000
+Chill | 61 | 70
+Chilled Defender | 13 | 25325
+Chilly the Snowman | 39 | 45
+Chimera | 14 | 4000
+Chomu Disciple | 26 | 265
+Chomu Sclavus | 26 | 265
+Chomu Sclavus Lord | 26 | 255
+Chrysoberyl Cow | 12 | 3420
+Claude the Dark Archmage | 19 | 70000
+Claw Master Gatekeeper | 77 | 5175
+Clay | 31 | 28
+Clay Golem Kachi | 13 | 6250
+Clay Golem Samurai | 13 | 5250
+Clay Golem Sekkou | 13 | 4750
+Coal Connoisseur | 21 | 1000000704
+Cold One | 26 | 330
+Commander Jared Kurth | 83 | 15000
+Conflagration | 62 | 530
+Contagion Rat | 10 | 6000
+Contained Rift | 19 | 100
+Copper Cog Guardian | 99 | 365
+Copper Cog Heavy Scout | 99 | 9975
+Copper Cog Knight | 99 | 808
+Copper Cog Lesser Lord | -1 | 460
+Copper Cog Trooper | 99 | 325
+Copper Golem | 13 | 125
+Copper Golem Kingpin | 13 | 1500
+Copper Gromnie | 15 | 410
+Coral Golem | 13 | 600
+Coral Tower | 64 | 40000
+Corroding Crystalline Wisp | 20 | 720
+Corroding Pillar | 47 | 445
+Corrosion | 60 | 4700
+Corrosion Wisp | 20 | 325
+Corrosive Archer | 77 | 3200
+Corrupt Bulwark | 19 | 100200
+Corrupt Conflagration | 62 | 2130
+Corrupt Lugian | 5 | 6770
+Corrupt Minion | 19 | 6175
+Corrupt Minion of Rage | 19 | 6175
+Corrupt Rager | 19 | 12250
+Corrupt Slayer | 19 | 12250
+Corrupt Sorcerer | 19 | 7675
+Corrupted Coral Golem | 13 | 1600
+Corrupted Dread | 77 | 15210
+Corrupted Grave Frost | 61 | 150
+Corrupted Gravestone | -1 | -1
+Corrupted Guardian Wisp | 20 | 20200
+Corrupted Maiden | 77 | 500
+Corrupted War Gromnie | 15 | 15200
+Corrupting Thorn Gromnie | 15 | 8200
+Coruscating Mukkir | 89 | 2703
+Cosseted Doll | 53 | 950
+Cow | 12 | 20
+Cowardly Snowman | 39 | 460
+Cracked Stone Tablet | -1 | -1
+Crazed Fiun | 78 | 120
+Crazed Olthoi | 1 | 22000
+Crazed Zharalim | 31 | 220
+Creeper Mosswart | 4 | 40
+Creeping Margul | 71 | 1200
+Crimini Thrungus | 82 | 69
+Crude Monouga | 28 | 125
+Cruel Monouga | 28 | 290
+Crystal Golem | 13 | 1000
+Crystal Golem Imperator | 13 | 20000
+Crystal Lord | 13 | 15000
+Crystal Minion | 13 | 350
+Crystal Moiety | 47 | 350
+Crystal of the Dark Isle | 47 | 200000
+Crystal Shard | 47 | 215
+Crystal Shard Sentinel | 47 | 200
+Crystal Spur | 47 | 120
+Crystalline Wisp | 20 | 520
+Crystallius Rex | 13 | 9500500
+Cultist | 31 | 154
+Cultist Cohort | 31 | 1075
+Cultist High Priest | 31 | 890
+Cunning Monouga | 28 | 290
+Cursed Bones | 30 | 305
+Cursed Foreman | 14 | 89
+Cursed Marionette | 54 | 6000
+Cursed Snake | 17 | 930275
+Cursed Wisp | 20 | 225
+Cutthroat | 31 | 150
+Daimyo Idah | 77 | 24750
+Daimyo Nobanuga | 77 | 25000
+Damaged Glacial Golem | 13 | 150
+Damned Marionette | 54 | 8000
+Darcusch the Barbarian | 81 | 3225
+Dark Bobo | 8 | 200000
+Dark Crystal Spire | -1 | -1
+Dark Guardian | 14 | 4500
+Dark Inferno | 22 | 620
+Dark Leech | 14 | 198
+Dark Magus | 14 | 285
+Dark Marionette | 54 | 160
+Dark Master | 14 | 450
+Dark Myrmidon | 30 | 450
+Dark Remoran | 84 | 12165
+Dark Revenant | 14 | 285
+Dark Sarcophagus | 68 | 25
+Dark Sorcerer | 14 | 395
+Dark Wisp | 20 | 70
+Dark Zefir | 29 | 1200
+Darkspire Phyntos Swarm | 9 | 1571425
+Darktide Killer | 31 | 80595
+Dazzling Crystal | 47 | 5001
+DeathTail | 10 | 200250
+Decaying Mu-Miyah | 14 | 8075
+Decaying Ruschk Laktar | 14 | 2703
+Decaying Warrior | 14 | 235
+Deep-sea Lava Golem | 13 | 1600
+Defensive Crystal | 47 | 51045
+Defiled Doll | 53 | 1100
+Definitely a Well Inspector | 31 | 666000
+Degenerate Mukkir | 89 | 618
+Degenerate Shadow | 22 | 600
+Degenerate Shadow Commander | 22 | 9200
+Demented Fiun | 78 | 235
+Demented Zharalim | 31 | 220
+Demon Swarm Clawbearer | 1 | 700
+Demon Swarm Matron | 1 | 300000
+Demon Tusker | 8 | 1150
+Depraved Mukkir | 89 | 620
+Depraved Shadow | 22 | 605
+Depraved Shadow Commander | 22 | 12205
+Desecrated Doll | 53 | 1000
+Desert Bunny | 41 | 3
+Desert Cactus | -1 | -1
+Desert Corpse | 14 | 588
+Desert Phyntos Swarm | 9 | 1850
+Desert Rabbit | 25 | 5
+Desert Rat | 10 | 80
+Desolation Moarsman | 34 | 325
+Despair Wisp | 20 | 20125
+Destroyer Grievver | 44 | 520
+Devastator | 8 | 1000
+Devourer Margul | 71 | 3470
+Diamond Golem | 13 | 575
+Diamond Golem Invader | 13 | 20000
+Diamond Golem Suzerain | 13 | 18000
+Diamond Lord | 13 | 645
+Dire Carenzi | 55 | 750000
+Dire Champion Banderling | 2 | 1110
+Dire Champion Drudge | 3 | 1500
+Dire Champion Golem | 13 | 1800
+Dire Champion Monouga | 28 | 1800
+Dire Champion Shadow | 22 | 1955
+Dire Champion Skeleton | 30 | 1552
+Dire Champion Virindi | 19 | 1800
+Dire Mattekar | 23 | 171
+Dire Mattie | 23 | 96
+Dire Ursuin | 46 | 215
+Direland Rat | 10 | 420
+Discorporate Rynthid of Blind Rage | 19 | 100
+Discorporate Rynthid of Consuming Torment | 19 | 100
+Discorporate Rynthid of Rage | 19 | 500
+Discorporate Rynthid of Torment | 19 | 100
+Diseased Phyntos Wasp | 9 | 635
+Disgraced Nanjou Shou-jen | 31 | 1400
+Disobedience | 19 | 500
+Dissolved Limb | 36 | 1002630
+Doomed Spirit | 77 | 635
+Doomshark | 16 | 6000
+Door | -1 | -1
+Dranith Menacet | 48 | 230
+Dread Idol | 50 | 500
+Dread Mattekar | 23 | 171
+Dread Ursuin | 46 | 275
+Dreadful Ursuin | 46 | 5000
+Dream Marauder | 19 | 600
+DRONE CAT | -1 | 90002000
+Drudge Balloon | 3 | 603
+Drudge Biter | 3 | 674
+Drudge Bloodletter | 3 | 400
+Drudge Cabalist | 3 | 510
+Drudge Hoarder | 3 | 60
+Drudge Lifewhisk | 3 | 3708
+Drudge Lootblade | 3 | 6653
+Drudge Lurker | 3 | 150
+Drudge Mystic | 3 | 400
+Drudge OG | 3 | 690
+Drudge Prowler | 3 | 45
+Drudge Ravener | 3 | 160
+Drudge Robber | 3 | 45
+Drudge Robber Baron | 3 | 60
+Drudge Rumblefoot | 3 | 8803
+Drudge Sage | 3 | 355
+Drudge Scampersnip | 3 | 3816
+Drudge Seraph | 3 | 5000
+Drudge Seraph Mystic | 3 | 6000
+Drudge Servant | 3 | 53
+Drudge Skulker | 3 | 20
+Drudge Slave | 3 | 60
+Drudge Slinker | 3 | 25
+Drudge Sneaker | 3 | 33
+Drudge Space Invader | 3 | 2600000
+Drudge Spellwink | 3 | 3658
+Drudge Stalker | 3 | 160
+Drudge Vagabond | 3 | 58
+Drudge Wilter | 3 | 2500
+Dual Fragment | 47 | 110
+Dune Reaver | 16 | 126
+Duplicitous Simulacrum | 59 | 494
+Dusk Zefir | 29 | 1000
+Dust Golem | 13 | 15000
+East Armory Captain | 77 | 20250
+Eater | 79 | 400
+Eaterous Butcher | 79 | 5075500
+Ebon Gromnie | 15 | 300
+Ebon Mattekar | 23 | 475
+Ebon Rift | 19 | 800
+Egg | 63 | 200
+Egghead | 82 | 4790300
+Ehlyis Sleech | 45 | 22235
+Elaniwood Golem | 13 | 120
+Electric Crystal | 47 | 3000
+Elemental Mage | 31 | 100105
+Elemental Protector | 62 | 1700
+Elite Burrower | 55 | 445
+Elite Carnivorous | 55 | 770
+Elite Feral | 55 | 770
+Elite Guardian | 13 | 20000
+Elite Mangy | 55 | 980
+Elite Mercenary | 31 | 20000200
+Elite Mottled | 55 | 1285
+Elite Polar | 55 | 330
+Elite Pouchling | 55 | 175
+Elite Rabid | 55 | 665
+Elite Ravager | 55 | 8200
+Elite Savage Carenzi | 55 | 1280
+Elite Sentry | 55 | 220
+Elite Stalker | 55 | 560
+Ember | 38 | 190
+Emerald Gromnie | 15 | 600
+Emerald Hunting Gromnie | 15 | 8200
+Emerald Thorn Gromnie | 15 | 8200
+Empowered Despair Wisp | 20 | 20125
+Empowered Hatred Wisp | 20 | 20250
+Empowered Sorrow Wisp | 20 | 20150
+Empyrean Handler | 101 | 3851950
+Enchantment Proctor | 62 | 2000
+Enervating Rat | 10 | 8001
+Engorged Eater | 79 | 400
+Engulfed Lantern | 91 | 1990000
+Enku Zefir | 29 | 350
+Enoki Thrungus | 82 | 355
+Enraged Ancient Soul | 14 | 3000
+Enraged Maintenance Bot | 99 | 50000400
+Enraged Moar | 86 | 1420
+Enraged Shadow | 22 | 2380
+Enraged Stomper | 8 | 3015
+Ensorcelled Weapon | 77 | 4865
+Enthralled Idolator | 4 | 250
+Enthralled Zealot | 4 | 275
+Entropy Wisp | 20 | 500
+Esper Ursuin | 46 | 190
+Essa Sclavus | 26 | 100
+Essa Sclavus Lord | 26 | 200
+Essa Soul Harrier | 26 | 200
+Essence of Artifice | 40 | 150000
+Essence of Enchantment | 40 | 150000
+Essence of Strife | 40 | 40000
+Essence of Verdancy | 40 | 150000
+Ethereal Wisp | 20 | 20
+Evil Frosty | 39 | 600220
+Exhumed Bones Piles | -1 | -1
+Extas Lugian | 5 | 390
+Extas Raider | 70 | 390
+Eyestalk of T'thuun | 36 | 1230
+Faisi Disciple | 26 | 205
+Faisi Sclavus | 26 | 205
+Faisi Sclavus Lord | 26 | 255
+Falatacot Abbess | 14 | 2160
+Falatacot Blood Elder | 14 | 3000
+Falatacot Blood Prophetess | 14 | 3010
+Falatacot Consort | 14 | 3005
+Falatacot Guard | 14 | 2870
+Falatacot Marauder | 14 | 2870
+Falatacot Patrol | 14 | 3010
+Falatacot Prison Warden | 14 | 3000
+Falatacot Raider | 14 | 2610
+Fallen Crystal Shard | 47 | 15500
+Fallen Drudge | 3 | 5500
+Fallen Margul | 71 | 8000
+Fallen Marionette | 54 | 8500
+Fallen Mite | 7 | 5500
+Fallen Rift | 19 | 1600
+Fallen Rock | -1 | -1
+Fallen Shadow | 22 | 5500
+Fallen Tumerok | 6 | 5500
+False Morel Thrungus | 82 | 448
+Famished Eater | 79 | 325
+Fanatical Mukkir | 89 | 2703
+Fanatical Mukkir Ward Guardian | 89 | 5406
+Fazenda Terror | 46 | 1005
+Female Tusker | 8 | 100
+Feral Carenzi | 55 | 375
+Ferocious Monouga | 28 | 225
+Ferocious Ursuin | 46 | 320
+Fester Isn't Fun | 92 | 5108090
+Fetid Olthoi | 1 | 20000
+Field Ursuin | 46 | 80
+Field Ursuin Cub | 46 | 55
+Fierce Margul Roamer | 71 | 1210
+Fierce Mukkir | 89 | 2683
+Fierce Remoran Sapper | 84 | 1615
+Fiery Defender | 13 | 25325
+Filinuvekta Exalgrith | 14 | 395225
+Filthy Mattekar | 23 | 700
+Fire Crystal | 47 | 3000
+Fire Golem | 13 | 600
+Fire Morel Thrungus | 82 | 2922
+Fire Shreth | 32 | 550
+Fire Wisp | 20 | 180
+Firestorm | 38 | 330
+Fiun Abayar | 78 | 2080
+Fiun Assistant | 78 | 460
+Flame Guardian | 38 | 250
+Flamma | 38 | 135
+Flare | 38 | 55
+Fleshless Warrior | 30 | 230
+Flicker | 38 | 20
+Floating Door | 29 | 3331990
+Floeshark | 16 | 760
+Follower of Deewain | 13 | 3525
+Foreman Brelax | 30 | 953
+Forge Golem | 13 | 3500
+Forge Guardian | 14 | 9540
+Formless Shadow | 22 | 1500
+Fortress Barrier | -1 | -1
+Foul Moarsman | 34 | 160
+Fouled Remoran | 84 | 9160
+Fountain | -1 | -1
+Fractured Glacial Golem | 13 | 1000
+Fragment | 47 | 65
+Freezing Mist Golem | 13 | 3850
+Freezing Wind | 61 | 2780
+Frenzied Fiun | 78 | 400
+Freshwater Armoredillo | 17 | 105
+Frigid Drudge | 3 | 10000608
+Frigid Ice Golem | 13 | 1810
+Frigid Mist Golem | 13 | 2160
+Frost | 61 | 220
+Frost Golem | 13 | 2350
+Frost Maw | 8 | 9105
+Frozen Beast | 61 | 500450
+Frozen Cow | 12 | 3420
+Frozen Crystal | -1 | -1
+Frozen Dread | 77 | 20000
+Frozen Gearknight | 99 | 601
+Frozen Glacial Golem | 13 | 100350
+Frozen Ice Golem | 13 | 1850
+Frozen Wight | 14 | 6210
+Frozen Wight Archer | 14 | 2200
+Frozen Wight Captain | 14 | 18255
+Frozen Wight High Acolyte | 14 | 18255
+Frozen Wight Sorcerer | 14 | 6175
+Gaerlan | 51 | 76000
+Galvanic Guard | 62 | 4130
+Gauloth Shreth | 32 | 550
+Gear Hunter | 59 | 1200
+Gear Hunter Mage | 59 | 890
+Gelid | 61 | 400
+General Garsh | 70 | 8000
+General Tarkaris | 59 | 1340
+General Tator'Klavuix | 14 | 60250
+Geraine | 31 | 200000
+Ghastly Priestess | 14 | 3000
+Ghost Wisp | 20 | 50
+Giant Imprisoned Monouga | 28 | 600450
+Giant Jungle Phyntos Wasp | 9 | 2000
+Giant Mite | 7 | 3000
+Giant Phyntos Hive | 9 | -1
+Giant Phyntos Swarm | 9 | 435
+Giant Phyntos Wasp | 9 | 378
+Gigas Lugian | 5 | 200
+Gigas Raider | 70 | 200
+Glacial Golem | 13 | 150
+Glacial Golem Margrave | 13 | 5000
+Glacial Guard | 62 | 4130
+Glacial Spored Thrungus | 82 | 2923
+Gladiator Diemos | 13 | 600000
+Glassy Mayhem | 71 | 11300
+Glissnal Nefane | 45 | 800
+Glissnal Niffis | 45 | 115
+Glissnal Niffling | 45 | 60
+Glissnal Sleech | 45 | 9180
+Gloom Drudge | 3 | 400
+Glormigoth | 98 | 3225
+Gnawer Shreth | 32 | 15
+Gnawer Shrethlet | 32 | 8
+Gold Gear Guardian | 99 | 365
+Gold Gear Heavy Scout | 99 | 9975
+Gold Gear Knight | 99 | 808
+Gold Gear Lesser Lord | 99 | 460
+Gold Gear Trooper | 99 | 325
+Gold Golem | 13 | 425
+Gold Moarsman | 34 | 3800
+Gold Niffis | 45 | 6360
+Gold Phyntos Wasp | 9 | 155
+Gold Remoran | 84 | 11020
+Gold Shallows Shredder | 27 | 5340
+Goldenback Tusker | 8 | 135
+Gotrok Aetherium Miner | 70 | 1000
+Gotrok Amploth | 70 | 125
+Gotrok Extas | 70 | 390
+Gotrok Extias | 70 | 1675
+Gotrok Fortress Guard | 70 | 425
+Gotrok Gigas | 70 | 200
+Gotrok Juggernaut | 70 | 513
+Gotrok Laigus | 70 | 105
+Gotrok Ligias | 70 | 1670
+Gotrok Lithos | 70 | 140
+Gotrok Mining Foreman | 70 | 4000
+Gotrok Montok | 70 | 300
+Gotrok Obeloth | 70 | 150
+Gotrok Ornost | 70 | 1750
+Gotrok Tiatus | 70 | 450
+Gotrok Titan | 70 | 565
+Gout | 38 | 125
+Graal Margul | 71 | 5000
+Gragghk | 4 | 190
+Grand Master of Flames | 31 | 12001200
+Granite Golem | 13 | 240
+Grave Rat | 10 | 1350
+Grave Spirit | 14 | 490
+Great Cave Penguin | 80 | 2700
+Great Devourer | 27 | 2670
+Great Elariwood Golem | 13 | 700
+Great Mattekar | 23 | 73
+Great Mattie | 23 | 43
+Great Revenant | 14 | 350
+Great Skeleton | 30 | 300
+Greater Mu-miyah | 14 | 80
+Greater Penumbral Horror | 44 | 4000
+Green Pepper | 21 | 799330
+Green Phyntos Wasp | 9 | 25
+Grey Rat | 10 | 15
+Grievver Darter | 44 | 4750
+Grievver Shredder | 44 | 2650
+Grievver Violator | 44 | 2150
+Grimy Moarsman | 34 | 1900
+Grumpy Snowman | 39 | 685
+Guardian Armoredillo | 17 | 6000
+Guardian Mu-miyah | 14 | 165
+Guardian of Diemos | 13 | 1000
+Guardian of the Helm | 14 | 95
+Guardian of the Lost Light | 14 | 200
+Guardian of the Monolith | 38 | 75000
+Guardian of the Ritual | 6 | 1650
+Guardian of the Singularity | 19 | 1500
+Guardian Statue | -1 | -1
+Guardian Wisp | 20 | 20200
+Gummy Kitty | 46 | 500000
+Gurog Bruiser | 100 | 5000
+Gurog Commander | 100 | 395225
+Gurog Guardian | 100 | 2000
+Gurog Henchman | 100 | 2000
+Gurog Minion | 100 | 2000
+Gurog Soldier | 100 | 2000
+Guruk Basher | 75 | 400
+Guruk Beast | 75 | 550
+Guruk Behemoth | 75 | 700
+Guruk Boor | 75 | 425
+Guruk Brute | 75 | 575
+Guruk Colossus | 75 | 650
+Guruk Crusher | 75 | 500
+Guruk Destroyer | 75 | 600
+Guruk Gorefiend | 75 | 750
+Guruk Grunt | 75 | 12206
+Guruk Heavy | 75 | 475
+Guruk Hulk | 75 | 625
+Guruk Miscreant | 75 | 450
+Guruk Smasher | 75 | 525
+Hand of Verdancy | 60 | 23000
+Harbinger | 62 | 200000
+Hard-Headed Skeleton | 30 | 199
+Harraag | 2 | 30000
+Harrower Grievver | 44 | 410
+Harvest Reaper | 30 | 10000
+Hastar the Misbegotten | 22 | 8000
+Hatred Wisp | 20 | 20250
+He Who Lives Behind the Row | 54 | 586916
+Hea Apostate Shock Trooper | 6 | 1000
+Hea Apostate Warlord | 6 | 3500
+Hea Champion | 58 | 365
+Hea Drumspeaker | 58 | 85
+Hea Elder Shaman | 58 | 440
+Hea Hunter | 58 | 120
+Hea Itealuan | 58 | 190
+Hea Kanokeh | 58 | 330
+Hea Karenua | 58 | 330
+Hea Nualuan | 58 | 210
+Hea Runner | 58 | 70
+Hea Shaman | 58 | 325
+Hea Temenua | 58 | 330
+Hea Tnakarea | 58 | 3225
+Hea Tuperea | 58 | 330
+Hea Warrior | 58 | 123
+Hea Windreave | 58 | 163
+Head-Smasher | 32 | 10000
+Heavy Drudge Prowler | 3 | 50
+Hebian-To Sewer Rat | 10 | 89900
+Helcan Margul | 71 | 4000
+Hell Hornet | 9 | 800700
+Hell-Raised Cattle | 12 | 2500800
+Hellfire | 38 | 540
+Hellion | 71 | 6000
+Hellion Mukkir | 89 | 9203
+High Acolyte | 14 | 175
+High Mu-miyah | 14 | 165
+High Tumerok | 6 | 160
+Highwayman | 31 | 130
+Hoarfrost | 61 | 1625
+Hoary Armoredillo | 17 | 200
+Hoary Mattekar | 23 | 475
+Hollow Minion | 48 | 110
+Hollow Pawn | 48 | 3800
+Hollow Reaver | 48 | 1800
+Honey Bee | 9 | 28850
+Horned Chittick | 33 | 120
+Horrible Mu-miyah | 14 | 165
+Horrid Remoran | 84 | 615
+Horripal | 61 | 125
+Hungry Corpse | 78 | 3000060
+Hunter Shreth | 32 | 50
+Hunter Shrethlet | 32 | 35
+Hyem | 61 | 250
+Ice Crystal | 47 | 3000
+Ice Golem | 13 | 90
+Icy Winds | 31 | 823
+Idol | 50 | 200
+Illu Sclavus | 26 | 480
+Illu Sclavus Soldier | 26 | 2200
+Imp | 22 | 500
+Imperial Archivist | 14 | 1345
+Imperial Guard | 14 | 1355
+Imperial Mu-miyah | 14 | 355
+Incalescent Crystalline Wisp | 20 | 720
+Incalescent Pillar | 47 | 445
+Incendiary Guard | 62 | 4130
+Incendiary Knight | 62 | 6130
+Individuality | 19 | 500
+Infected Assailer | 8 | 700
+Infernal Zefir | 29 | 8000
+Inferno | 38 | 330
+Infested Rat | 10 | 800
+Inflamed Ursuin | 46 | 5000
+Infused Blood Golem | 13 | 1200
+Injured Olthoi | 1 | 60
+Inner Chamber Guardian | 13 | 1616
+Inner Sea Golem | 13 | 1000660
+Innocent Doll | 53 | 150
+Innocuous Doll | 53 | 115
+Insatiable Eater | 79 | 770
+Insatiable Olthoi | 1 | 5100775
+Insidious Monouga | 28 | 475
+Intense Aggregate Crystalline Wisp | 20 | 2120
+Intense Corroding Crystalline Wisp | 20 | 1020
+Intense Incalescent Crystalline Wisp | 20 | 1220
+Intense Incalescent Pillar | 47 | 445
+Intense Shivering Crystalline Wisp | 20 | 1020
+Intense Shivering Pillar | 47 | 445
+Invading Bronze Gauntlet Knight | 99 | 808
+Invading Bronze Gauntlet Phalanx | 99 | 680
+Invading Bronze Gauntlet Squire | 99 | 720
+Invading Copper Cog Knight | 99 | 808
+Invading Copper Cog Phalanx | 99 | 680
+Invading Copper Cog Squire | 99 | 720
+Invading Iron Blade Commander | 99 | 5208
+Invading Iron Blade Knight | 99 | 808
+Invading Iron Blade Phalanx | 99 | 680
+Invading Iron Blade Squire | 99 | 720
+Invading Silver Scope Knight | 99 | 808
+Invading Silver Scope Phalanx | 99 | 680
+Invading Silver Scope Squire | 99 | 720
+Invasive Hellfire Siraluun | 56 | 921935
+Iorik Eye Stalk | 36 | 480
+Iorik Tendril | 36 | 440
+Iorik Tentacle | 36 | 450
+Iron Blade Guardian | 99 | 365
+Iron Blade Heavy Scout | 99 | 9975
+Iron Blade Knight | 99 | 808
+Iron Blade Lesser Lord | 99 | 460
+Iron Blade Lord | 99 | 808
+Iron Blade Overseer | 99 | 200251
+Iron Blade Trooper | 99 | 325
+Iron Blade Warmaster | 99 | 7225
+Iron Golem | 13 | 200250
+Iron Golem Kachi | 13 | 12350
+Iron Golem Samurai | 13 | 5250
+Iron Golem Sekkou | 13 | 5250
+Iron Spined Chittick | 33 | 350
+Irritated Auroch | 11 | 100
+Island Armoredillo | 17 | 135
+Ivory Gromnie | 15 | 60
+Jade Gromnie | 15 | 68
+Jelly Thrungus | 82 | 929
+Jibrit Zefir | 29 | 25
+Jungle Phyntos Wasp | 9 | 160
+Jungle Reaver | 16 | 120
+Just a Rock | 60 | 6900335
+Juvenile Lantern | 88 | 15500
+K'nath An'dras | 21 | 3000
+K'nath B'orret | 21 | 5000
+K'nath D'Nob | 21 | 65
+K'nath I'km | 21 | 3000
+K'nath La'nal | 21 | 3000
+K'nath N'aes | 21 | 3000
+K'nath N'gell | 21 | 55
+K'nath N'osaj | 21 | 60
+K'nath S'hirc | 21 | 3000
+K'nath S'tath | 21 | 60
+K'nath T'aed | 21 | 90
+K'nath T'amt | 21 | 3000
+K'nath Thea'reh | 21 | 3000
+K'nath X'ela | 21 | 3000
+K'nath Z'bog | 21 | 50
+Kazyk Ri T'thuunixis | 14 | 150000
+Kernel Klank | 3 | 10100
+Kerthump the Ear Taker | 3 | 3225
+Kilif Zefir | 29 | 50
+Killagurg | 4 | 100000
+Killer Phyntos Drone | 9 | 1500
+Killer Phyntos Hive | -1 | -1
+Killer Phyntos Soldier | 9 | 2000
+Killer Phyntos Swarm | 9 | 850
+King Carnivorous | 17 | 50290
+Kirit Zefir | 29 | 2000
+Kithless Champion | 56 | 850
+Kithless Siraluun | 56 | 400
+Knee-Smasher | 32 | 6000
+Knight of the Golden Flame | 31 | 541001
+Korgluuk of Bur | 75 | 3225
+Kroktok Lugian | 5 | 450
+Lacerator | 1 | 500
+Lady Aerfalle | 14 | 200250
+Lady Saliane | 77 | 20250
+Lady Tairla Mhoire | 77 | 200250
+Laigus Lugian | 5 | 105
+Laigus Raider | 70 | 105
+Lantern Assassin of Flames | 31 | 12000300
+Lantern Golem | 13 | 1550000
+Lantern Guardian | 21 | 9000000
+Large Blight Rat | 10 | 1000
+Large Silver Rat | 10 | 90
+Leet Darktide Archer | 31 | 800
+Leet Darktide Killer | 31 | 800000
+Leet Darktide Wizard | 31 | 80000
+Lesser Acolyte | 14 | 175
+Lesser Mu-miyah | 14 | 65
+Lesser Void Knight | 22 | 625
+Lich | 14 | 113
+Lich Lord | 14 | 178
+Lich Oppressor | 14 | 3700
+Lich Overseer | 14 | 89
+Limestone Golem | 13 | 80
+Linvak Ursuin | 46 | 190
+Listris Nefane | 45 | 1000
+Listris Niffis | 45 | 85
+Listris Niffling | 45 | 48
+Listris Sleech | 45 | 620
+Lithos Lugian | 5 | 140
+Lithos Raider | 70 | 160
+Littoral Champion | 56 | 380
+Littoral Siraluun | 56 | 190
+Lord Cambarth | 30 | 953
+Lord Cynreft Mhoire | 30 | 200250
+Lord Hendrel | 14 | 12175
+Lord Kastellar | 14 | 150000
+Lord of the Lanterns | 88 | 987138944
+Lord of the Two Lands | 14 | 900000
+Lord Trimere | 30 | 16250
+Lothus Guardian of Torment | 19 | 20000
+Lugian Hunter Bandit | 31 | 7260
+Lugian Hunter Mage | 31 | 4500
+Lugian Hunter Thug | 31 | 6600
+Lugian Invader | 5 | 41670
+Lugian Juggernaut | 5 | 513
+Lugian Launcher | 5 | 21670
+Lugian Warlord | 70 | 260
+Lugianator | 5 | 46800
+Luminary Guard | 62 | 4130
+Luminary Knight | 62 | 6130
+Lunnum | 78 | 200000
+Mad Cow | 12 | 120
+Mad Star Marionette | 54 | 43
+Maelstrom | 62 | 570
+Maelstrom Shadow | 22 | 625
+Magma Golem | 13 | 400
+Magma Golem Exarch | 13 | 5000
+Magshuth Moarsman | 98 | 2000
+Maguth Moarsman | 98 | 2000
+Male Tusker | 8 | 100
+Malevolent Zefir | 29 | 6000
+Malignant Marionette | 54 | 4000
+Malus Shreth | 32 | 245
+Mana Barrier | -1 | -1
+Mangy Carenzi | 55 | 900
+Maniacal Fiun | 78 | 595
+Manuaka | 16 | 360
+Marae Ursuin | 46 | 300
+Margul Roamer | 71 | 1200
+Marionette | 54 | 125
+Marsh Champion | 56 | 315
+Marsh Siraluun | 56 | 45
+Martinate Simulacrum | 59 | 200
+Martinate Simulacrum Magician | 59 | 154
+Martinate Virindi Inquisitor | 19 | 500
+Masonry Golem | 13 | 2350
+Massive Avalanche | 62 | 1000580
+Massive Muck Golem | 91 | 1000048
+Master Archer | 31 | 1500
+Master Bloodstone | 47 | 150000
+Master Bloodstone Satellite | 47 | 1000
+Master Mage | 31 | 890
+Master of the Blade | 31 | 900000000
+Master of the Pack | 16 | 125
+Master of the Swamp | 4 | 110
+Master Soldier | 31 | 1500
+Master's Acolyte | 31 | 600
+Megamaw | 79 | 395225
+Mercenary | 31 | 180
+Merciless Monouga | 28 | 475
+Miasma | 60 | 400
+Mighty Oak Golem | 13 | 425
+Minik Ra T'thuunixis | 14 | 150000
+Minion Leader | 48 | 205
+Mire Phyntos Wasp | 9 | 30
+Miry Moarsman | 34 | 400
+Misshapen Mite | 7 | 800
+Missile Defender | 13 | 615
+Mist Golem | 13 | 300
+Mite Digger | 7 | 60
+Mite Matron | 7 | 100
+Mite Scamp | 7 | 45
+Mite Scion | 7 | 25
+Mite Sentry | 7 | 80
+Mite Snippet | 7 | 20
+Mite Squib | 7 | 75
+Mite Squire | 7 | 85
+Mite Warrior Queen | 7 | 260
+Mitey Knight | 7 | 28850
+Moarsman Adherent of T'thuun | 98 | 2000
+Moarsman Guard | 34 | 1115
+Moarsman Marauder | 34 | 1270
+Moarsman Priest of T'thuun | 98 | 2000
+Moarsman Prior | 98 | 2000
+Moarsman Raider | 34 | 800
+Mogshuth Moarsman | 98 | 2000
+Moguth Moarsman | 98 | 2000
+Monouga Barbarian | 28 | 8500
+Monouga Controller | 28 | 12725
+Monouga Grunt | 28 | 8500
+Monstrous Mite | 7 | 5000
+Morel Thrungus | 82 | 34
+Mosswart Agitator | 4 | 4190
+Mosswart Assailant | 4 | 8650
+Mosswart Chief | 4 | 110
+Mosswart Clinger | 4 | 190
+Mosswart Cringer | 4 | 185
+Mosswart Cynic | 4 | 4275
+Mosswart Elder | 4 | 4110
+Mosswart Fanatic | 4 | 120
+Mosswart Feeder | 4 | 55
+Mosswart Gladiator | 4 | 5000
+Mosswart Idolator | 4 | 120
+Mosswart Mire-Witch | 4 | 190
+Mosswart Muck Stalker | 4 | 180
+Mosswart Mucker | 4 | 75
+Mosswart Overchief | 4 | 110
+Mosswart Scavenger | 4 | 300
+Mosswart Scrounger | 4 | 245
+Mosswart Shaman | 4 | 80
+Mosswart Soul Trapper | 4 | 160
+Mosswart Swamp Lord | 4 | 195
+Mosswart Townsfolk | 4 | 180
+Mosswart Worshipper | 4 | 820
+Mosswart Zealot | 4 | 160
+Mossy Dragon | 71 | 7751300
+Mossy Hatchling | 71 | 7751300
+Mottled Carenzi | 55 | 1200
+Mountain Rat | 10 | 80
+Mowen Udaun | 8 | 8000
+Mox | 60 | 175
+Mu-miyah Champion | 14 | 7000
+Mu-miyah Channeller | 14 | 7000
+Mu-miyah Grand Vizier | 14 | 15200
+Mu-miyah Guardian | 14 | 8000
+Mu-miyah Kaymakam | 14 | 14175
+Mu-miyah Lord | 14 | 10000
+Mu-miyah Reporter | 14 | 8200
+Mu-miyah Sentinel | 14 | 6130
+Mu-miyah Slave Master | 14 | 15200
+Mu-miyah Soldier | 14 | 9000
+Mu-miyah Soothsayer | 14 | 7000
+Mu-miyah Vizier | 14 | 7000
+Muck Glutton | 34 | 300
+Mucky Moarsman | 34 | 1900
+Mud Golem | 13 | 40
+Mud Golem Sludge Lord | 13 | 400
+Mudlurk Mosswart | 4 | 75
+Mudmouth | 59 | 300000
+Mukkir | 89 | 1683
+Mukkir Aspect of Grael | 89 | 30000
+Mukkir Draktehn | 89 | 3725
+Mukkir Kartak | 89 | 3725
+Mukkir Laktar | 89 | 3725
+Mukkir Predator | 89 | 12980
+Mukkir Progenitor | 89 | 12000
+Murk Drudge | 3 | 325
+Mutated Carenzi | 55 | 3961660
+Mutated Mite | 7 | 950
+Nalif Zefir | 29 | 105
+Narrow Rift | 19 | 100
+Nasty Brass Monkey | 8 | 6400
+Nesting Siraluun | 56 | 3450
+Netherborne Olthoi Queen | 1 | 50001712
+Netherborne Olthoi Warrior | 1 | 25001710
+Newborn Virindi Inquisitor | 19 | 800100
+NightBrier | 101 | 80200
+Nighthollow Archer | 1 | 87200
+NightHollow Blightspawn | 1 | 1000004480
+Nighthollow Dart Chucker | 6 | 87200
+Nighthollow Hornet | 9 | 1600000
+Nighthollow Hornet Swarm | 55 | 3961660
+Nighthollow Ironfist | 92 | 5108090
+Nighthollow Margul | 71 | 1776000
+NightHollow Minion | 1 | 293000
+Nighthollow Murder Hornet | 55 | 3961660
+Nighthollow Olthoi Overlord | 92 | 1760000
+NightHollow Olthoi Queen | 92 | 1000000384
+Nighthollow Swarm Olthoi | 1 | 1201800
+Nighthollow Tumerok Headhunter | 6 | 87200
+Nightmare Wisp | 20 | 360
+Nightmarish Doll | 53 | 1100
+Nightmarish Marionette | 54 | 8000
+Nivinizk T'thuunixis | 14 | 150000
+Noble Remains | -1 | -1
+Nomad Mu-miyah | 14 | 320
+Norshuntyr | 62 | 200200
+North Armory Captain | 77 | 20250
+Northern Black Claw Raider | 3 | 160
+Nubilous Golem | 13 | 300
+Numb Miner | 5 | 10000120
+Nymph Maniac | 1 | 2000
+Oak Golem | 13 | 260
+Oak Target Drudge | 76 | 1000
+Oaken Guardian | 62 | 20200
+Obeloth Lugian | 5 | 150
+Obeloth Raider | 70 | 150
+Obliterator | 8 | 50000
+Obsidian Chittick | 33 | 400
+Obsidian Golem | 13 | 200
+Obsidian Golem Noble | 13 | 88000
+Obsidian Sentient Fragment | 47 | 15000
+Occult Child | 22 | 16100
+Old Bones | 30 | 25
+Old Skeleton | 30 | 838
+Old Zombie | 14 | 282
+Olthoi Advance Guard | 1 | 410
+Olthoi Brood Matron | 1 | 1210
+Olthoi Brood Queen Elder | 1 | 6000
+Olthoi Drone | 1 | 140
+Olthoi Egg | -1 | -1
+Olthoi Elder Brood Matron | 1 | 1710
+Olthoi Enforcer | 92 | 99040
+Olthoi Eviscerator | 1 | 350
+Olthoi Eviscerator Grub | 35 | 215
+Olthoi Gardener | 1 | 110
+Olthoi Grub | 35 | 115
+Olthoi Guard | 1 | 275
+Olthoi Harvester | 1 | 100
+Olthoi Hive Brood | 1 | 6030
+Olthoi Hive Eviscerator | 1 | 6000
+Olthoi Hive Guardian | 1 | 54760
+Olthoi Hive Mutilator | 1 | 4935
+Olthoi Hive Noble | -1 | -1
+Olthoi Hive Piercer | 1 | 6500
+Olthoi Hive Queen | 1 | 50000
+Olthoi Hive Soldier | 1 | 4750
+Olthoi Hive Warrior | 1 | 6400
+Olthoi Keeper | 1 | 350
+Olthoi Lancer | 1 | 425
+Olthoi Larvae | 35 | 1690
+Olthoi Legionary | 1 | 300
+Olthoi Mutilator | 1 | 350
+Olthoi Needler | 1 | 200
+Olthoi Nettler | 1 | 100
+Olthoi Noble | 1 | 300
+Olthoi Noble Grub | 35 | 200
+Olthoi Nymph | 1 | 115
+Olthoi Nymph Grub | 35 | 57
+Olthoi Overlord | 1 | 90000704
+Olthoi Parasite | 1 | 20000
+Olthoi Piercer | 1 | 350
+Olthoi Primordial | 1 | 3000
+Olthoi Progenitor | 1 | 2030
+Olthoi Ripper | 1 | 3840
+Olthoi Sentinel | 1 | 3000
+Olthoi Servant | 1 | 175
+Olthoi Shredder | 1 | 723800
+Olthoi Slasher | 1 | 3190
+Olthoi Slayer | 1 | 3690
+Olthoi Soldier | 1 | 200
+Olthoi Soldier Grub | 35 | 100
+Olthoi Swarm Drone | 1 | 300
+Olthoi Swarm Eviscerator | 1 | 465
+Olthoi Swarm Gardener | 1 | 158
+Olthoi Swarm Guardian | 1 | 510
+Olthoi Swarm Harvester | 1 | 175
+Olthoi Swarm Legionary | 1 | 400
+Olthoi Swarm Mutilator | 1 | 500
+Olthoi Swarm Noble | 1 | 400
+Olthoi Swarm Nymph | 1 | 215
+Olthoi Swarm Soldier | 1 | 380
+Olthoi Swarm Worker | 1 | 400
+Olthoi Vanquisher | 1 | 740
+Olthoi Warrior | 1 | 300
+Olthoi Worker | 1 | 215
+Opor Niffis | 45 | 160
+Orchard Ripper | 1 | 2900
+Orchard Slasher | 1 | 2600
+Orchard Slayer | 1 | 2600
+Outcast Lord | 28 | 85
+Outcast Monouga | 28 | 40
+Oversized Banderling Ogre | 2 | 130
+Painful Conflagration | 62 | 1000580
+Pallid Moar | 86 | 70
+Pallid Moarsman | 34 | 110
+Pandemic Child | 22 | 580
+Pandemonium Shadow | 22 | 510
+Panumbral Soldier | 22 | 6130
+Panumbris Shadow | 22 | 410
+Paradox-touched Olthoi Eviscerator | 92 | 2000
+Paradox-touched Olthoi Eviscerator Grub | 92 | 323
+Paradox-touched Olthoi Eviscerator Nymph | 92 | 698
+Paradox-touched Olthoi Flyer Nymph | 92 | 638
+Paradox-touched Olthoi Lacerator | 92 | 2190
+Paradox-touched Olthoi Lancer | 92 | 1000
+Paradox-touched Olthoi Noble | 92 | 2000
+Paradox-touched Olthoi Noble Grub | 92 | 300
+Paradox-touched Olthoi Noble Nymph | 92 | 450
+Paradox-touched Olthoi Portal Guard | 92 | 20250
+Paradox-touched Olthoi Queen | 92 | 200000
+Paradox-touched Olthoi Ripper | 92 | 3090
+Paradox-touched Olthoi Sentinel | 92 | 20250
+Paradox-touched Olthoi Slasher | 92 | 2690
+Paradox-touched Olthoi Swarm Eviscerator | 92 | 3090
+Paradox-touched Olthoi Ward Guardian | 92 | 30250
+Paradox-touched Olthoi Warrior | 1 | 2250
+Paradox-touched Olthoi Warrior Nymph | 92 | 450
+Parfal Nefane | 45 | 5000
+Parfal Niffis | 45 | 29
+Parfal Niffling | 45 | 17
+Parfal Sleech | 45 | 615
+Paroxysm Shadow | 22 | 525
+Patriarch's Champion | 14 | 10000
+Patriarch's Elite Raider | 14 | 10000
+Patriarch's Executioner | 14 | 10000
+Patriarch's Inquisitor | 14 | 10000
+Patrician Kilkitris | 14 | 50000
+Patrician Phaerix | 14 | 50000
+Peerless Drudge | 3 | 505
+Penguin | 80 | 30
+Penguin Guardian | 80 | 4000
+Penumbral Horror | 44 | 2000
+Penumbral Shadowmage | 22 | 1600
+Pepperoni | 21 | 793430
+Pestilence Rat | 10 | 1000
+Phantasm | 14 | 415
+Phantom | 77 | 315
+Pickle Snek | 17 | 930275
+Pike Grievver | 44 | 19750
+Pile O' Bones | 30 | 33
+Pillar of Acid | 62 | 2000
+Pillar of Fire | 62 | 2000
+Pillar of Frost | 62 | 2000
+Pillar of Lightning | 62 | 2000
+Pineapple | 21 | 799330
+PIS | 71 | 1776000
+Pixie of Pain | 22 | 10660
+Pizza Grievver | 44 | 180780
+Pizza Gromnie | 15 | 205650
+Pizza Tusker | 8 | 3951000
+Plasma Golem | 13 | 260
+Plate Armoredillo | 17 | 350
+Plated Tusker | 8 | 800
+Platinum Golem | 13 | 500
+Platinum Golem Mountain King | 13 | 25000
+Plunderers of the Bloodstone | 14 | 90000
+Poacher | 31 | 190
+Pocket Clay | 13 | 6555985
+Poisonous Brier Wasp | 9 | 8250
+Polar Carenzi | 55 | 60
+Polar Ursuin | 46 | 370
+Poltergeist | 77 | 550
+Portal Keeper | 83 | 720
+Portal Pillar | -1 | -1
+Primeval Skeleton | 30 | 385
+Pristine Doll | 53 | 150
+Puffball Thrungus | 82 | 929
+Pugnacious Monouga | 28 | 400
+Pumpkin Buffer | 40 | 25
+Pumpkin Kin | 93 | 190
+Pumpkin Lord | 93 | 1450
+Putrid Moarsman | 34 | 195
+Pyre Champion | 30 | 12250
+Pyre Minion | 30 | 3000
+Pyre Skeleton | 30 | 6850
+Pyreal Golem | 13 | 460
+Pyreal Target Drudge | 76 | 10000
+Pyro Capped Thrungus | 82 | 2923
+Quiddity Rift | 19 | 370
+Rabid Bulldog | 55 | 2650
+Rabid Carenzi | 55 | 300
+Rabid Eater | 79 | 470
+Radiant Blood Crystal Array | -1 | -1
+Radiant Crystal | 47 | 5001
+Rage Wisp | 20 | 18125
+Raging Corrupt Sorcerer | 19 | 7675
+Raging Moar | 86 | 1420
+Raging Rynthid Sorcerer | 19 | 7675
+Raging Ursuin | 46 | 375
+Raider Juggernaut | 70 | 513
+Raider Justicar | 70 | 10000
+Raider Prefect | 70 | 10000
+Rampager | 8 | 425
+Rank Moarsman | 34 | 125
+Ravager | 55 | 8000
+Raven Augur | 31 | 600
+Raven Conscript | 31 | 680
+Raven Hunter | 31 | 450
+Ravenous Eater | 79 | 740
+Ravenous Mosswart | 4 | 75
+Reaper | 16 | 500
+Rebellious Penguin | 80 | 60
+Red Dragon | 91 | 30470
+Red Phyntos Drone | 9 | 50
+Red Phyntos Wasp | 9 | 20
+Red Rat | 10 | 55
+Reedshark Elder | 16 | 60
+Reedshark Hunter | 16 | 4500
+Reedshark Pup | 16 | 40
+Reedshark Ravager | 16 | 300
+Reedshark Ripper | 16 | 7128010
+Reedshark Seeker | 16 | 4500
+Reedshark Slasher | 16 | 650
+Reedshark Stripling | 16 | 40
+Reinforced Door | -1 | -1
+Relic Bones | 30 | 305
+Relic Watchman | 30 | 550
+Remoran Corsair | 84 | 610
+Remoran Raker | 84 | 4505
+Remoran Sand Stalker | 84 | 2500
+Remoran Sapper | 84 | 1200
+Remoran Sea Raptor | 84 | 5510
+Rendeath Shreth | 32 | 608
+Renegade Adept Shaman | 6 | 1650
+Renegade Commander Kianar | 6 | 5000
+Renegade Commander Walanawa | 6 | 5000
+Renegade Elite Trooper | 6 | 4800
+Renegade Virindi | 19 | 1625
+Renselm | 14 | 7000
+Repugnant Eater | 79 | 630
+Repulsive Olthoi | 1 | 15500
+Reshalra | 16 | 360
+Revenant | 14 | 200
+Revenant Antiquary | 14 | 200
+Revenant Lord | 14 | 6210
+Revered Tumerok Shaman | 6 | 5000
+Rickety Scarecrow | 49 | 33
+Rift of Blind Rage | 19 | 10100
+Rift of Consuming Torment | 19 | 10100
+Rift of Rage | 19 | 10100
+Rift of Torment | 19 | 10100
+Risen Knight | 14 | 230
+Risen Lord | 14 | 345
+Risen Soldier | 14 | 165
+River Drudge | 3 | 133
+Rock | 13 | 2175
+Rock Wall | -1 | -1
+Rotting Corpse | 78 | 23000500
+Rough Monouga | 28 | 115
+Royal Ash Gromnie | 15 | 350
+Royal Azure Gromnie | 15 | 183
+Royal Brass Gromnie | 15 | 990
+Royal Copper Gromnie | 15 | 900
+Royal Ebon Gromnie | 15 | 810
+Royal Inquisitor | 83 | 890
+Royal Ivory Gromnie | 15 | 195
+Royal Jade Gromnie | 15 | 198
+Royal Mite Matron | 7 | 215
+Royal Mite Sentry | 7 | 200
+Royal Mite Squire | 7 | 200
+Royal Olthoi Guardian | 1 | 510
+Royal Prison Warden | 83 | 495
+Royal Rust Gromnie | 15 | 190
+Royal Sable Gromnie | 15 | 700
+Royal Swamp Gromnie | 15 | 225
+Royal Thaumaturge | 83 | 510
+Royal Vivimancer | 83 | 2505
+Ruby Gromnie | 15 | 600
+Rufous Grievver | 44 | 290
+Ruschk Draktehn | 81 | 3225
+Ruschk Fiend | 81 | 165
+Ruschk Fledgemaster | 81 | 130
+Ruschk Haktar | 81 | 1100
+Ruschk Kartak | 81 | 1483
+Ruschk Laktar | 81 | 2703
+Ruschk Sadist | 81 | 485
+Ruschk Slayer | 81 | 150
+Ruschk Warlord | 81 | 280
+Russet Rat | 10 | 15
+Rust Gromnie | 15 | 45
+Ruuk Ranger | 75 | 9375
+Ruuk Soothsayer | 75 | 10375
+Rynthid Berserker | 19 | 100000
+Rynthid Cow | 12 | 3420
+Rynthid Crystal | -1 | -1
+Rynthid Minion | 19 | 6175
+Rynthid Minion of Rage | 19 | 6175
+Rynthid Rager | 19 | 12000
+Rynthid Ravager | 19 | 100000
+Rynthid Slayer | 19 | 12000
+Rynthid Sorcerer | 19 | 7675
+Ryoga Kuroga | 13 | 20270
+Sable Gromnie | 15 | 250
+Sahkurea | 16 | 360
+Sam | 39 | 650
+Samurai Gatekeeper | 77 | 3750
+Sanctum Warding Crystal | -1 | -1
+Sand Cow | 12 | 3420
+Sand Golem | 13 | 110
+Sand Lurker | 27 | 2670
+Sand Remoran | 84 | 4041300
+Sandstone Golem | 13 | 115
+Sandy Armoredillo | 17 | 115
+Sandy Armoredillo Pup | 17 | 65
+Sanguinary Rat | 10 | 8001
+Sapphire Golem | 13 | 1000
+Sapphire Gromnie | 15 | 600
+Sarcophagus | -1 | -1
+Sata Sclavus | 26 | 145
+Sata Sclavus Lord | 26 | 215
+Sath'tik Eyestalk | 36 | 1230
+Sath'tik Tendril | 36 | 810
+Sath'tik Tentacle | 36 | 810
+Savage Carenzi | 55 | 500
+Sawato Bandit | 31 | 600
+Scathisa | 42 | 450
+Scavenger Ursuin | 46 | 45
+Scavenger Ursuin Cub | 46 | 25
+Schism | 19 | 1100
+Scintilla | 42 | 135
+Sclavus Acolyte of T'thuun | 26 | 2190
+Sclavus Guard | 26 | 1110
+Sclavus Marauder | 26 | 1110
+Sclavus Patrol | 26 | 1110
+Sclavus Raider | 26 | 820
+Scold | 13 | 5000
+Scold Chunk | 13 | 1250
+Scold Lump | 13 | 625
+Scoriscant | 62 | 400
+Scourge | 60 | 140
+Scrawed Grievver | 44 | 150
+Scrooge Penguin | 13 | 1000250
+Scummy Moarsman | 34 | 1900
+Se Sclavus | 26 | 85
+Seared Guard | 30 | 283
+Seared Skeleton | 30 | 100
+Sentient Crystal Shard | 47 | 15000
+Sentient Fragment | 47 | 180
+Sephal Nefane | 45 | 2000
+Sephal Niffis | 45 | 180
+Sewer Rat | 10 | 150
+Shade of Bael'Zharon | 52 | 70000
+Shade of Lord Rytheran's Golem | 13 | 430
+Shadow | 22 | 138
+Shadow Child | 22 | 100
+Shadow Cow | 12 | 3420
+Shadow Engineer | 22 | 1675
+Shadow Flyer | 22 | 1100
+Shadow Lieutenant | 22 | 190
+Shadow Nightmare | 22 | 525
+Shadow Phantom | 22 | 450
+Shadow Proctor | 22 | 1800
+Shadow Spectre | 22 | 450
+Shadow Sprite | 22 | 15
+Shadow Vortex | 22 | 40400
+Shadow Wisp | 20 | 120
+Shadow Wraith | 22 | 500
+Shadow's Breath | 22 | 1828
+Shadow-touched Virindi Paradox | 19 | 5000
+Shadow-touched Virindi Quidiox | 19 | 5000
+Shadowy Pillar | -1 | -1
+Shady Scarecrow | 49 | 108
+Shallow Rift | 19 | 100
+Shallows Destroyer | 27 | 135
+Shallows Devourer | 27 | 95
+Shallows Gorger | 27 | 2670
+Shallows Lurker | 27 | 68
+Shallows Shark | 27 | 50
+Shallows Shredder | 27 | 2670
+Shallows Slayer | 27 | 70
+Shambling Adherent | 14 | 2500
+Shambling Archivist | 14 | 8000
+Shambling Ruschk Chieftain | 14 | 9195
+Shambling Undead Ruschk | 14 | 625
+Shifty Scarecrow | 49 | 93
+Shivering Crystalline Wisp | 20 | 720
+Shivering Pillar | 47 | 445
+Shivver | 61 | 200
+Shogshuth Moarsman | 98 | 2000
+Shoguth Moarsman | 98 | 2000
+Shore Armoredillo | 17 | 120
+Shroud Cabal Forager | 31 | 175
+Shroud Cabal Forager Captain | 31 | 200
+Shroud Cabal Raider | 31 | 230
+Shroud Cabal Raider Captain | 31 | 400
+Siessa Sclavus | 26 | 360
+Siessa Sclavus Soldier | 26 | 1690
+Silenced Olthoi | 92 | 7780
+Silt Lurker | 16 | 90
+Silver Dragon | 79 | 68200
+Silver Rat | 10 | 90
+Silver Scope Guardian | 99 | 365
+Silver Scope Heavy Scout | 99 | 9975
+Silver Scope Knight | 99 | 808
+Silver Scope Lesser Lord | 99 | 460
+Silver Scope Trooper | 99 | 325
+Silver Tusker | 8 | 425
+Simulacrum Doppelganger | 59 | 3210
+Simulacrum Emulat | 59 | 3330
+Simulacrum Mimic | 59 | 4530
+Simulacrum Shifter | 59 | 26335
+Singed Wretched | 22 | 121350
+Singular Virindi Director | 19 | 145
+Sinister Shadow | 22 | 625
+Sir Bellas | 83 | 12000
+Sir Galen | 83 | 62000
+Sirrocco | 62 | 550
+Sishalti Eye Stalk | 36 | 480
+Sishalti Tendril | 36 | 440
+Sishalti Tentacle | 36 | 450
+Skeletal Champion | 30 | 350
+Skeletal Hero | 30 | 380
+Skeletal Mate | 30 | 425
+Skeleton | 30 | 45
+Skeleton Bone Knight | 30 | 223
+Skeleton Bone Lord | 30 | 230
+Skeleton Captain | 30 | 100
+Skeleton Lord | 30 | 143
+Skeleton Warrior | 30 | 73
+Skeleton Wraith | 30 | 143
+Slimy Badass Bones | 30 | 42275
+Slithayr Eye Stalk | 36 | 210
+Slithayr Tendril | 36 | 180
+Slithayr Tentacle | 36 | 140
+Slithis Eye Stalk | 36 | 150
+Slithis Tendril | 36 | 100
+Slithis Tentacle | 36 | 100
+Small Coral Golem | 13 | 560
+Small Crackle | 88 | 15500
+Small Fledgling Mukkir | 89 | 88
+Small Magma Golem | 13 | 540
+Small Sand Golem | 13 | 600
+Small Sandstone Golem | 13 | 575
+Small Shadow Child | 22 | 30
+Snow Tusker | 8 | 5000
+Snow Tusker Leader | 8 | 5500
+Snow Tusker Warrior | 8 | 5250
+Snow Tuskie | 8 | 2325
+Snowman | 39 | 50
+Snowy Mattekar | 23 | 68
+Snowy Mattie | 23 | 38
+Sodden Cadaver | 14 | 6130
+Sodden Undead Ruschk | 14 | 630
+Soiled Doll | 53 | 900
+Soldier | 31 | 1500
+Sorrow Wisp | 20 | 20125
+Sotiris Hollow Minion | 48 | 130
+Soul Hunter | 14 | 450
+South Armory Captain | 77 | 20250
+Southern Black Claw Raider | 3 | 160
+Spark | 42 | 55
+Sparkling Dual Fragment | 47 | 380
+Sparring Golem | 13 | 35
+Spawn | 98 | 500
+Spawn Watcher | 98 | 2000
+Spawnling | 98 | 400
+Specter | 77 | 295
+Spectral Archer | 77 | 2200
+Spectral Blade Adept | 77 | 2675
+Spectral Blade Master | 77 | 2975
+Spectral Bloodmage | 77 | 5200
+Spectral Bushi | 77 | 2850
+Spectral Claw Adept | 77 | 2675
+Spectral Claw Master | 77 | 2975
+Spectral Divinity | 77 | 500200
+Spectral Dread | 77 | 20250
+Spectral Handmaiden | 77 | 490
+Spectral Minion | 77 | 2500
+Spectral Nanjou Shou-jen | 77 | 3175
+Spectral Samurai | 77 | 3750
+Spectral Voidmage | 77 | 5200
+Spectral Wisp | 20 | 390
+Spiked Grievver | 44 | 185
+Spikey Armoredillo | 17 | 38
+Spiny Armoredillo | 17 | 45
+Spiny Chittick | 33 | 45
+Spirit | 77 | 220
+Spirit Wisp | 20 | 2125
+Stalking Margul | 71 | 800
+Stasis | 62 | 19800
+Stasis Wisp | 20 | 225
+Static | 42 | 20
+Static Crystal | 13 | 6555985
+Stinging Armoredillo | 17 | 52390
+Stinging Chittick | 33 | 300
+Stockpile Guardian | 99 | 808
+Stomper | 8 | 500
+Stone Fists | 13 | 5000
+Stony Armoredillo | 17 | 100
+Stony Armoredillo Pup | 17 | 50
+Storage Crate | -1 | -1
+Stormin' Norman | 31 | 900000000
+Strand Champion | 56 | 725
+Strand Siraluun | 56 | 300
+Straw Target Drudge | 76 | 1000
+Strawberry Jam Golem | 91 | 1682225
+Strife | 38 | 20000
+Strife Proctor | 62 | 2000
+Strife Wisp | 20 | 225
+Stringent | 60 | 25
+Subtle Simulacrum | 59 | 154
+Subverted Bronze Gauntlet Knight | 99 | 808
+Subverted Copper Cog Knight | 99 | 808
+Subverted Iron Blade Knight | 99 | 808
+Subverted Silver Scope Knight | 99 | 808
+Sufut Zefir | 29 | 90
+Sulthis Eye Stalk | 36 | 310
+Sulthis Tendril | 36 | 195
+Sulthis Tentacle | 36 | 200
+Summoned Master Archer | 31 | 42625
+Summoned Master Mage | 31 | 42625
+Sun Baked Remoran | 84 | 4041300
+Sun Roasted Remoran | 84 | 169500000
+Suspicious Rock | 76 | 90335
+Suspicious Scarecrow | 49 | 68
+Swamp Gromnie | 15 | 80
+Swamp King | 4 | 300
+Swamp Phyntos Wasp | 9 | 1210
+Swamp Rat | 10 | 80
+Swarm Demon | 1 | 5000
+Swarm Olthoi | 1 | 1201800
+Swarthy Mattekar | 23 | 8000
+Sycophantic Penguin | 80 | 81
+Synnast | 42 | 450
+Tainted Carenzi | 55 | 4000
+Tamed Armoredillo | 17 | 7000
+Tamed Reaper | 16 | 4500
+Tan Rat | 10 | 15
+Tanada Nanjou Shou-jen | 31 | 1400
+Telumiat Hollow Minion | 48 | 450
+Tempest | 62 | 19800
+Tempest Wisp | 20 | 375
+Tendril of T'thuun | 36 | 810
+Tenebrous Guard | 62 | 4130
+Tenebrous Rift | 19 | 900
+Tenebrous Shadow | 22 | 450
+Tenkarrdun Hellfire | 38 | 550
+Tentacle of T'thuun | 36 | 1020
+Terebrous Hollow Minion | 48 | 300
+Terraling | -1 | 25725
+Terrible Monouga | 28 | 355
+Teth Golem | 13 | 15250
+Teth Skeleton | 30 | 9699
+Teth Wasp | 9 | 8200
+The Auditor | 19 | 700
+The Beef | 12 | 99990592
+The Black Breath | 22 | 858
+The Chicken | 69 | 3
+The Crafter | 59 | 845
+The Forgotten One | 14 | 1504500
+The Gatekeeper | 48 | 600
+The Guardian Spirit | 40 | 115
+The Master | 31 | 500000
+The Mist | 20 | 10000700
+The Peppermint Miser | 3 | 295500
+The Pizzanator | 13 | 10001450
+The Sage | 19 | 700
+The True Bael'Zharon, The Hopeslayer | 52 | 966666752
+The Unknown Warrior | 31 | 50225
+Theral | 62 | 500
+Thief | 31 | 220
+Thief of Dreams | 19 | 5135
+Thieving Thrungus | 82 | 15
+Thralled Guruk Spore Seeker | 75 | 1030
+Three Eyed Snowman | 39 | 20000
+Thrungus | 82 | 28
+Thug | 31 | 1975
+Thug Boss | 31 | 2075
+Thunder Chicken | 69 | 200000
+Thunderclasp | 31 | 10000095
+Tiatus Lugian | 5 | 450
+Tiatus Overseer | 5 | 11760
+Tiatus Raider | 70 | 450
+Tiatus Smithy | 5 | 3760
+Tidal Champion | 56 | 425
+Tidal Siraluun | 56 | 65
+Timber Champion | 56 | 620
+Timber Siraluun | 56 | 345
+Tiny | 80 | 38000
+Tiny Tim | 100 | 200245
+Tiofor Ursuin | 46 | 115
+Tiofor Ursuin Cub | 46 | 65
+Titanium Armoredillo | 17 | 5000
+Torment Wisp | 20 | 29325
+Tormented Imperial Consort | 14 | 3000
+Tormented Patriarch | 14 | 600
+Tormented Shadow | 22 | 2380
+Tormenter | 30 | 5000
+Tortured Servant | 14 | 3540
+Tortured Spirit | 77 | 645
+Tower Guardian | 13 | 900000
+Townsperson | 31 | 1500
+Toxic Moar | 86 | 90002000
+Tracking Fireball | 62 | 1080
+Trained Attack Eater | 79 | 30000
+Transcendant Tumerok | 6 | 5000
+Transcendent Tumerok | 6 | 5000
+Tremendous Monouga | 28 | 100000
+True Believer | 4 | 225
+True Hive Harvester | 1 | 1201850
+True Hive Reaper | 1 | 1802100
+True Hive Spineripper | 1 | 2202300
+Truffle Thrungus | 82 | 218
+Trusted Tusker | 8 | 100
+Tsuric | 62 | 570
+Tthuun Pillar | -1 | -1
+Tukora Commander | 5 | 4670
+Tukora Lieutenant | 5 | 4670
+Tukora Sentinel | 5 | 6950
+Tumerok Bruiser | 6 | 95485
+Tumerok Champion | 6 | 365
+Tumerok Champion Renegade | 6 | 450
+Tumerok Commander | 6 | 160
+Tumerok Controller | 6 | 160
+Tumerok Fighter | 6 | 78
+Tumerok Gladiator | 6 | 223
+Tumerok Heel Nipper | 16 | 7010
+Tumerok High Priest | 6 | 325
+Tumerok Invader | 6 | 62004
+Tumerok Lieutenant | 6 | 110
+Tumerok Major | 6 | 300
+Tumerok Officer | 6 | 110
+Tumerok Priest | 6 | 185
+Tumerok Rager | 6 | 2600535
+Tumerok Savage | 6 | 82000
+Tumerok Scout | 6 | 45
+Tumerok Sharpshooter | 6 | 85910
+Tumerok Standard Bearer | 6 | 103
+Tumerok Taskmaster | 6 | 330
+Tumerok Trooper | 6 | 400
+Tumerok War Monger | 6 | 450
+Tumerok Warmonger | 6 | 5485650
+Tumerok Warrior | 6 | 103
+Tumerok Worker | 6 | 48
+Tumerokian Blademaster | 31 | 800000
+Tumerokian Bowmans | 31 | 800
+Tumerokian Shaman | 31 | 823
+Tumertoes | 4 | 90002000
+Tumideon Hollow Minion | 48 | 250
+Tundra Mattekar | 23 | 186
+Tundra Tusker | 8 | 172725
+Tusker Crimsonback | 8 | 110
+Tusker Guard | 8 | 375
+Tusker Heaver | 8 | 3325
+Tusker Kin | 31 | 50
+Tusker Liberator | 8 | 250
+Tusker Menace | 8 | 965
+Tusker Minion | 31 | 90
+Tusker Redeemer | 8 | 200
+Tusker Slave | 8 | 325
+Tusker Slimeback | 8 | 1100000
+Tusker Sycophant | 31 | 225
+Tusker Worshipper | 31 | 170
+Tuskie Gunner | 8 | 200
+Tuskie Launcher | 8 | 150
+Tuskie Thrower | 8 | 80
+Tuskie Tosser | 8 | 40
+Twisted Shadow | 22 | 500
+Two Headed Snowman | 39 | 70
+Tyrant Darkspire Golem | 13 | 3481300
+Uber Penguin | 80 | 4500
+Ulgrim | 19 | 500
+Ulu Sclavus | 26 | 198
+Ulu Sclavus Lord | 26 | 228
+Umbral Mukkir | 89 | 3725
+Umbral Rift | 19 | 1000
+Umbris Elite | 22 | 605
+Umbris Elite Commander | 22 | 12205
+Umbris Shadow | 22 | 420
+Unchained Knight | 83 | 10200
+Unconquered Drudge | 3 | 300
+Undead | 14 | 43
+Undead Captain | 14 | 443
+Undead Cow | 12 | 3420
+Undead Curator | 14 | 53
+Undead Lieutenant | 14 | 655
+Undead Miner | 14 | 63
+Undead Minion | 14 | 450
+Unhappy Snowman | 39 | 28850
+Unruly Monouga | 28 | 355
+Unstable Glacial Golem | 13 | 150
+Unstable Magma Golem | 13 | 150
+Unstable Master Bloodstone Satellite | 47 | 500
+Unstable Rift | 19 | 320
+Untamed Champion | 56 | 960
+Untamed Siraluun | 56 | 450
+Upgraded Wall of Ice | -1 | -1
+Ursuin Rug Alive | 46 | 80
+Ursuin Slasher | 46 | 190
+Ursuin Slasher Cub | 46 | 100
+Ursuin Slicer | 46 | 410
+Utelari | 16 | 360
+Vaeshok | 14 | 7630
+Vapor Golem | 13 | 590
+Vault Mistress Niktari Xsu | 14 | 12000
+Velocifang | -1 | 12200
+Venomous Brier Wasp | 9 | 8200
+Venomous Grievver | 44 | 245
+Verdancy Proctor | 62 | 2000
+Verdant Moar | 86 | 2220
+Verdant Moarsman | 34 | 2000
+Vermilion Thorn Gromnie | 15 | 8200
+Vermilion War Gromnie | 15 | 15200
+Vermis Shreth | -1 | -1
+Very Mad Cow | 12 | 10500
+Veteran Reedshark | 16 | 60
+Viamontian Archer | 31 | 800
+Viamontian Blademaster | 31 | 800000
+Viamontian Commander | 83 | 495
+Viamontian Counselor | 83 | 490
+Viamontian Duelist-Mage | 31 | 823
+Viamontian Executioner | 31 | 900000000
+Viamontian Hand | 83 | 808
+Viamontian Knight | 83 | 468
+Viamontian Lord | 83 | 720
+Viamontian Mage | 83 | 430
+Viamontian Man-at-Arms | 83 | 460
+Viamontian Mercenary | 83 | 360
+Viamontian Tribune | 83 | 680
+Viamontian War Wizard | 83 | 480
+Viamontian Warcaster | 83 | 473
+Vibrant Shadow | 22 | 9675
+Vicious Margul Roamer | 71 | 3470
+Vicious Mukkir | 89 | 3688
+Vicious Remoran Sapper | 84 | 11775
+Vicious Scarecrow | 49 | 289
+Vicky | 31 | 568896
+Vile Mukkir | 89 | 2703
+Vile Scarecrow | 49 | 240
+Villainous Scarecrow | 49 | 310
+Vira al-Quain'ah's Skeleton | 30 | 920
+Vira al-Quain'ah's Spectre | 77 | 870
+Vira al-Quain'ah's Zombie | 14 | 920
+Viridian Mite | 7 | 600250
+Virindi Adjudicator | 19 | 350
+Virindi Archmage of Dream | 19 | 7675
+Virindi Artificer | 19 | 7000
+Virindi Clandestine | 19 | 10075
+Virindi Collector | 19 | 275
+Virindi Consul | 19 | 350
+Virindi Crossbowman | 19 | 200625
+Virindi Desecrator | 19 | 505
+Virindi Director | 19 | 145
+Virindi Dreamslayer | 19 | 12250
+Virindi Executor | 19 | 275
+Virindi Fulguris | 19 | 6375
+Virindi Guardian | 19 | 200625
+Virindi Inquisitor | 19 | 500
+Virindi Master | 19 | 145
+Virindi Monitor | 19 | 1000
+Virindi Observer | 19 | 300
+Virindi Paradox | 19 | 5000
+Virindi Preceptor | 19 | 275
+Virindi Profane | 19 | 500
+Virindi Profatrix | 19 | 500
+Virindi Puppet | 19 | 115
+Virindi Quidiox | 19 | 5000
+Virindi Rival | 19 | 7175
+Virindi Sentry | 19 | 9075
+Virindi Servant | 19 | 125
+Virindi Signat | 19 | 7175
+Virtuous Doll | 53 | 50
+Virulence | 60 | 565
+Virulent Grievver | 44 | 180
+Void | -1 | -1
+Void Knight | 22 | 5000
+Void Lord | 22 | 2000
+Volatile Olthoi Egg | 62 | 750095
+Voltaic Crystalline Wisp | 20 | 720
+Voltaic Pillar | 47 | 445
+Voltarc | 42 | 200
+Voracious Eater | 79 | 495
+Vorous Shreth | 32 | 65
+Vorous Shrethlet | 32 | 40
+Wade Boggs Viamontian Cousin | 31 | 900000000
+Wall | -1 | -1
+Wall of Ice | -1 | -1
+War Armoredillo | 17 | 7000
+War Mattekar | 23 | 700
+War Reaper | 16 | 4500
+Warden of the Falatacot | 51 | 10601950
+Warden of the Haebrous | 51 | 10601950
+Warlock of the Blood | 14 | 950
+Warrior Corthos | 5 | 3225
+Wasteland Rat | 10 | 180
+Water Golem | 13 | 70
+Water Wisp | 20 | 30
+Wave Golem | 13 | 2350
+West Armory Captain | 77 | 20250
+White Mattekar | 23 | 65
+White Mattie | 23 | 35
+White Mouse | 10 | 6
+White Phyntos Wasp | 9 | 200
+White Rat | 10 | 10
+Wight | 14 | 6210
+Wight Blade Sorcerer | 14 | 6175
+Wight Captain | 14 | 18255
+Wight Sage | 14 | 6120
+Wild Monouga | 28 | 130
+Wily Monouga | 28 | 190
+Wind Fury | 101 | 80200
+Winning Idol | 50 | 16639655
+Withered Banderling Hierophant | 2 | 6000
+Withered Banderling Leader | 2 | 15170
+Withered Banderling Paragon | 2 | 10000
+Withered Drudge Seraph | 3 | 5860
+Withered Drudge Seraph Mystic | 3 | 6000
+Withered Raider Justicar | 70 | 10000
+Withered Raider Prefect | 70 | 10000
+Withered Revered Tumerok Shaman | 6 | 5000
+Withered Transcendent Tumerok | 6 | 5000
+Wood Golem | 13 | 80
+Wood Target Drudge | 76 | 10000
+Woodland Ursuin | 46 | 360
+Worm Feast | 14 | 6130
+Wretched | 22 | 5000
+Wretched Child | 22 | 2000
+Wut The | 31 | 800000
+Young Banderling | 2 | 30
+Young Mosswart | 4 | 25
+Young Olthoi | 1 | 40
+Young Olthoi Queen | 1 | 5000
+Zefir Thorn Poisoner | 29 | 6200
+Zefir Thorn Ranger | 29 | 6200
+Zefir Thorn Reaver | 29 | 6200
+Zefir Thorn Stalker | 29 | 6200
+Zerzelikyr | 15 | 200400
+Zharalim | 31 | 220
+Zharalim Assassin | 31 | 250000
+Zippity Zappy | 31 | 8000023
+Zirconium Golem | 13 | 61
+Zofrit Zefir | 29 | 70
+Zombie | 14 | 75
+Zombie Mage | 14 | 1175
+Zrikux | 14 | 14878
+
+[cooldowns]
+# item = its shared cooldown
+Asheron's Benediction = -32766
+Asheron's Lesser Benediction = -32766
+Blackmoor's Favor = -32765
+Copper Medal of Vigor = -32761
+Silver Medal of Vigor = -32761
+Gold Medal of Vigor = -32761
+Pyreal Medal of Vigor = -32761
+Platinum Medal of Vigor = -32761
+Copper Medal of Intellect = -32760
+Silver Medal of Intellect = -32760
+Gold Medal of Intellect = -32760
+Pyreal Medal of Intellect = -32760
+Platinum Medal of Intellect = -32760
+Platinum Horn of Leadership = -32762
+Pyreal Horn of Leadership = -32762
+Gold Horn of Leadership = -32762
+Silver Horn of Leadership = -32762
+Bronze Horn of Leadership = -32762
+Enhanced Health Elixir = -32764
+Enhanced Mana Elixir = -32763
+
+[healkits]
+# kit = bonus, uses (0: unlimited), kind
+Greater Stamina Kit = 1.1,200,2
+Handy Healing Kit = 1,50,1
+Treated Healing Kit = 2,25,1
+Peerless Healing Kit = 1,0,1
+Excellent Healing Kit = 1.5,10,1
+Plentiful Healing Kit = 1.6,100,1
+Gifted Healing Kit = 1,100,1
+Adept Healing Kit = 1,75,1
+Gauntlet Health Kit = 2,150,1
+Eternal Health Kit = 1.6,100,1
+Renegade Herbal Kit = 1,200,1
+Greater Mana Kit = 1.1,200,3
+Medicated Mana Kit = 10,500,3
+Eternal Mana Kit = 1,0,1
+Eternal Stamina Kit = 1,0,1
+Greatest Stamina Kit = 1.1,200,2
+Lesser Mana Kit = 1.6,100,3
+Medicated Stamina Kit = 10,500,2
