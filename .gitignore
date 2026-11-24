@@ -27,4 +27,10 @@ update-settings.sh
 # kept on the PC only: the packaging scripts and the notes for Claude Code
 build-packages.py
 CLAUDE.md
+# the app signing key and its passwords: never published
+*.keystore
+*.jks
+melktank-release.properties
+# the Android build tools for the phone app (MelkTankRemote/android/build-apk.sh)
+android-sdk/
 *.building
