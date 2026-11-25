@@ -75,7 +75,7 @@
   <L lb="6143" v="2" default="Unknown" name="Penthouse Penthouse" seen="639308488480913917" updated="639308488480913919" />
   <L lb="8A02" v="2" default="Unknown" name="Enlightened Facility Hub" seen="639301965656396934" updated="639301965656396934" />
   <L lb="00CE" v="3" default="Unknown" seen="639308675798662612" updated="639308675798662613" />
-  <L lb="00E5" v="3" default="Unknown" name="Tyrant's Quarry" seen="639311474482220468" updated="639311474482222877" />
+  <L lb="00E5" v="3" default="Unknown" name="Tyrant's Quarry" seen="639311477451969733" updated="639311477451971799" />
   <L lb="01C2" v="3" default="Wailing Cells" name="Wailing Cells" seen="639310867629724816" updated="639310867629724818" />
   <L lb="02FA" v="3" default="Unknown" name="7500 QB Lounge" seen="639308488288068938" updated="639308488288068940" />
   <L lb="5649" v="3" default="Unknown" name="Chamber of Idols" seen="639308677292078678" updated="639308677292080776" />
@@ -83,5 +83,5 @@
   <L lb="6444" v="3" default="Unknown" name="Daily Dungeons (Seat of Knorr)" seen="639301755472467306" updated="639301755472467306" />
   <L lb="614B" v="4" default="Unknown" name="Dusty Hovel" seen="639301757738949756" updated="639301757782180018" />
   <L lb="012F" v="5" default="Unknown" name="Halls of Introduction" seen="639304866600024249" updated="639304866600024253" />
-  <L lb="F25B" v="12" default="Unknown" seen="639310445351185537" updated="639310445351185574" />
+  <L lb="F25B" v="12" default="Unknown" seen="639311763346907747" updated="639311763346908583" />
 </Locations>

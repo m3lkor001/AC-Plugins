@@ -2587,6 +2587,9 @@
     <start k="spell" n="Lifestone Recall" e="33.59831,56.78439" t="639308902510842970" />
     <start k="cmd" n="/hr" e="-102.14993,-8.81667" el="29696" in="-" t="639308958242131530" />
   </char>
+  <char key="127.0.0.1-Adventurer">
+    <start k="cmd" n="/ls" e="42.10278,33.5986" t="639304482859983577" />
+  </char>
   <char key="InfiniteLeaftide-Melka Summoner">
     <start k="spell" n="Lifestone Recall" e="33.59831,56.78439" t="639300421824097012" />
     <start k="spell" n="Lifestone Sending" e="-29.03695,91.66072" t="639300421988618740" />
@@ -2596,8 +2599,5 @@
     <start k="cmd" n="/ls" e="-29.03455,91.6632" t="639309704679693001" />
     <start k="spell" n="Primary Portal Recall" e="-16.5721,-35.31268" el="21355" t="639309929287597128" />
     <start k="spell" n="Secondary Portal Recall" e="30.51714,-40.69365" t="639309930148047343" />
-  </char>
-  <char key="127.0.0.1-Adventurer">
-    <start k="cmd" n="/ls" e="42.10278,33.5986" t="639304482859983577" />
   </char>
 </MQT_Travel>
