@@ -73480,4 +73480,35 @@ L|1|•|⟦UniversalQuiverBow⟧
 L|1|•|⟦UniversalQuiverAtlatl⟧
 L|1|•|⟦UniversalQuiverArrow⟧</Wiki>
     </Quest>
+    <Quest name="Holtburg Scavenger Hunt" link="" startTown="Holtburg" questGiver="Wren the Falconer" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" needsReview="false">
+        <Flag>HoltburgScavengerHuntStarted</Flag>
+        <Flag>GiftfromtheShadows</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Wren the Falconer»
+I|Starts At|«Holtburg»
+I|Repeat|20 Hours
+I|QB|1
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Wren the Falconer».
+Read book to see where to look for 5 items.  Once found return to her for 8 Tokens of Favor.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R| Tokens of Favor
+RI|Token of Favor x8
+RE
+
+H2|Dialog
+P|
+
+H2|QB Stamps
+L|1|•|⟦HoltburgScavengerHuntStarted⟧
+L|1|•|⟦GiftfromtheShadows⟧</Wiki>
+    </Quest>
 </QuestDatabase>

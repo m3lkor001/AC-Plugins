@@ -1599,4 +1599,7 @@
     <Flag name="UniversalQuiverCrossbow" firstSeen="2026-11-22T19:41:52.4253854-08:00" />
     <Flag name="UniversalQuiverDart" firstSeen="2026-11-22T19:41:52.4253857-08:00" />
     <Flag name="UniversalQuiverQuarrel" firstSeen="2026-11-22T19:41:52.4253863-08:00" />
+    <Flag name="Dynamic_1_CaSb" firstSeen="2026-11-25T05:21:31.5331243-08:00" />
+    <Flag name="GiftfromtheShadows" firstSeen="2026-11-25T05:21:31.5331317-08:00" />
+    <Flag name="HoltburgScavengerHuntStarted" firstSeen="2026-11-25T05:21:31.5331393-08:00" />
 </MQT_NewFlags>

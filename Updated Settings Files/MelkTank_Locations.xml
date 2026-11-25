@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Locations note="MelkTank dungeon names (Nav tab &gt; Locations). name = yours, default = learned / built in.">
-  <L lb="0007" default="Inner Sanctum" name="Town Network" seen="639310416838704766" updated="639310416838704768" />
+  <L lb="0007" default="Inner Sanctum" name="Town Network" seen="639311801758402043" updated="639311801758402082" />
   <L lb="0031" default="Creepy Canyons" seen="639297615410012666" updated="639297615410012666" />
   <L lb="0070" default="Unknown" name="Harbringers Liar" seen="639297617207682306" updated="639297617224732492" />
   <L lb="009C" default="Kor-Gursha" name="Bur" seen="639300132952527799" updated="639300133451773089" />
@@ -8,7 +8,7 @@
   <L lb="00B8" default="Stronghold" seen="639300139092311129" updated="639300139092311129" />
   <L lb="00CE" default="Unknown" seen="639305268460660647" updated="639305268460660650" />
   <L lb="010A" default="Unknown" name="Black Dominion" seen="639309723818613306" updated="639309723818613307" />
-  <L lb="010D" default="2500 QB Room" name="2500 QB Lounge" seen="639308487961580273" updated="639308487961580275" />
+  <L lb="010D" default="2500 QB Room" name="2500 QB Lounge" seen="639311786957616220" updated="639311786957616221" />
   <L lb="0110" default="Nexus" seen="639301744166404915" updated="639301744166404915" />
   <L lb="0111" default="Unknown" name="AC Storage" seen="639301752168705867" updated="639301752168705867" />
   <L lb="013A" default="Unknown" name="Night Club" seen="639300157727906234" updated="639300157727906234" />
@@ -46,7 +46,7 @@
   <L lb="5756" default="Temple" seen="639301562499092395" updated="639301752728737042" />
   <L lb="5766" default="Nanjou Shou-jen Academy" seen="639290820085363529" updated="639290820085363529" />
   <L lb="596A" default="Fowl Basement" name="Vaulted Dungeons Hub" seen="639301726132794917" updated="639301726132794917" />
-  <L lb="5D47" default="Inner Sanctum" seen="639308489864993736" updated="639308489864993738" />
+  <L lb="5D47" default="Inner Sanctum" seen="639311790888316726" updated="639311790888316727" />
   <L lb="5F44" default="Unknown" name="Tusker King Sending" seen="639300134921008475" updated="639300135286552266" />
   <L lb="6143" default="The QB Penthouse Lounge" name="5000 QB Penthouse" seen="639301725674080240" updated="639301725674080240" />
   <L lb="7400" default="Unknown" name="Mellas Court Appartments" seen="639311467016920642" updated="639311467016921448" />
@@ -70,18 +70,18 @@
   <L lb="01CD" v="2" default="The Trough" seen="639308082267460927" updated="639308082267462995" />
   <L lb="02FA" v="2" default="Unknown" name="7500 QB Lounge" seen="639301753393378896" updated="639301753881350541" />
   <L lb="5748" v="2" default="Unknown" seen="639301924104769204" updated="639301924104769204" />
-  <L lb="5756" v="2" default="Unknown" name="Prestige Palace" seen="639310947453234059" updated="639310947453234097" />
+  <L lb="5756" v="2" default="Unknown" name="Prestige Palace" seen="639311784240386093" updated="639311784240386094" />
   <L lb="5B46" v="2" default="Unknown" seen="639301925355151706" updated="639301925355151706" />
-  <L lb="6143" v="2" default="Unknown" name="Penthouse Penthouse" seen="639308488480913917" updated="639308488480913919" />
+  <L lb="6143" v="2" default="Unknown" name="Penthouse Penthouse" seen="639311789030445809" updated="639311789030445809" />
   <L lb="8A02" v="2" default="Unknown" name="Enlightened Facility Hub" seen="639301965656396934" updated="639301965656396934" />
   <L lb="00CE" v="3" default="Unknown" seen="639308675798662612" updated="639308675798662613" />
-  <L lb="00E5" v="3" default="Unknown" name="Tyrant's Quarry" seen="639311766661685198" updated="639311766661687330" />
+  <L lb="00E5" v="3" default="Unknown" name="Tyrant's Quarry" seen="639311880119100640" updated="639311880119102711" />
   <L lb="01C2" v="3" default="Wailing Cells" name="Wailing Cells" seen="639310867629724816" updated="639310867629724818" />
-  <L lb="02FA" v="3" default="Unknown" name="7500 QB Lounge" seen="639308488288068938" updated="639308488288068940" />
+  <L lb="02FA" v="3" default="Unknown" name="7500 QB Lounge" seen="639311787386743589" updated="639311787386743590" />
   <L lb="5649" v="3" default="Unknown" name="Chamber of Idols" seen="639308677292078678" updated="639308677292080776" />
   <L lb="596A" v="3" default="Unknown" name="Vaulted Dungeon" seen="639310867450801345" updated="639310867450801348" />
   <L lb="6444" v="3" default="Unknown" name="Daily Dungeons (Seat of Knorr)" seen="639301755472467306" updated="639301755472467306" />
   <L lb="614B" v="4" default="Unknown" name="Dusty Hovel" seen="639301757738949756" updated="639301757782180018" />
   <L lb="012F" v="5" default="Unknown" name="Halls of Introduction" seen="639304866600024249" updated="639304866600024253" />
-  <L lb="F25B" v="12" default="Unknown" seen="639311763346907747" updated="639311763346908583" />
+  <L lb="F25B" v="12" default="Unknown" seen="639311783384672918" updated="639311794184413406" />
 </Locations>
