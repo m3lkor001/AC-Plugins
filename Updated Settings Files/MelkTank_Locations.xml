@@ -53,7 +53,7 @@
   <L lb="77E7" default="Frozen Tomb" seen="639301931610916671" updated="639301931610916671" />
   <L lb="7D64" default="Unknown" seen="639304540475239382" updated="639304540475240154" />
   <L lb="7E02" default="The Shadows" seen="639296804847162690" updated="639296804847162690" />
-  <L lb="7F03" default="Unknown" seen="639304860883896407" updated="639304860883896410" />
+  <L lb="7F03" default="Unknown" seen="639311450062904140" updated="639311450062904144" />
   <L lb="8602" default="Unknown" name="Tutorial Dungeon" seen="639304183279426063" updated="639304183279428101" />
   <L lb="8A02" default="Facility Hub" seen="639309698956333711" updated="639309698956333712" />
   <L lb="8A04" default="Disco Inferno" seen="639301952790523466" updated="639301952790523466" />
@@ -75,7 +75,7 @@
   <L lb="6143" v="2" default="Unknown" name="Penthouse Penthouse" seen="639308488480913917" updated="639308488480913919" />
   <L lb="8A02" v="2" default="Unknown" name="Enlightened Facility Hub" seen="639301965656396934" updated="639301965656396934" />
   <L lb="00CE" v="3" default="Unknown" seen="639308675798662612" updated="639308675798662613" />
-  <L lb="00E5" v="3" default="Unknown" name="Tyrant's Quarry" seen="639311201036704044" updated="639311201036707486" />
+  <L lb="00E5" v="3" default="Unknown" name="Tyrant's Quarry" seen="639311453344125483" updated="639311453344127056" />
   <L lb="01C2" v="3" default="Wailing Cells" name="Wailing Cells" seen="639310867629724816" updated="639310867629724818" />
   <L lb="02FA" v="3" default="Unknown" name="7500 QB Lounge" seen="639308488288068938" updated="639308488288068940" />
   <L lb="5649" v="3" default="Unknown" name="Chamber of Idols" seen="639308677292078678" updated="639308677292080776" />

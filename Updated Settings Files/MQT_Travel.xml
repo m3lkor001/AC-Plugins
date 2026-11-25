@@ -504,7 +504,7 @@
   <portal n="Bellig Tower Base" a="-100.64172,8.53334" al="35330" c="8A02019A" t="639304870599616064" />
   <portal n="Castle of Baron Nuvillus" a="-100.68343,8.49261" al="35330" e="-24.51352,76.7466" c="8A020193" t="639309645154065530" />
   <portal n="Dryreach" a="-100.64167,8.45" al="35330" c="8A020184" t="639304870599616876" />
-  <portal n="Central Courtyard" a="-99.71667,-0.05833" al="32515" c="7F030273" t="639305129693046232" />
+  <portal n="Central Courtyard" a="-99.71667,-0.05833" al="32515" e="-99.775,-0.14167" el="32515" c="7F030273" t="639311737285698923" />
   <portal n="Outer Courtyard" a="-99.8,0.025" al="32515" e="-100.1375,0.14583" el="32515" c="7F030331" t="639305135153706797" />
   <portal n="Exit to Shoushi" a="-100.17298,0.311" al="32515" c="7F030169" in="-" t="639305135136609312" />
   <portal n="Tanada House of Pancakes" a="-33.24358,73.06847" in="-" t="639305149076128072" />
@@ -2569,9 +2569,6 @@
   <char key="ACGodot-Adventurer">
     <start k="spell" n="Portal Recall" e="43.51711,36.08328" t="639303971622243875" />
   </char>
-  <char key="127.0.0.1-Adventurer">
-    <start k="cmd" n="/ls" e="42.10278,33.5986" t="639304482859983577" />
-  </char>
   <char key="127.0.0.1-Melka Testers" />
   <char key="InfiniteLeaftide-Melkas Wrath">
     <start k="spell" n="Portal Recall" e="-64.59269,-101.06717" el="303" t="639305154595489065" />
@@ -2599,5 +2596,8 @@
     <start k="cmd" n="/ls" e="-29.03455,91.6632" t="639309704679693001" />
     <start k="spell" n="Primary Portal Recall" e="-16.5721,-35.31268" el="21355" t="639309929287597128" />
     <start k="spell" n="Secondary Portal Recall" e="30.51714,-40.69365" t="639309930148047343" />
+  </char>
+  <char key="127.0.0.1-Adventurer">
+    <start k="cmd" n="/ls" e="42.10278,33.5986" t="639304482859983577" />
   </char>
 </MQT_Travel>
