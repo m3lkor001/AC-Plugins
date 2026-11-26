@@ -798,6 +798,10 @@
   <portal n="Qalaba'r Meeting Hall Portal" a="-74.20003,19.00037" c="97220162" t="639312660645197649" />
   <portal n="Cataracts of Sabella" a="75.89979,-61.33774" e="82.1,-74.2" in="-" t="639312675647096449" />
   <portal n="Hidden Cavern" a="-37.83986,-65.5137" min="80" in="-" t="639313092631140942" />
+  <portal n="Surface" a="58.77917,-100.81667" al="457" c="01C90231" t="639313120641482115" />
+  <portal n="Vaulted Dungeons" a="58.66831,-100.8703" al="457" c="01C9022E" t="639313120641481916" />
+  <portal n="AC Storage Portal" a="58.40728,-100.81699" al="457" c="01C901E2" t="639313120641481148" />
+  <portal n="Gateway" a="58.79993,-100.6444" al="457" c="01C901F0" t="639313120995603759" />
   <start k="gem" n="Tou Tou Endgame Portal Gem v12" e="-30.41333,94.68579" t="639300277850115401" />
   <start k="gem" n="Vaulted Dungeons Recall Gem" e="-17.23333,-30.66667" el="22890" o="1" t="639310456668194209" />
   <start k="spell" n="Bur Recall" e="22.55833,-101.28333" el="156" t="639300420948807759" />
