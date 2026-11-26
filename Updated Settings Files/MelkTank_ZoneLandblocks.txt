@@ -31,7 +31,7 @@ F45B	toutou12
 F25A	toutou12
 F15A	toutou
 F758	toutou12
-F35A	toutou
+F35A	toutou12
 F45A	toutou
 F258	toutou
 F157	toutou
