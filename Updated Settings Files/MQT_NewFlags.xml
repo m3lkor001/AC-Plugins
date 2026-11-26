@@ -1606,4 +1606,5 @@
     <Flag name="SuviPuzzleAttempt3" firstSeen="2026-11-25T20:47:56.7271210-08:00" />
     <Flag name="SuviPuzzleAttempt4" firstSeen="2026-11-25T20:47:56.7271218-08:00" />
     <Flag name="ReceivedSkullMask" firstSeen="2026-11-25T21:18:53.7203495-08:00" />
+    <Flag name="PetRegistry150" firstSeen="2026-11-26T06:59:14.9685027-08:00" />
 </MQT_NewFlags>

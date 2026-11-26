@@ -790,12 +790,17 @@
   <portal n="Simple Hive Portal" a="46.55036,-76.0227" in="-" t="639309992677968038" />
   <portal n="North Direlands Valley Junction" a="-86.7125,45.01271" in="-" t="639310003869621526" />
   <portal n="Plateau of Agility" a="-82.60059,-9.80952" in="-" t="639312526476377692" />
+  <portal n="K'nath Lair Portal" a="73.00693,32.76022" t="639313015819642308" />
+  <portal n="House Portal" a="72.97912,32.72845" c="A8DA0152" in="-" t="639313015819641379" />
   <portal n="Portal to Town Network" a="-74.33653,19.15957" t="639312660607825970" />
   <portal n="Mammet Foundry Portal" a="-74.2368,19.18214" c="9722015E" t="639312660626789928" />
   <portal n="Atrium Residential Halls Portal" a="-74.08032,19.1649" t="639312660645197458" />
   <portal n="Qalaba'r Meeting Hall Portal" a="-74.20003,19.00037" c="97220162" t="639312660645197649" />
   <portal n="Cataracts of Sabella" a="75.89979,-61.33774" e="82.1,-74.2" in="-" t="639312675647096449" />
   <portal n="Hidden Cavern" a="-37.83986,-65.5137" in="-" t="639312689403299146" />
+  <portal n="AC Storage Portal" a="58.40728,-100.81699" al="457" c="01C901E2" t="639313070357054464" />
+  <portal n="Vaulted Dungeons" a="58.66831,-100.8703" al="457" c="01C9022E" t="639313070357055161" />
+  <portal n="Surface" a="58.77917,-100.81667" al="457" c="01C90231" in="-" t="639313070357055388" />
   <start k="gem" n="Tou Tou Endgame Portal Gem v12" e="-30.41333,94.68579" t="639300277850115401" />
   <start k="gem" n="Vaulted Dungeons Recall Gem" e="-17.23333,-30.66667" el="22890" o="1" t="639310456668194209" />
   <start k="spell" n="Bur Recall" e="22.55833,-101.28333" el="156" t="639300420948807759" />
@@ -2623,10 +2628,11 @@
     <start k="spell" n="Lifestone Recall" e="33.59831,56.78439" t="639300421824097012" />
     <start k="spell" n="Lifestone Sending" e="-29.03695,91.66072" t="639300421988618740" />
     <start k="cmd" n="/hr" e="-102.15833,-8.82507" el="29696" in="-" t="639312665016555990" />
-    <start k="spell" n="Portal Recall" e="-37.05708,-65.95" t="639312689092673271" />
-    <start k="gem" n="Portal Recall Gem" e="-37.05708,-65.95" t="639312689092673290" />
+    <start k="spell" n="Portal Recall" e="-37.05708,-65.95" t="639313070745972981" />
+    <start k="gem" n="Portal Recall Gem" e="-37.05708,-65.95" in="-" t="639313070745973002" />
     <start k="cmd" n="/ls" e="-29.03455,91.6632" t="639309704679693001" />
     <start k="spell" n="Primary Portal Recall" e="-16.5721,-35.31268" el="21355" t="639309929287597128" />
     <start k="spell" n="Secondary Portal Recall" e="30.51714,-40.69365" t="639309930148047343" />
+    <start k="cmd" n="/hom" e="72.87415,32.75309" in="-" t="639313015832737865" />
   </char>
 </MQT_Travel>

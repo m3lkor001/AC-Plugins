@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <QuestDatabase>
-    <Quest name="Dynamic-Quest" link="https://www.leaftidewiki.com/Dynamic_Stamps" startTown="" questGiver="" repeatable="false" repeatNote="" possibleQb="1135" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Hand Parchment to an NPC" needsReview="false">
+    <Quest name="Dynamic-Quest" link="https://www.leaftidewiki.com/Dynamic_Stamps" startTown="" questGiver="" repeatable="false" repeatNote="" possibleQb="1136" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Hand Parchment to an NPC" needsReview="false">
         <Flag>Dynamic_1_0eHSd9aS</Flag>
         <Flag>Dynamic_1_0eHSd9aS_d</Flag>
         <Flag>Dynamic_1_0jBwR</Flag>
@@ -1136,6 +1136,7 @@
         <Flag>Dynamic_1_5#SLvY4ssbs!</Flag>
         <Flag>Dynamic_1_fmedgOb</Flag>
         <Flag>Dynamic_1_XC5B</Flag>
+        <Flag>Dynamic_1_CaSb</Flag>
         <Wiki page="Dynamic Stamps">I|Type|Quest / area
 I|Coordinates|33.6N, 56.8E
 I|QB|1133 stamps
@@ -60477,33 +60478,221 @@ L|1||Completing Kill Task⸩ ⸨Royal Guard tells you, "Well done! That should h
         <Flag>BansheeKillTaskThree</Flag>
         <Flag>BansheeKillTaskTwo</Flag>
     </Quest>
-    <Quest name="T11+ Shadow KT" link="" startTown="T11+ Tou Tou" questGiver="Watch Sergeant Brandel" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Gloom Shadow, Gloom King" needsReview="false">
+    <Quest name="T11+ Shadow KT" link="" startTown="T11+ Tou Tou" questGiver="Watch Sergeant Brandel" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Gloom Shadow, Gloom King" turnInText="That's the way. Every one you cut down buys this outpost another night." needsReview="false">
         <Flag>KillTaskTouTouShadowKind</Flag>
         <Flag>KillTaskTouTouShadowKindCompleted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Watch Sergeant Brandel»
+I|Starts At|«T11+ Tou Tou»
+I|Repeat|20 Hours
+I|Kill Task|Yes
+I|QB|2
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Watch Sergeant Brandel».
+L|1|2.|Kill Gloom Shadow, Gloom King.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨That's the way. Every one you cut down buys this outpost another night.⸩
+
+H2|QB Stamps
+L|1|•|⟦KillTaskTouTouShadowKind⟧
+L|1|•|⟦KillTaskTouTouShadowKindCompleted⟧</Wiki>
     </Quest>
-    <Quest name="T11+ Green Interior KT" link="" startTown="T11+ Tou Tou" questGiver="Watch Scout Maren" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Banderling Overlord, Banderling Marauder, Ursuin Ravager, Ironclaw, Sporeling, The Blighted" needsReview="false">
+    <Quest name="T11+ Green Interior KT" link="" startTown="T11+ Tou Tou" questGiver="Watch Scout Maren" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Banderling Overlord, Banderling Marauder, Ursuin Ravager, Ironclaw, Sporeling, The Blighted" turnInText="The interior's quieter tonight. That's your doing." needsReview="false">
         <Flag>KillTaskTouTouGreenInterior</Flag>
         <Flag>KillTaskTouTouGreenInteriorCompleted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Watch Scout Maren»
+I|Starts At|«T11+ Tou Tou»
+I|Repeat|20 Hours
+I|Kill Task|Yes
+I|QB|2
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Watch Scout Maren».
+L|1|2.|Kill Banderling Overlord, Banderling Marauder, Ursuin Ravager, Ironclaw, Sporeling, The Blighted.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨The interior's quieter tonight. That's your doing.⸩
+
+H2|QB Stamps
+L|1|•|⟦KillTaskTouTouGreenInterior⟧
+L|1|•|⟦KillTaskTouTouGreenInteriorCompleted⟧</Wiki>
     </Quest>
-    <Quest name="T11+ Reef KT" link="" startTown="T11+ Tou-Tou" questGiver="Watch Fisher Nan Su" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Silken Brood, Web Weaver, Reedstalker, Dreadfin, Sleechmaw, Mirekin, Finneas the Foul, Shallows Moarsman" needsReview="false">
+    <Quest name="T11+ Reef KT" link="" startTown="T11+ Tou-Tou" questGiver="Watch Fisher Nan Su" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Silken Brood, Web Weaver, Reedstalker, Dreadfin, Sleechmaw, Mirekin, Finneas the Foul, Shallows Moarsman" turnInText="Ha! Maybe there's a fisher in you yet. The shallows are safer for it." needsReview="false">
         <Flag>KillTaskTouTouReef</Flag>
         <Flag>KillTaskTouTouReefCompleted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Watch Fisher Nan Su»
+I|Starts At|«T11+ Tou-Tou»
+I|Repeat|20 Hours
+I|Kill Task|Yes
+I|QB|2
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Watch Fisher Nan Su».
+L|1|2.|Kill Silken Brood, Web Weaver, Reedstalker, Dreadfin, Sleechmaw, Mirekin, Finneas the Foul, Shallows Moarsman.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨Ha! Maybe there's a fisher in you yet. The shallows are safer for it.⸩
+
+H2|QB Stamps
+L|1|•|⟦KillTaskTouTouReef⟧
+L|1|•|⟦KillTaskTouTouReefCompleted⟧</Wiki>
     </Quest>
-    <Quest name="T11+ Wardens KT" link="" startTown="" questGiver="Watch Mason Derwyn" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Emberguard, Infernal Sovereign, Tidepool Golem, Old Breakwater, Blackstone Tyrant, Obsidian Sentinel" needsReview="false">
+    <Quest name="T11+ Wardens KT" link="" startTown="" questGiver="Watch Mason Derwyn" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Emberguard, Infernal Sovereign, Tidepool Golem, Old Breakwater, Blackstone Tyrant, Obsidian Sentinel" turnInText="Good, clean work. Cart the rubble to the pile - one day it'll be walls again." needsReview="false">
         <Flag>KillTaskTouTouWardens</Flag>
         <Flag>KillTaskTouTouWardensCompleted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Watch Mason Derwyn»
+I|Repeat|20 Hours
+I|Kill Task|Yes
+I|QB|2
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Watch Mason Derwyn».
+L|1|2.|Kill Emberguard, Infernal Sovereign, Tidepool Golem, Old Breakwater, Blackstone Tyrant, Obsidian Sentinel.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨Good, clean work. Cart the rubble to the pile - one day it'll be walls again.⸩
+
+H2|QB Stamps
+L|1|•|⟦KillTaskTouTouWardens⟧
+L|1|•|⟦KillTaskTouTouWardensCompleted⟧</Wiki>
     </Quest>
-    <Quest name="T11+ Risen Dead KT" link="" startTown="T11+ Tou-Tou" questGiver="Watch Gravekeeper Oda Rin" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Gravebound, Eternal Commander" needsReview="false">
+    <Quest name="T11+ Risen Dead KT" link="" startTown="T11+ Tou-Tou" questGiver="Watch Gravekeeper Oda Rin" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Gravebound, Eternal Commander" turnInText="You've given some of them back their rest. I'll remember it, even if they can't." needsReview="false">
         <Flag>KillTaskTouTouRisenDead</Flag>
         <Flag>KillTaskTouTouRisenDeadCompleted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Watch Gravekeeper Oda Rin»
+I|Starts At|«T11+ Tou-Tou»
+I|Repeat|20 Hours
+I|Kill Task|Yes
+I|QB|2
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Watch Gravekeeper Oda Rin».
+L|1|2.|Kill Gravebound, Eternal Commander.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨You've given some of them back their rest. I'll remember it, even if they can't.⸩
+
+H2|QB Stamps
+L|1|•|⟦KillTaskTouTouRisenDead⟧
+L|1|•|⟦KillTaskTouTouRisenDeadCompleted⟧</Wiki>
     </Quest>
-    <Quest name="T11+ Drowned Crew KT" link="" startTown="T11+ Tou-Tou" questGiver="Watch Sergeant Aya Ki" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Cursed Plunderer, Forsaken Master, Dread Miner, Deathless King" needsReview="false">
+    <Quest name="T11+ Drowned Crew KT" link="" startTown="T11+ Tou-Tou" questGiver="Watch Sergeant Aya Ki" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Cursed Plunderer, Forsaken Master, Dread Miner, Deathless King" turnInText="Twenty fewer dead men walking. The beaches breathe easier tonight." needsReview="false">
         <Flag>KillTaskTouTouDrownedCrew</Flag>
         <Flag>KillTaskTouTouDrownedCrewCompleted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Watch Sergeant Aya Ki»
+I|Starts At|«T11+ Tou-Tou»
+I|Repeat|20 Hours
+I|Kill Task|Yes
+I|QB|2
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Watch Sergeant Aya Ki».
+L|1|2.|Kill Cursed Plunderer, Forsaken Master, Dread Miner, Deathless King.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨Twenty fewer dead men walking. The beaches breathe easier tonight.⸩
+
+H2|QB Stamps
+L|1|•|⟦KillTaskTouTouDrownedCrew⟧
+L|1|•|⟦KillTaskTouTouDrownedCrewCompleted⟧</Wiki>
     </Quest>
-    <Quest name="T11+ Chitticks KT" link="" startTown="T11+ Tou-Tou" questGiver="Watch Warden Hama" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Broodguard x15, Hiveborn x1, Hiveborn x15" needsReview="false">
+    <Quest name="T11+ Chitticks KT" link="" startTown="T11+ Tou-Tou" questGiver="Watch Warden Hama" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="Broodguard x15, Hiveborn x1, Hiveborn x15" turnInText="Swarm thinned and the Hiveborn cracked open on the glass. The flows are almost quiet - I had forgotten what that sounds like." needsReview="false">
         <Flag>KillTaskTouTouChitticks</Flag>
         <Flag>KillTaskTouTouSwarmCompleted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Watch Warden Hama»
+I|Starts At|«T11+ Tou-Tou»
+I|Repeat|20 Hours
+I|Kill Task|Yes
+I|QB|2
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Watch Warden Hama».
+L|1|2.|Kill Broodguard x15, Hiveborn x1, Hiveborn x15.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨Swarm thinned and the Hiveborn cracked open on the glass. The flows are almost quiet - I had forgotten what that sounds like.⸩
+
+H2|QB Stamps
+L|1|•|⟦KillTaskTouTouChitticks⟧
+L|1|•|⟦KillTaskTouTouSwarmCompleted⟧</Wiki>
     </Quest>
     <Quest name="T11+ Champions KT" link="" startTown="T11+ Tou-Tou" questGiver="Watch Huntmaster Roan" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="1" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" ktMobs="The Drowned King" needsReview="false">
         <Flag>KillTaskTouTouChampions</Flag>
@@ -61243,29 +61432,185 @@ L|1||Al-Shashqa tells you, "You've done it! I saw the discharge from here! That 
 L|1||You've earned 15,000,000 experience.
 L|1||Al-Shashqa gives you 2 Adventurer's Tokens.</Wiki>
     </Quest>
-    <Quest name="T11+ Xao Fen Plating" link="" startTown="T11+ Island" questGiver="Xao Fen" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Kill shreth for 3 plates" collectItems="Cinderhide Plate x3" needsReview="false">
+    <Quest name="T11+ Xao Fen Plating" link="" startTown="T11+ Island" questGiver="Xao Fen" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Kill shreth for 3 plates" collectItems="Cinderhide Plate x3" turnInText="Three plates of cinderhide - laid right, they overlap like the Tide never learned to. Wear what the island grows." needsReview="false">
         <Flag>TouTouXaoFenPlatingCompleted</Flag>
         <Flag>TouTouXaoFenPlatingStarted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Xao Fen»
+I|Starts At|«T11+ Island»
+I|Repeat|20 Hours
+I|QB|2
+H2|Overview
+P|Kill shreth for 3 plates
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Xao Fen».
+L|1|2.|Collect Cinderhide Plate x3.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨Three plates of cinderhide - laid right, they overlap like the Tide never learned to. Wear what the island grows.⸩
+
+H2|QB Stamps
+L|1|•|⟦TouTouXaoFenPlatingCompleted⟧
+L|1|•|⟦TouTouXaoFenPlatingStarted⟧</Wiki>
     </Quest>
-    <Quest name="T11+ Lo Dai Ou Pearls" link="" startTown="T11+ Island" questGiver="Lo Dai Ou" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Kill reedsharks to collect 3 hearts" collectItems="Black Pearl x3" needsReview="false">
+    <Quest name="T11+ Lo Dai Ou Pearls" link="" startTown="T11+ Island" questGiver="Lo Dai Ou" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Kill reedsharks to collect 3 hearts" collectItems="Black Pearl x3" turnInText="Black as the Tide and twice as honest. In a good setting, even a wrong thing can be made to shine." needsReview="false">
         <Flag>TouTouLoDaiOuPearlsCompleted</Flag>
         <Flag>TouTouLoDaiOuPearlsStarted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Lo Dai Ou»
+I|Starts At|«T11+ Island»
+I|Repeat|20 Hours
+I|QB|2
+H2|Overview
+P|Kill reedsharks to collect 3 hearts
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Lo Dai Ou».
+L|1|2.|Collect Black Pearl x3.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨Black as the Tide and twice as honest. In a good setting, even a wrong thing can be made to shine.⸩
+
+H2|QB Stamps
+L|1|•|⟦TouTouLoDaiOuPearlsCompleted⟧
+L|1|•|⟦TouTouLoDaiOuPearlsStarted⟧</Wiki>
     </Quest>
-    <Quest name="T11+ Rou Beh Heartwood" link="" startTown="T11+ Island" questGiver="Rou Beh" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Kill ursuins to collect 2 Heartwood" collectItems="Grove Heartwood x2" needsReview="false">
+    <Quest name="T11+ Rou Beh Heartwood" link="" startTown="T11+ Island" questGiver="Rou Beh" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Kill ursuins to collect 2 Heartwood" collectItems="Grove Heartwood x2" turnInText="Feel that grain. A stave, an oiled string - and the Tide learns to fear arrows again." needsReview="false">
         <Flag>TouTouRouBehHeartwoodCompleted</Flag>
         <Flag>TouTouRouBehHeartwoodStarted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Rou Beh»
+I|Starts At|«T11+ Island»
+I|Repeat|20 Hours
+I|QB|2
+H2|Overview
+P|Kill ursuins to collect 2 Heartwood
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Rou Beh».
+L|1|2.|Collect Grove Heartwood x2.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨Feel that grain. A stave, an oiled string - and the Tide learns to fear arrows again.⸩
+
+H2|QB Stamps
+L|1|•|⟦TouTouRouBehHeartwoodCompleted⟧
+L|1|•|⟦TouTouRouBehHeartwoodStarted⟧</Wiki>
     </Quest>
-    <Quest name="T11+ Bai Nu Ru Steel" link="" startTown="T11+ Island" questGiver="Bai Nu Ru" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" collectItems="Shadow-Forged Fragment x4" needsReview="false">
+    <Quest name="T11+ Bai Nu Ru Steel" link="" startTown="T11+ Island" questGiver="Bai Nu Ru" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" collectItems="Shadow-Forged Fragment x4" turnInText="Wrong-worked steel can be worked right again. A hilt takes shape already - my forge remembers, even if my hands are smoke." needsReview="false">
         <Flag>TouTouBaiNuRuSteelCompleted</Flag>
         <Flag>TouTouBaiNuRuSteelStarted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Bai Nu Ru»
+I|Starts At|«T11+ Island»
+I|Repeat|20 Hours
+I|QB|2
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Bai Nu Ru».
+L|1|2.|Collect Shadow-Forged Fragment x4.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨Wrong-worked steel can be worked right again. A hilt takes shape already - my forge remembers, even if my hands are smoke.⸩
+
+H2|QB Stamps
+L|1|•|⟦TouTouBaiNuRuSteelCompleted⟧
+L|1|•|⟦TouTouBaiNuRuSteelStarted⟧</Wiki>
     </Quest>
-    <Quest name="T11+ Rili Sou Remedy" link="" startTown="T11+ Island" questGiver="Rili Sou" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Kill for 3 icho, kill 3 fungus for 3 spores." collectItems="Moarsman Ichor x3,  Marsh-Root x3" needsReview="false">
+    <Quest name="T11+ Rili Sou Remedy" link="" startTown="T11+ Island" questGiver="Rili Sou" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Kill for 3 icho, kill 3 fungus for 3 spores." collectItems="Moarsman Ichor x3,  Marsh-Root x3" turnInText="Root to draw, ichor to bind. The remedy will not cure the Tide - but it will keep a walker like you on your feet inside it." needsReview="false">
         <Flag>TouTouRiliSouRemedyCompleted</Flag>
         <Flag>TouTouRiliSouRemedyStarted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Rili Sou»
+I|Starts At|«T11+ Island»
+I|Repeat|20 Hours
+I|QB|2
+H2|Overview
+P|Kill for 3 icho, kill 3 fungus for 3 spores.
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Rili Sou».
+L|1|2.|Collect Moarsman Ichor x3,  Marsh-Root x3.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨Root to draw, ichor to bind. The remedy will not cure the Tide - but it will keep a walker like you on your feet inside it.⸩
+
+H2|QB Stamps
+L|1|•|⟦TouTouRiliSouRemedyCompleted⟧
+L|1|•|⟦TouTouRiliSouRemedyStarted⟧</Wiki>
     </Quest>
-    <Quest name="T11+ Mi Chi Cask" link="" startTown="T11+ Island" questGiver="Mi Chi" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Kill the drowned to collect 1 Water-Stained Cask" collectItems="Water-Stained Cask x1" needsReview="false">
+    <Quest name="T11+ Mi Chi Cask" link="" startTown="T11+ Island" questGiver="Mi Chi" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="Kill the drowned to collect 1 Water-Stained Cask" collectItems="Water-Stained Cask x1" turnInText="Ha! Still sloshes. Tonight the dead drink better - and the living get their share too." needsReview="false">
         <Flag>TouTouMiChiCaskCompleted</Flag>
         <Flag>TouTouMiChiCaskStarted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Mi Chi»
+I|Starts At|«T11+ Island»
+I|Repeat|20 Hours
+I|QB|2
+H2|Overview
+P|Kill the drowned to collect 1 Water-Stained Cask
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Mi Chi».
+L|1|2.|Collect Water-Stained Cask x1.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨Ha! Still sloshes. Tonight the dead drink better - and the living get their share too.⸩
+
+H2|QB Stamps
+L|1|•|⟦TouTouMiChiCaskCompleted⟧
+L|1|•|⟦TouTouMiChiCaskStarted⟧</Wiki>
     </Quest>
     <Quest name="2500 QB Chest" link="" startTown="" questGiver="Chest" repeatable="true" repeatNote="20h" cooldownHours="20" possibleQb="1" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" needsReview="false">
         <Flag>2500QBChestofChance</Flag>
@@ -61665,9 +62010,35 @@ TE</Wiki>
         <Flag>TouTouLandfallLantern</Flag>
         <Flag>TouTouLandfallStone</Flag>
     </Quest>
-    <Quest name="T11+ 3 Captains" link="" startTown="T11+ Tou-Tou" questGiver="" repeatable="true" repeatNote="" cooldownHours="100" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" collectItems="Deathless King's Compass x1,Eternal Commander's Dice x1,Forsaken Master's Flask x1" needsReview="false">
+    <Quest name="T11+ 3 Captains" link="" startTown="T11+ Tou-Tou" questGiver="Quartermaster Vasco" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" collectItems="Deathless King's Compass x1,Eternal Commander's Dice x1,Forsaken Master's Flask x1" turnInText="Flask, compass, and dice. Rest easy, you miserable old dogs - the sea can have what is left. You have done this crew a kindness, walker." needsReview="false">
         <Flag>TouTouThreeCaptainsCompleted</Flag>
         <Flag>TouTouThreeCaptainsStarted</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts At|«T11+ Tou-Tou»
+I|Repeat|100 Hours
+I|QB|2
+I|Starts With|«Quartermaster Vasco»
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|
+L|1|2.|Collect Deathless King's Compass x1,Eternal Commander's Dice x1,Forsaken Master's Flask x1.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨Flask, compass, and dice. Rest easy, you miserable old dogs - the sea can have what is left. You have done this crew a kindness, walker.⸩
+
+H2|QB Stamps
+L|1|•|⟦TouTouThreeCaptainsCompleted⟧
+L|1|•|⟦TouTouThreeCaptainsStarted⟧</Wiki>
     </Quest>
     <Quest name="T11+ Embers" link="" startTown="T11+ Tou-Tou" questGiver="" repeatable="false" repeatNote="" possibleQb="8" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" needsReview="false">
         <Flag>TouTouEmbersCompleted</Flag>
@@ -67639,7 +68010,7 @@ P|Radiant Blood Buffing Array cast Incantation of Blade Protection Other on you,
 P|Radiant Blood Buffing Array cast Incantation of Bludgeoning Protection Other on you, surpassing Boon of the Mace Turner
 P|Radiant Blood Buffing Array cast Incantation of Piercing Protection Other on you, surpassing Boon of the Arrow Turner</Wiki>
     </Quest>
-    <Quest name="Burnan al-Tasha" link="https://www.leaftidewiki.com/Burnan_al-Tasha" startTown="" questGiver="" repeatable="false" repeatNote="" possibleQb="50" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="from the wiki (no quest summary box)" needsReview="false">
+    <Quest name="Burnan al-Tasha" link="https://www.leaftidewiki.com/Burnan_al-Tasha" startTown="" questGiver="" repeatable="false" repeatNote="" possibleQb="51" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="from the wiki (no quest summary box)" needsReview="false">
         <Flag>ReceivedArmoredSclavusMaskTeal</Flag>
         <Flag>ReceivedArmoredSclavusMaskGold</Flag>
         <Flag>ReceivedArmoredSclavusMaskBlack</Flag>
@@ -67690,6 +68061,7 @@ P|Radiant Blood Buffing Array cast Incantation of Piercing Protection Other on y
         <Flag>ReceivedUrsuinMask</Flag>
         <Flag>ReceivedWhiteRabbitMask</Flag>
         <Flag>ReceivedZombieMask</Flag>
+        <Flag>ReceivedSkullMask</Flag>
         <Wiki page="Burnan al-Tasha">I|Type|Quest / area
 I|Coordinates|74.3S, 19.1E
 I|QB|50 stamps
@@ -69188,7 +69560,7 @@ RI|«Valley Monougat» (x10)
 RI|«Enlightened_Coin» (x15)
 RE</Wiki>
     </Quest>
-    <Quest name="Prof. Ruggan" link="https://www.leaftidewiki.com/Prof._Ruggan" startTown="" questGiver="" repeatable="false" repeatNote="" possibleQb="196" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="from the wiki (no quest summary box)" needsReview="false">
+    <Quest name="Prof. Ruggan" link="https://www.leaftidewiki.com/Prof._Ruggan" startTown="" questGiver="" repeatable="false" repeatNote="" possibleQb="197" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="from the wiki (no quest summary box)" needsReview="false">
         <Flag>ShinyEssence</Flag>
         <Flag>CapturedEssence</Flag>
         <Flag>CapturedEssenceAcidElemental</Flag>
@@ -69385,6 +69757,7 @@ RE</Wiki>
         <Flag>PetRegistry50</Flag>
         <Flag>PetRegistry75</Flag>
         <Flag>PetRegistry125</Flag>
+        <Flag>PetRegistry150</Flag>
         <Wiki page="Prof. Ruggan">I|Type|NPC
 I|Coordinates|54.7s 73.6e
 I|QB|195 stamps

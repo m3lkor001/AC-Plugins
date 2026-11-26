@@ -2,7 +2,7 @@
 F356	toutou12
 F456	toutou12
 F65B	toutou12
-F85B	toutou
+F85B	toutou12
 F95B	toutou
 F95C	toutou
 F95E	toutou
@@ -19,7 +19,7 @@ F35C	toutou12
 F35B	toutou12
 F259	toutou12
 F857	toutou
-F85A	toutou
+F85A	toutou12
 F858	toutou
 F859	toutou
 F659	toutou12
