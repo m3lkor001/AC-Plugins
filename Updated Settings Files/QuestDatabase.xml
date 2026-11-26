@@ -73918,4 +73918,38 @@ L|1|•|⟦SuviPuzzleAttempt4⟧
 L|1|•|⟦SuviPuzzleAttempt3⟧
 L|1|•|⟦SuviPuzzleAttempt2⟧</Wiki>
     </Quest>
+    <Quest name="Golem Sanctum" link="" startTown="" questGiver="" repeatable="false" repeatNote="" possibleQb="0" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" needsReview="false">
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Repeat|No
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|
+Notes
+This dungeon, along with The Floating City was one of the randomly appearing dungeons that were added to the game. The portal to this dungeon can appear in place of any regular monster spawn in certain areas of Dereth. The portal is a yellow color which differentiates it from most randomly spawning town portals which are green or purple. Normally it is seen in the Northern and Southern regions of Osteth.
+
+Confirmed Sightings:
+
+South of Sawato (near the Battlefield of Ayn Tayan)
+Northeast of the Mite Maze (south Lost Wish Mountain Range)
+Northeast of Khayyaban at 41.9S, 30.2E.
+Near Zaikhal at 13.6N, 1.5W.
+Southwest of Al-Jalima at 2.0N, 0.4W.
+It also contains a portal to The Floating City's Tunnels.
+
+The Imprinting Mote for the Golem Construction quest is also found in this dungeon.
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|
+
+H2|QB Stamps</Wiki>
+    </Quest>
 </QuestDatabase>

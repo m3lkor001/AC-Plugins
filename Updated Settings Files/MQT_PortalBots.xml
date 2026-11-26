@@ -1,5 +1,5 @@
 <MQT_PortalBots>
-  <bot n="Korway" a="-97.02583,-101.625" al="7" z="-6.06" c="00070107" t="639309646114194077">
+  <bot n="Korway" a="-96.60293,-101.62098" al="7" z="0.01" c="00070155" t="639313269359004925">
     <dest w="pk" d="Old Talisman Dungeon for PK Flagging" t="639302015046005798" />
     <dest w="swamp" d="East Direlands Swamp" e="-39.74812,-54.06763" el="-1" g="1" t="639302015046385803" />
     <dest w="land" d="Land Bridge Villas" pn="Land Bridge Villas Portal" e="-87.2,3.4" el="-1" t="639305165123319063" />
