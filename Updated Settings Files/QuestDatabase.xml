@@ -72266,7 +72266,7 @@ L|1|•|Quest Walkthrough «Investigating the Valley of Death Quest»
 H3|«Inebriated Traveler»
 L|1|•|Quest Walk Thru: «Inebriated Traveler»
 
-H3|Jumping Mischief
+H3|«Jumping Mischief»
 P|Test your jumping skills! Start by talking to the «Jumping Greeter» in «Arwic» at 33.6N, 56.8E then access «Mountainside Mischief» for 7 Levels of Jumping Fun!!! 20 Enlightens required!
 L|1|•|Rewards include «Enlightened Coin»s (100 for completing level 1, 200 for completing level 2, etc.), QB at each stage, and a Custom Bracelet «Blessing of Suvi» for completing all 7!
 L|1|•|Each stage has a jumping expert that provides a quick recall back to the start of the stage should you fall...which you will do... a lot.
@@ -73510,5 +73510,39 @@ P|
 H2|QB Stamps
 L|1|•|⟦HoltburgScavengerHuntStarted⟧
 L|1|•|⟦GiftfromtheShadows⟧</Wiki>
+    </Quest>
+    <Quest name="Jumping Mischief" link="" startTown="Arwic" questGiver="Jumping Greeter" repeatable="false" repeatNote="" possibleQb="0" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" needsReview="false">
+        <Flag>SuviPuzzleAttempt4</Flag>
+        <Flag>SuviPuzzleAttempt3</Flag>
+        <Flag>SuviPuzzleAttempt2</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts At|«Arwic»
+I|Repeat|No
+I|Starts With|«Jumping Greeter»
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|
+
+P|Test your jumping skills! Start by talking to the «Jumping Greeter» in «Arwic» at 33.6N, 56.8E then access «Mountainside Mischief» for 7 Levels of Jumping Fun!!! 20 Enlightens required!
+L|1|•|Rewards include «Enlightened Coin»s (100 for completing level 1, 200 for completing level 2, etc.), QB at each stage, and a Custom Bracelet «Blessing of Suvi» for completing all 7!
+L|1|•|Each stage has a jumping expert that provides a quick recall back to the start of the stage should you fall...which you will do... a lot.
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|
+
+H2|QB Stamps
+L|1|•|⟦SuviPuzzleAttempt4⟧
+L|1|•|⟦SuviPuzzleAttempt3⟧
+L|1|•|⟦SuviPuzzleAttempt2⟧</Wiki>
     </Quest>
 </QuestDatabase>

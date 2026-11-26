@@ -342,7 +342,7 @@
   <portal n="Eastham Portal" a="-100.50647,8.90832" al="35330" e="16.8,63.4" c="8A0201F4" in="-" t="639302244367372037" />
   <portal n="Hunter's Leap" a="-100.64167,8.86667" al="35330" e="35.7,33.4" c="8A0201F1" t="639304870599616124" />
   <portal n="Dangerous Cave" a="-100.64161,8.95" al="35330" e="24.2,43.1" c="8A02020B" in="-" t="639304870599616795" />
-  <portal n="Fledgemaster's Camp" a="-100.55828,8.86667" al="35330" e="77.3,-59.8" c="8A0201ED" t="639304870599616186" />
+  <portal n="Fledgemaster's Camp" a="-100.55828,8.86667" al="35330" e="77.4291,-59.79596" c="8A0201ED" t="639312674142383000" />
   <portal n="Banderling Conquest Dungeon" a="-100.51614,8.89692" al="35330" e="-29,50.2" c="8A0201F4" t="639304870599616279" />
   <portal n="Trothyr's Rest" a="-100.68333,8.90833" al="35330" e="13.5,50.6" c="8A020205" t="639304870599616623" />
   <portal n="Mosswart Maze" a="-100.51607,8.92019" al="35330" e="-25.3,19.3" c="8A0201F4" in="-" t="639304870599616430" />
@@ -790,6 +790,12 @@
   <portal n="Simple Hive Portal" a="46.55036,-76.0227" in="-" t="639309992677968038" />
   <portal n="North Direlands Valley Junction" a="-86.7125,45.01271" in="-" t="639310003869621526" />
   <portal n="Plateau of Agility" a="-82.60059,-9.80952" in="-" t="639312526476377692" />
+  <portal n="Portal to Town Network" a="-74.33653,19.15957" t="639312660607825970" />
+  <portal n="Mammet Foundry Portal" a="-74.2368,19.18214" c="9722015E" t="639312660626789928" />
+  <portal n="Atrium Residential Halls Portal" a="-74.08032,19.1649" t="639312660645197458" />
+  <portal n="Qalaba'r Meeting Hall Portal" a="-74.20003,19.00037" c="97220162" t="639312660645197649" />
+  <portal n="Cataracts of Sabella" a="75.89979,-61.33774" e="82.1,-74.2" in="-" t="639312675647096449" />
+  <portal n="Hidden Cavern" a="-37.83986,-65.5137" in="-" t="639312689403299146" />
   <start k="gem" n="Tou Tou Endgame Portal Gem v12" e="-30.41333,94.68579" t="639300277850115401" />
   <start k="gem" n="Vaulted Dungeons Recall Gem" e="-17.23333,-30.66667" el="22890" o="1" t="639310456668194209" />
   <start k="spell" n="Bur Recall" e="22.55833,-101.28333" el="156" t="639300420948807759" />
@@ -823,7 +829,7 @@
   <start k="spell" n="Ulgrim's Recall" e="-59.69742,-87.99996" t="639301985353585595" />
   <start k="spell" n="Gear Knight Invasion Area Camp Recall" e="-12.29014,-74.94372" in="-" t="639302275415726105" />
   <start k="spell" n="Radiant Blood Stronghold Recall" e="12.79716,0.68254" t="639308048013886000" />
-  <start k="gem" n="Portal Recall Gem" e="13.48203,0.72026" t="639309702446566880" />
+  <start k="gem" n="Portal Recall Gem" e="-74.64742,19.55147" in="-" t="639312668974506506" />
   <start k="spell" n="Glenden Wood Recall" e="29.74937,26.45126" t="639309210366718803" />
   <avoid k="Humming Crystal Portal@-64.52442,81.86784" />
   <point n="Virindis Wisdom" ty="Dungeon" c="-66.5,-82.2" />
@@ -2545,6 +2551,17 @@
   <point n="Jump Technician" ty="NPC" c="-82.69,-9.42" auto="1" />
   <point n="Jump Amateur" ty="NPC" c="-82.78,-9.22" auto="1" />
   <point n="Jump Artisan" ty="NPC" c="-82.68,-9.19" auto="1" />
+  <point n="Hun-Gy Collector" ty="NPC" c="-74.3,19.09" auto="1" />
+  <point n="Burnan al-Tasha" ty="NPC" c="-74.33,19.08" auto="1" />
+  <point n="Alnale Urzin" ty="NPC" c="-74.33,19.09" auto="1" />
+  <point n="Yulja Salmu" ty="NPC" c="-74.33,19.1" auto="1" />
+  <point n="Stone Collector" ty="NPC" c="-74.31,19.12" auto="1" />
+  <point n="Agent of the Arcanum" ty="NPC" c="-74.2,19.18" auto="1" />
+  <point n="Master Scrivener of Life Magic" ty="Vendor" c="-74.01,18.98" auto="1" />
+  <point n="Master Scrivener of Item Magic" ty="Vendor" c="-73.99,18.98" auto="1" />
+  <point n="Master Scrivener of Creature Magic" ty="Vendor" c="-74.03,18.99" auto="1" />
+  <point n="Master Scrivener of War Magic" ty="Vendor" c="-74,18.96" auto="1" />
+  <point n="Master Scrivener of Void Magic" ty="Vendor" c="-73.98,18.99" auto="1" />
   <boundary k="tier11+" pts="-33.10378,93.44498;-33.09833,93.33494;-33.10546,93.2752;-33.09536,92.97287;-33.10355,92.90133;-33.10332,92.83536;-33.07158,92.78073;-33.05315,92.7615;-33.0528,92.74958;-33.09754,92.67893;-33.10269,92.63671;-33.09517,92.28528;-33.10245,92.172;-33.09765,92.07896;-33.1051,91.99235;-33.10088,91.91155;-33.10669,91.85976;-33.10126,91.74711;-33.10723,91.7143;-33.09651,91.51711;-33.10314,91.48469;-33.09558,91.34978;-33.0992,91.0183;-33.08009,90.91866;-33.08165,90.87918;-33.07261,90.82575;-33.09112,90.80898;-33.15379,90.77341;-33.1086,90.74757;-33.02792,90.75559;-33.00643,90.75;-32.9778,90.71414;-32.94751,90.7036;-32.90978,90.71049;-32.86421,90.72732;-32.84978,90.74032;-32.84491,90.77659;-32.83165,90.79712;-32.79427,90.81587;-32.70252,90.89749;-32.56773,90.88179;-32.53173,90.90477;-32.49235,90.91492;-32.4544,90.93406;-32.3789,90.90593;-32.29504,90.89509;-32.01299,90.89515;-31.80893,90.90232;-31.78591,90.89714;-31.55767,90.90541;-31.53023,90.89923;-31.29083,90.9027;-31.26192,90.89619;-31.12735,90.90107;-31.10421,90.89586;-30.94905,90.90148;-30.86412,90.89193;-30.75118,90.89603|-33.10145,96.44811;-33.10378,93.44498" t="639300585855428779" />
   <random k="Stabilized Island Portal@-15.69305,95.80537" />
   <random k="Test Portal: A Red Rat Lair@42.09917,33.62209" />
@@ -2605,9 +2622,9 @@
   <char key="InfiniteLeaftide-Melka Summoner">
     <start k="spell" n="Lifestone Recall" e="33.59831,56.78439" t="639300421824097012" />
     <start k="spell" n="Lifestone Sending" e="-29.03695,91.66072" t="639300421988618740" />
-    <start k="cmd" n="/hr" e="102.64167,-8.82507" t="639306551278771252" />
-    <start k="spell" n="Portal Recall" e="-82.77567,-10.22408" t="639312526491764399" />
-    <start k="gem" n="Portal Recall Gem" e="-82.77567,-10.22408" in="-" t="639312526491764486" />
+    <start k="cmd" n="/hr" e="-102.15833,-8.82507" el="29696" in="-" t="639312665016555990" />
+    <start k="spell" n="Portal Recall" e="-37.05708,-65.95" t="639312689092673271" />
+    <start k="gem" n="Portal Recall Gem" e="-37.05708,-65.95" t="639312689092673290" />
     <start k="cmd" n="/ls" e="-29.03455,91.6632" t="639309704679693001" />
     <start k="spell" n="Primary Portal Recall" e="-16.5721,-35.31268" el="21355" t="639309929287597128" />
     <start k="spell" n="Secondary Portal Recall" e="30.51714,-40.69365" t="639309930148047343" />
