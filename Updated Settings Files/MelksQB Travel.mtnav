@@ -1,12 +1,12 @@
 <MelkTankRoute name="MelksQB Travel" mode="0" arrive="2.5" stuck="2" stuckback="2" stuckafter="1">
-  <Step kind="Point" ns="-38.113362630208336" ew="-60.315625000000004" z="44.01843261718749" text="" wait="1000" />
-  <Step kind="Point" ns="-38.150198333333336" ew="-60.35104166666667" z="47.81538402777772" text="" wait="1000" />
-  <Step kind="Point" ns="-38.150198333333336" ew="-60.30729166666667" z="52.30310381944436" text="" wait="1000" />
-  <Step kind="Point" ns="-38.150198333333336" ew="-60.30729166666667" z="52.30310381944436" text="" wait="1000" />
-  <Step kind="Command" ns="0" ew="0" z="0" text="/ub jumpw 57 1000" wait="2500" />
-  <Step kind="Use" ns="-38.14499" ew="-60.29939" z="51.851265359999736" text="Precarious Sojourn Exit Portal" wait="1000" />
-  <Step kind="Point" ns="2.277581666666663" ew="-0.748864999999995" z="88.69869437166577" text="" wait="1000" />
-  <Step kind="Point" ns="2.1850544444444417" ew="-0.6325766666666633" z="67.99031861555574" text="" wait="1000" />
-  <Step kind="Point" ns="2.092527222222221" ew="-0.5162883333333317" z="60.36480062537" text="" wait="1000" />
-  <Step kind="Point" ns="2" ew="-0.4" z="58" text="" wait="1000" />
+  <Step kind="Point" ns="-96.96458333333334" ew="-101.66250000000001" z="0" text="" wait="1000" />
+  <Step kind="Point" ns="-96.99166666666667" ew="-101.675" z="0" text="" wait="1000" />
+  <Step kind="Point" ns="-97.01666666666667" ew="-101.65833333333333" z="0" text="" wait="1000" />
+  <Step kind="Point" ns="-97.03333333333333" ew="-101.675" z="-6" text="" wait="1000" />
+  <Step kind="Point" ns="-97.01875" ew="-101.6375" z="-6" text="" wait="1000" />
+  <Step kind="Point" ns="-97.01875" ew="-101.63541666666667" z="-6" text="" wait="1000" />
+  <Step kind="Point" ns="-97.01813981685342" ew="-101.63394352659621" z="-6" text="" wait="1000" />
+  <Step kind="Command" ns="0" ew="0" z="0" text="mart" wait="2500" />
+  <Step kind="Use" ns="-97.02583312988281" ew="-101.62499876022339" z="-6" text="Forgotten Past" wait="1000" />
+  <Step kind="Point" ns="61.7" ew="49.8" z="449" text="" wait="1000" />
 </MelkTankRoute>
