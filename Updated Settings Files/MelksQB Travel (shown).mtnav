@@ -1,14 +1,9 @@
 <MelkTankRoute name="MelksQB Travel" mode="0" arrive="2.5" stuck="2" stuckback="2" stuckafter="1">
-  <Step kind="Point" ns="20.706323242187494" ew="17.80029296875" z="110" text="" wait="1000" />
-  <Step kind="Point" ns="20.82914699978298" ew="17.901917860243053" z="110" text="" wait="1000" />
-  <Step kind="Point" ns="20.95197075737847" ew="18.003542751736106" z="110" text="" wait="1000" />
-  <Step kind="Point" ns="21.074794514973956" ew="18.10516764322916" z="109.72642900877528" text="" wait="1000" />
-  <Step kind="Point" ns="21.197618272569443" ew="18.20679253472221" z="104.59244791666697" text="" wait="1000" />
-  <Step kind="Point" ns="21.33730107060185" ew="18.29897280092592" z="102.0358702315551" text="" wait="1000" />
-  <Step kind="Point" ns="21.476983868634253" ew="18.391153067129625" z="105.70531874134645" text="" wait="1000" />
-  <Step kind="Point" ns="21.61666666666666" ew="18.483333333333334" z="109.33333333333334" text="" wait="1000" />
-  <Step kind="Point" ns="21.648352301706154" ew="18.54637898839269" z="110.07867769526912" text="" wait="1000" />
-  <Step kind="Command" ns="0" ew="0" z="0" text="/ub jumpw 63 1000" wait="2500" />
-  <Step kind="Point" ns="21.758350562814712" ew="18.765245121842085" z="64.3483367962381" text="" wait="1000" />
-  <Step kind="Point" ns="21.869274139404297" ew="18.985952377319336" z="39.61451721191406" text="" wait="1000" />
+  <Step kind="Point" ns="19.99423014322916" ew="-100.26098416646323" z="6" text="" wait="1000" />
+  <Step kind="Point" ns="20.069230143229163" ew="-100.22765083312989" z="6" text="" wait="1000" />
+  <Step kind="Point" ns="20.079646809895834" ew="-100.1526508331299" z="6" text="" wait="1000" />
+  <Step kind="Point" ns="20.102563476562494" ew="-100.13598416646323" z="6" text="" wait="1000" />
+  <Step kind="Point" ns="20.14839680989583" ew="-100.13598416646323" z="6" text="" wait="1000" />
+  <Step kind="Point" ns="20.15256347656249" ew="-100.12973416646322" z="6" text="" wait="1000" />
+  <Step kind="Point" ns="20.161531448364258" ew="-100.01213073730469" z="6" text="" wait="1000" />
 </MelkTankRoute>

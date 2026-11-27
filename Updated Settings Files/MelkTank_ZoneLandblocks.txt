@@ -5,8 +5,8 @@ F65B	toutou12
 F85B	toutou12
 F95B	toutou
 F95C	toutou
-F95E	toutou
-F85F	toutou
+F95E	toutou12
+F85F	toutou12
 F559	toutou12
 5649	chamberofidols
 F557	toutou12
@@ -57,3 +57,6 @@ F15B	toutou12
 F45D	toutou12
 00E5	tyrantsquarry
 F75F	toutou12
+F85C	toutou12
+F95F	toutou12
+F95D	toutou12
