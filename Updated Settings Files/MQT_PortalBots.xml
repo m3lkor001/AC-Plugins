@@ -1,5 +1,5 @@
 <MQT_PortalBots>
-  <bot n="Korway" a="-96.60293,-101.62098" al="7" z="0.01" c="00070155" t="639313269359004925">
+  <bot n="Korway" a="-96.60293,-101.62098" al="7" z="0.01" c="00070155" t="639313380079857365">
     <dest w="pk" d="Old Talisman Dungeon for PK Flagging" t="639302015046005798" />
     <dest w="swamp" d="East Direlands Swamp" e="-39.74812,-54.06763" el="-1" g="1" t="639302015046385803" />
     <dest w="land" d="Land Bridge Villas" pn="Land Bridge Villas Portal" e="-87.2,3.4" el="-1" t="639305165123319063" />
@@ -12,7 +12,7 @@
     <dest w="bur" d="Servitor of Bur" t="639302015048415828" />
     <dest w="ryn" d="Rynthid Platforms Base" t="639302015048655831" />
     <dest w="bandit" d="Elemental Caverns" e="-82.6,-47.5" el="-1" g="1" t="639302015048895834" />
-    <dest w="sojourn" d="Precarious Sojourn" e="-38.1,-60.3" el="-1" g="1" t="639302015049135837" />
+    <dest w="sojourn" d="Precarious Sojourn" pn="Precarious Sojourn Portal" e="-38.12482,-60.30013" el="-1" t="639313388416826203" />
     <dest w="lady" d="Relic town on Aerlinthe Island" t="639302015049385840" />
     <dest w="frozen" d="Frozen Death" e="-96.60628,-101.62584" el="7" g="1" t="639302015049695844" />
     <dest w="mart" d="Forgotten Past" e="61.7,49.8" el="-1" g="1" t="639302015049915846" />
@@ -21,7 +21,7 @@
     <dest w="invest" d="Covetous Fiun Mine" e="-96.60656,-101.62873" el="7" g="1" t="639302015050645855" />
     <dest w="quidring" d="Western Power Forge" e="-21.9,-43.8" el="-1" g="1" t="639302015050885858" />
     <dest w="quidteeth" d="Venemous Nidus" t="639302015051135861" />
-    <dest w="elysa" d="Asuger Temple" e="45.1,30.4" el="-1" g="1" t="639302015051365864" />
+    <dest w="elysa" d="Asuger Temple" pn="Asuger Temple Portal" e="44.95197,30.42758" el="-1" t="639313388416824132" />
     <dest w="nexus" d="Nexus" pn="Nexus Portal" e="-40.16042,-79.13833" el="-1" t="639305165123321376" />
     <dest w="haven" d="Frost Haven" e="-68.6,25.4" el="-1" g="1" t="639302015051775869" />
     <dest w="lr1" d="Eaves of Tiofor Settlement for Lost Relics" t="639302015051995872" />
