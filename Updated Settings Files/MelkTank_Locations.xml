@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Locations note="MelkTank dungeon names (Nav tab &gt; Locations). name = yours, default = learned / built in.">
-  <L lb="0007" default="Inner Sanctum" name="Town Network" seen="639314015155762402" updated="639314015155762405" />
+  <L lb="0007" default="Inner Sanctum" name="Town Network" seen="639314114652138878" updated="639314114652138879" />
   <L lb="002C" default="Forgotten Chasm" seen="639314003270041448" updated="639314003270041450" />
   <L lb="0031" default="Creepy Canyons" seen="639297615410012666" updated="639297615410012666" />
   <L lb="0070" default="Unknown" name="Harbringers Liar" seen="639297617207682306" updated="639297617224732492" />
@@ -45,6 +45,7 @@
   <L lb="02F3" default="Halls of Metos" seen="639296906434258084" updated="639296906434258084" />
   <L lb="02F4" default="Halls of Metos" seen="639290819371484858" updated="639290819371484858" />
   <L lb="02FA" default="7500 QB Nook" seen="639301491643417591" updated="639301753720689974" />
+  <L lb="0C09" default="Unknown" seen="639314107874924220" updated="639314107874924222" />
   <L lb="1134" default="Unknown" seen="639304896225739418" updated="639304896225740043" />
   <L lb="24C0" default="Roots of Skuld, Urd and Verdandi" seen="639300197744496910" updated="639300197744496910" />
   <L lb="3150" default="Unknown" name="Temple of Harvests" seen="639297614178779247" updated="639297614482512554" />
@@ -63,7 +64,7 @@
   <L lb="5E43" default="Unknown" name="Tusker Arena" seen="639313994623472757" updated="639313994623472762" />
   <L lb="5F44" default="Unknown" name="Tusker King Sending" seen="639313994769962164" updated="639313994769962166" />
   <L lb="6143" default="The QB Penthouse Lounge" name="5000 QB Penthouse" seen="639301725674080240" updated="639301725674080240" />
-  <L lb="7400" default="Unknown" name="Mellas Court Appartments" seen="639313953812225408" updated="639313953812225410" />
+  <L lb="7400" default="Unknown" name="Mellas Court Appartments" seen="639314116774776184" updated="639314116774776185" />
   <L lb="77E7" default="Frozen Tomb" seen="639301931610916671" updated="639301931610916671" />
   <L lb="7D64" default="Unknown" seen="639304540475239382" updated="639304540475240154" />
   <L lb="7E02" default="The Shadows" seen="639296804847162690" updated="639296804847162690" />
@@ -94,7 +95,7 @@
   <L lb="6143" v="2" default="Unknown" name="Penthouse Penthouse" seen="639313894033896750" updated="639313894033896751" />
   <L lb="8A02" v="2" default="Unknown" name="Enlightened Facility Hub" seen="639301965656396934" updated="639301965656396934" />
   <L lb="00CE" v="3" default="Unknown" seen="639313174530233509" updated="639313174530233510" />
-  <L lb="00E5" v="3" default="Unknown" name="Tyrant's Quarry" seen="639314039561316258" updated="639314039561318751" />
+  <L lb="00E5" v="3" default="Unknown" name="Tyrant's Quarry" seen="639314056075116476" updated="639314056075118216" />
   <L lb="01C2" v="3" default="Wailing Cells" name="Wailing Cells" seen="639310867629724816" updated="639310867629724818" />
   <L lb="02FA" v="3" default="Unknown" name="7500 QB Lounge" seen="639313893798090650" updated="639313893798090651" />
   <L lb="5649" v="3" default="Unknown" name="Chamber of Idols" seen="639308677292078678" updated="639308677292080776" />

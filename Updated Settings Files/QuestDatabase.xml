@@ -69601,9 +69601,7 @@ RI|«Valley Monougat» (x10)
 RI|«Enlightened_Coin» (x15)
 RE</Wiki>
     </Quest>
-    <Quest name="Prof. Ruggan" link="https://www.leaftidewiki.com/Prof._Ruggan" startTown="" questGiver="" repeatable="false" repeatNote="" possibleQb="197" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="from the wiki (no quest summary box)" needsReview="false">
-        <Flag>ShinyEssence</Flag>
-        <Flag>CapturedEssence</Flag>
+    <Quest name="Prof. Ruggan" link="https://www.leaftidewiki.com/Prof._Ruggan" startTown="" questGiver="" repeatable="false" repeatNote="" possibleQb="195" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="from the wiki (no quest summary box)" needsReview="false">
         <Flag>CapturedEssenceAcidElemental</Flag>
         <Flag>ShinyEssenceAcidElemental</Flag>
         <Flag>ShinyEssenceAerbax</Flag>
@@ -69802,13 +69800,25 @@ RE</Wiki>
         <Wiki page="Prof. Ruggan">I|Type|NPC
 I|Coordinates|54.7s 73.6e
 I|QB|195 stamps
-P|⸨Prof. Ruggan tells you, "Greetings! I am Prof. Ruggan, dedicated to cataloging the creatures of Dereth."⸩ ⸨Prof. Ruggan tells you, "Show me a captured essence and I will add it to your Pet Log. Use /pets to see your collection!"⸩
+P|⸨Prof. Ruggan tells you, "Greetings! I am Prof. Ruggan, dedicated to cataloging the creatures of Dereth."⸩ 
+⸨Prof. Ruggan tells you, "Show me a captured essence and I will add it to your Pet Log. Use /pets to see your collection!"⸩
 
-P|⸨You allow Prof. Ruggan to examine your Siphoned Sir Bellas Essence.⸩ ⸨Prof. Ruggan tells you, "Let me examine this specimen..."⸩ ⸨Prof. Ruggan carefully inspects the creature, making notes in his catalog⸩ ⸨Registered: Sir Bellas! Your Pet Log now has 2 unique species.⸩ ⸨Milestone: 1 pets registered! ⟦PetRegistry1⟧⸩ ⸨Milestone: 5 pets registered! ⟦Petregistry5⟧⸩ ⸨Milestone: 10 pets registered! ⟦Petregistry10⟧⸩ ⸨Milestone: 25 pets registered! ⟦Petregistry25⟧⸩ ⸨Milestone: 50 pets registered! ⟦Petregistry50⟧⸩ ⸨Milestone: 75 pets registered! ⟦Petregistry75⟧⸩ ⸨Milestone: 100 pets registered! ⟦Petregistry100⟧⸩
+P|⸨You allow Prof. Ruggan to examine your Siphoned Sir Bellas Essence.⸩ 
+⸨Prof. Ruggan tells you, "Let me examine this specimen..."⸩ 
+⸨Prof. Ruggan carefully inspects the creature, making notes in his catalog⸩ 
+⸨Registered: Sir Bellas! Your Pet Log now has 2 unique species.⸩ 
+
+P|Milestone: 1 pets registered! ⟦PetRegistry1⟧
+Milestone: 5 pets registered! ⟦Petregistry5⟧
+Milestone: 10 pets registered! ⟦Petregistry10⟧
+Milestone: 25 pets registered! ⟦Petregistry25⟧
+Milestone: 50 pets registered! ⟦Petregistry50⟧
+Milestone: 75 pets registered! ⟦Petregistry75⟧
+Milestone: 100 pets registered! ⟦Petregistry100⟧
 
 P|You will continue to get stamps for every 25 unique pets collected.
 
-P|There is a corresponding ⟦ShinyEssence⟧ to each ⟦CapturedEssence⟧. Currently there are 93 unique stamps.
+P|There is a corresponding ShinyEssence Stamp to each CapturedEssence Stamp. Currently there are 93 unique stamps.
 
 P|A «Resonance Lens» can be used on a target after your first attempt has failed, and gives you a second chance at success.
 
