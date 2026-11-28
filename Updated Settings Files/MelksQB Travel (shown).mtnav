@@ -1,9 +1,8 @@
 <MelkTankRoute name="MelksQB Travel" mode="0" arrive="2.5" stuck="2" stuckback="2" stuckafter="1">
-  <Step kind="Point" ns="19.99423014322916" ew="-100.26098416646323" z="6" text="" wait="1000" />
-  <Step kind="Point" ns="20.069230143229163" ew="-100.22765083312989" z="6" text="" wait="1000" />
-  <Step kind="Point" ns="20.079646809895834" ew="-100.1526508331299" z="6" text="" wait="1000" />
-  <Step kind="Point" ns="20.102563476562494" ew="-100.13598416646323" z="6" text="" wait="1000" />
-  <Step kind="Point" ns="20.14839680989583" ew="-100.13598416646323" z="6" text="" wait="1000" />
-  <Step kind="Point" ns="20.15256347656249" ew="-100.12973416646322" z="6" text="" wait="1000" />
-  <Step kind="Point" ns="20.161531448364258" ew="-100.01213073730469" z="6" text="" wait="1000" />
+  <Step kind="Point" ns="51.31291949357661" ew="-76.49927249140175" z="54" text="" wait="1000" />
+  <Step kind="Point" ns="51.24693273715322" ew="-76.62346360259518" z="54" text="" wait="1000" />
+  <Step kind="Point" ns="51.180945980729845" ew="-76.74765471378859" z="54" text="" wait="1000" />
+  <Step kind="Command" ns="0" ew="0" z="0" text="/ub jumpw 242 1000" wait="2500" />
+  <Step kind="Point" ns="51.11852873688811" ew="-76.86512778399987" z="26" text="" wait="1000" />
+  <Step kind="Point" ns="51.1" ew="-76.9" z="26" text="" wait="1000" />
 </MelkTankRoute>

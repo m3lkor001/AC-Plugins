@@ -60702,7 +60702,7 @@ L|1|•|⟦KillTaskTouTouSwarmCompleted⟧</Wiki>
         <Flag>KillTaskTouTouOverseers</Flag>
         <Flag>KillTaskTouTouSkitters</Flag>
     </Quest>
-    <Quest name="Quest Explorer" link="" startTown="Town Network" questGiver="" repeatable="false" repeatNote="" possibleQb="52" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="true" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" needsReview="false">
+    <Quest name="Quest Explorer" link="" startTown="Town Network" questGiver="" repeatable="false" repeatNote="" possibleQb="53" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="true" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" needsReview="false">
         <Flag>QuestExplorerWeek1</Flag>
         <Flag>QuestExplorerWeek12</Flag>
         <Flag>QuestExplorerWeek16</Flag>
@@ -60720,6 +60720,47 @@ L|1|•|⟦KillTaskTouTouSwarmCompleted⟧</Wiki>
         <Flag>QuestExplorerWeek45</Flag>
         <Flag>QuestExplorerWeek39</Flag>
         <Flag>QuestExplorerWeek41</Flag>
+        <Flag>QuestExplorerWeek48</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts At|«Town Network»
+I|Repeat|No
+I|QB|53
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|
+
+H2|QB Stamps
+L|1|•|⟦QuestExplorerWeek1⟧
+L|1|•|⟦QuestExplorerWeek12⟧
+L|1|•|⟦QuestExplorerWeek16⟧
+L|1|•|⟦QuestExplorerWeek20⟧
+L|1|•|⟦QuestExplorerWeek30⟧
+L|1|•|⟦QuestExplorerWeek32⟧
+L|1|•|⟦QuestExplorerWeek38⟧
+L|1|•|⟦QuestExplorerWeek4⟧
+L|1|•|⟦QuestExplorerWeek46⟧
+L|1|•|⟦QuestExplorerWeek50⟧
+L|1|•|⟦QuestExplorerWeek51⟧
+L|1|•|⟦QuestExplorerWeek6⟧
+L|1|•|⟦QuestExplorerWeek8⟧
+L|1|•|⟦QuestExplorerWeek9⟧
+L|1|•|⟦QuestExplorerWeek45⟧
+L|1|•|⟦QuestExplorerWeek39⟧
+L|1|•|⟦QuestExplorerWeek41⟧
+L|1|•|⟦QuestExplorerWeek48⟧</Wiki>
     </Quest>
     <Quest name="Olthoi Sentinel Kill Task" link="" startTown="" questGiver="" repeatable="true" repeatNote="20hr" cooldownHours="20" possibleQb="3" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" needsReview="false">
         <Flag>OlthoiSentinelKillTask</Flag>
@@ -71840,7 +71881,7 @@ L|1|•|Spawn of 4 Tusgians (2 of each species tusker + lugian)
 L|1|•|~ 2.8 Ancient Yalaini Trinkets / hour
 L|1|•|Combat is most effective with dual wield melee to utilize two different elements (one per hand). (TIP: ensure Repeat Attacks is selected or you won't strike with your off hand, also configure VT to use Low Attack with «Dirty Fighting» specced (this will decrease the Tusgian's Magic Defense and improve the chance to land imperils from jewelry)</Wiki>
     </Quest>
-    <Quest name="Custom Open World QB on Infinite Leaftide" link="https://www.leaftidewiki.com/Custom_Open_World_QB_on_Infinite_Leaftide" startTown="" questGiver="" repeatable="false" repeatNote="" possibleQb="76" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="from the wiki (no quest summary box) - 76 of its 203 stamps weren't in a quest" needsReview="false">
+    <Quest name="Custom Open World QB on Infinite Leaftide" link="https://www.leaftidewiki.com/Custom_Open_World_QB_on_Infinite_Leaftide" startTown="" questGiver="" repeatable="false" repeatNote="" possibleQb="81" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="from the wiki (no quest summary box) - 76 of its 203 stamps weren't in a quest" needsReview="false">
         <Flag>AncientEmpyreanTrinketWrit</Flag>
         <Flag>AncientFalatacotTrinketWrit</Flag>
         <Flag>AntiquatedCompassWrit</Flag>
@@ -71907,6 +71948,11 @@ L|1|•|Combat is most effective with dual wield melee to utilize two different 
         <Flag>ReturnToCandeth</Flag>
         <Flag>SunstoneGauntletsGiven</Flag>
         <Flag>BlackBoulderGiven</Flag>
+        <Flag>ReturnToCandeth!</Flag>
+        <Flag>ObsidianJewelGiven</Flag>
+        <Flag>ObsidianRockTurnIn</Flag>
+        <Flag>ObsidianSphereGiven</Flag>
+        <Flag>YellowJewelGiven</Flag>
         <Wiki page="Custom Open World QB on Infinite Leaftide">I|Type|List / guide
 I|QB|76 stamps
 H2|Disclaimer
@@ -73951,5 +73997,34 @@ H2|Dialog
 P|
 
 H2|QB Stamps</Wiki>
+    </Quest>
+    <Quest name="Shimmering Echo Quest" link="" startTown="Lin" questGiver="Echo Weaver" repeatable="true" repeatNote="" cooldownHours="20" possibleQb="2" lockpickRequired="false" fellowRequired="false" aceRequired="false" hasOptionalQb="false" minLevel="0.0" recLevel="0.0" timeMinutes="0.0" notes="" turnInText="A promise is a promise: here, take this Resonance Lens. Should a rare creature slip through your grasp, this lens may call that chance back for one final try. Treat it kindly - echoes fade quickly." needsReview="false">
+        <Flag>resonance_lens_daily</Flag>
+        <Flag>shimmeringecho_pickup_daily</Flag>
+        <Wiki>I|Level|Any
+I|Type|Solo
+I|Starts With|«Echo Weaver»
+I|Starts At|«Lin»
+I|Repeat|20 Hours
+I|QB|2
+H2|Overview
+P|
+
+H2|Walkthrough &amp; Notes
+L|1|1.|Talk with «Echo Weaver».
+
+H2|Dungeons &amp; Maps
+P|
+
+H2|Rewards
+R|
+RE
+
+H2|Dialog
+P|⸨A promise is a promise: here, take this Resonance Lens. Should a rare creature slip through your grasp, this lens may call that chance back for one final try. Treat it kindly - echoes fade quickly.⸩
+
+H2|QB Stamps
+L|1|•|⟦resonance_lens_daily⟧
+L|1|•|⟦shimmeringecho_pickup_daily⟧</Wiki>
     </Quest>
 </QuestDatabase>

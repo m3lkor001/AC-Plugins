@@ -1,6 +1,6 @@
 <MQT_Travel>
   <portal n="An Olthoi Soldier Nest" a="-100.4822,8.58218" al="35330" e="44.9,-76.3" c="8A020102" t="639304870433614619" />
-  <portal n="Ancient Empyrean Grotto" a="-100.51667,8.575" al="35330" e="52.5,-73.1" c="8A020103" in="-" t="639304870433614684" />
+  <portal n="Ancient Empyrean Grotto" a="-100.51667,8.575" al="35330" e="52.57697,-73.11066" c="8A020103" in="-" t="639314205662447993" />
   <portal n="Crumbling Empyrean Mansion" a="-100.475,8.61667" al="35330" e="46.7,-67.8" c="8A020109" in="-" t="639304870433614778" />
   <portal n="The Dark Lair" a="-100.48221,8.65125" al="35330" e="43.6,-68.4" c="8A020111" t="639304870433614829" />
   <portal n="Abandoned Tumerok Site" a="-100.51667,8.65833" al="35330" e="41.8,-82.2" c="8A020112" t="639304870433614869" />
@@ -53,7 +53,7 @@
   <portal n="Singularity Caul" a="58.79643,-100.66518" al="457" e="-98,-94.7" c="01C901F0" t="639300443496714191" />
   <portal n="Ayan Baqur Portal" a="58.79432,-100.63482" al="457" e="-60.5,-88" c="01C901F0" t="639300443497674201" />
   <portal n="Wai Jhou Portal" a="58.73116,-100.63482" al="457" e="-62.1,-51.5" c="01C901F2" t="639300443501314237" />
-  <portal n="Mid Direlands Portal" a="58.75739,-100.66518" al="457" e="-37.05708,-65.95" c="01C901F1" in="-" t="639308903923857653" />
+  <portal n="Mid Direlands Portal" a="58.75739,-100.66518" al="457" e="-37.05708,-65.95" min="18" c="01C901F1" in="-" t="639314194551072362" />
   <portal n="Vissidal Island" a="58.73539,-100.66518" al="457" e="78.9,58.5" c="01C901F2" in="-" t="639305174124338030" />
   <portal n="Dark Isle" a="58.71422,-100.66518" al="457" e="84.6,58.1" c="01C901F2" t="639305174124337993" />
   <portal n="Withered" a="58.71154,-100.63482" al="457" e="-87.3,-79.6" c="01C901F2" t="639300443505184275" />
@@ -66,7 +66,7 @@
   <portal n="Danby's Outpost" a="-97.01667,-101.58992" al="7" e="23.17125,-29.85208" c="0007016A" t="639308121469922954" />
   <portal n="Fiun Outpost" a="-97.05841,-101.72583" al="7" e="95.875,-56.77083" c="0007012C" t="639308778440941351" />
   <portal n="Base of the Timaru Plateau Portal" a="-97.0852,-101.69992" al="7" e="44.1,-78.5" c="0007013C" t="639300446693595772" />
-  <portal n="Portal to Eastwatch" a="-97.05914,-101.5876" al="7" e="90.2,-43.3" c="0007016B" in="-" t="639304744961214205" />
+  <portal n="Portal to Eastwatch" a="-97.05914,-101.5876" al="7" e="90.34167,-43.25833" c="0007016B" in="-" t="639314289318160029" />
   <portal n="Oolutanga's Refuge" a="-97.08451,-101.6167" al="7" e="2.2,95.4" c="0007015F" in="-" t="639304746806205308" />
   <portal n="Sawato Portal" a="-96.70983,-101.36693" al="7" e="-29.14875,58.91167" c="00070184" in="-" t="639309673690140997" />
   <portal n="Freehold Portal" a="-96.68353,-101.33931" al="7" e="-73.0125,91.99084" c="00070187" in="-" t="639308043207394653" />
@@ -180,16 +180,16 @@
   <portal n="Arwic Mines Portal" a="33.83481,56.82732" in="-" t="639302039108904771" />
   <portal n="Portal to Town Network" a="33.49383,56.77589" e="-96.6,-101.65833" el="7" t="639313319425727129" />
   <portal n="Breach Zero" a="33.68118,56.45936" in="-" t="639302039154914785" />
-  <portal n="Throne of the Tusker King" a="-88.34051,-101.10998" al="273" min="80" c="01110105" t="639313332888872252" />
+  <portal n="Throne of the Tusker King" a="-88.34051,-101.10998" al="273" c="01110105" t="639314224401751678" />
   <portal n="Holtburg Casino VIP Portal" a="-88.43428,-101.09949" al="273" e="40.8,33.5" c="01110109" in="-" t="639302040129555799" />
   <portal n="Snowy Valley Portal" a="-88.35949,-101.09917" al="273" e="85.2,-8.8" c="01110105" t="639302040136785812" />
-  <portal n="Portal to Lighthouse" a="-88.38201,-101.05884" al="273" e="3.9,-73.7" min="18" c="0111010A" t="639313332699599301" />
+  <portal n="Portal to Lighthouse" a="-88.38201,-101.05884" al="273" e="3.9,-73.7" c="0111010A" t="639314224401752123" />
   <portal n="Wicked Wares Portal" a="-88.35815,-101.11823" al="273" e="45.5,37.1" c="01110105" in="-" t="639302040148675832" />
-  <portal n="Asheron's Castle" a="-88.39899,-101.053" al="273" e="21.2,69.1" c="0111010A" in="-" t="639302040153985842" />
-  <portal n="Shendolain Portal" a="-88.38046,-101.15458" al="273" e="69.925,-100.225" el="727" min="60" c="01110100" in="-" t="639313333110597604" />
+  <portal n="Asheron's Castle" a="-88.39899,-101.053" al="273" e="21.25505,69.1875" c="0111010A" in="-" t="639314224495542291" />
+  <portal n="Shendolain Portal" a="-88.38046,-101.15458" al="273" e="69.925,-100.225" el="727" c="01110100" in="-" t="639314224401752185" />
   <portal n="Ulgrim's Island Portal" a="-88.38452,-101.13161" al="273" e="-94.8,-9.7" c="01110100" t="639302040177705883" />
   <portal n="Bandit Castle Portal" a="-88.39885,-101.15747" al="273" e="64.9,49.2" c="01110100" t="639302040183415893" />
-  <portal n="Humming Crystal Portal" a="-88.41848,-101.16026" al="273" e="-2.8,-82.8" c="01110101" in="-" t="639313333004878045" />
+  <portal n="Humming Crystal Portal" a="-88.41848,-101.16026" al="273" e="-2.8,-82.8" c="01110101" in="-" t="639314224418286093" />
   <portal n="Bronze Statue of a Virindi" a="-48.47535,-24.35927" al="24899" c="6143010E" si="v2" t="639302041316308657" />
   <portal n="Access Door" a="-48.3853,-24.2832" al="24899" c="61430120" si="v2" t="639302041329128696" />
   <portal n="7500 QB Nook" a="-48.35744,-24.3086" al="24899" e="-48.33592,-24.29634" el="24899" c="61430100" si="v2" t="639312075332625354" />
@@ -496,7 +496,7 @@
   <portal n="Destroyed Portal to Tou-Tou" a="33.83897,56.41862" t="639304745246305119" />
   <portal n="Destroyed Al-Jalima Portal" a="33.60107,57.17583" t="639304745380490642" />
   <portal n="Destroyed Portal to Sanamar" a="90.28073,-43.20394" t="639304850736151572" />
-  <portal n="Portal to Town Network" a="90.36164,-43.18529" t="639304850736151854" />
+  <portal n="Portal to Town Network" a="90.36164,-43.18529" in="-" t="639304850736151854" />
   <portal n="Sho Roadside" a="-83.52202,47.13008" t="639304857360278396" />
   <portal n="Colossus Foundry Portal" a="-83.32934,47.12585" c="BA170142" t="639304857360278878" />
   <portal n="Portal to Town Network" a="-83.29072,47.05552" in="-" t="639304857401365233" />
@@ -629,7 +629,7 @@
   <portal n="Portal to Town Network" a="44.26278,-43.46401" e="-96.6,-101.65833" el="7" in="-" t="639313964693602437" />
   <portal n="Oriel Residential Halls Portal" a="44.01377,-43.11451" in="-" t="639309239380210577" />
   <portal n="Inner Dungeon" a="43.53439,-43.35919" in="-" t="639309239459957827" />
-  <portal n="Hilltop" a="1.71978,-71.47115" t="639309239736730385" />
+  <portal n="Hilltop" a="1.71978,-71.47115" in="-" t="639309239736730385" />
   <portal n="Destroyed Glenden Wood Portal" a="1.93114,-71.52917" in="-" t="639309239736730834" />
   <portal n="Portal to Town Network" a="1.55287,-71.77113" in="-" t="639309239869596413" />
   <portal n="Colossus Foundry Portal" a="1.59688,-72.05385" c="2581016A" t="639309241462699263" />
@@ -725,7 +725,7 @@
   <portal n="Nan-Zari Portal" a="-30.45671,94.50793" t="639309690560725544" />
   <portal n="Tou-Tou Penninsula Cottages Portal" a="-30.47669,94.50926" t="639309690560725684" />
   <portal n="Tou-Tou Road Villas Portal" a="-30.49195,94.52227" in="-" t="639309690560725835" />
-  <portal n="Time Spiral" a="-19.58095,-2.147" in="-" t="639309692027304533" />
+  <portal n="Time Spiral" a="-19.58095,-2.147" min="126" in="-" t="639314192075536413" />
   <portal n="Arena" a="-18.50527,3.67937" e="78.64167,-99.80833" el="738" t="639309693727831755" />
   <portal n="Arena" a="-17.91268,3.88327" t="639309693550912933" />
   <portal n="Surface Portal" a="78.65923,-99.80833" al="738" c="02E201A3" t="639309693710222298" />
@@ -878,6 +878,19 @@
   <portal n="Olthoi Brood Hive" a="44.22033,66.1758" min="20" t="639313337748872885" />
   <portal n="Destroyed Portal to Hebian-To" a="-35.91235,54.89951" t="639313340351135288" />
   <portal n="Golem Sanctum Portal" a="-40.91897,52.52858" t="639313341503410370" />
+  <portal n="Tiny Hive Portal" a="47.92679,-80.12886" t="639313641707758843" />
+  <portal n="Olthoi Warrior Nest" a="46.96481,-81.21066" t="639313641496140011" />
+  <portal n="Small Hive Portal" a="47.43592,-81.4732" t="639313641447915767" />
+  <portal n="Top of Zabool Tower" a="21.14208,18.47458" t="639313602608648451" />
+  <portal n="Mount Alphus" a="20.755,18.4625" t="639313602608648273" />
+  <portal n="Base of Mt. Alphus" a="19.49208,17.46584" t="639313602337841848" />
+  <portal n="Mt. Alphus Valley" a="19.54125,16.89" t="639313601112759345" />
+  <portal n="Surface" a="67.44167,-100.9" al="468" c="01D40123" in="-" t="639313600408619205" />
+  <portal n="Surface" a="67.60833,-101.06667" al="468" c="01D40100" t="639313600408618803" />
+  <portal n="North Gemm" a="17.25708,15.9675" t="639313600259214475" />
+  <portal n="Bellig Tower" a="17.52283,16.07653" in="-" t="639313600259214318" />
+  <portal n="Bellig Tower Base" a="17.82083,15.99375" e="67.525,-100.98333" el="468" t="639313600424040802" />
+  <portal n="Simple Hive Portal" a="47.44479,-81.30856" t="639313641467271321" />
   <portal n="The Floating City" a="3.1891,1.27828" e="60.40833,-100.30833" el="715" t="639313366479332646" />
   <portal n="The Floating City" a="60.40833,-100.33646" al="715" e="65.04167,-99.93333" el="721" c="02CB0117" in="-" t="639313369960344414" />
   <portal n="Destroyed Portal to Zaikhal" a="60.28333,-100.30833" al="715" c="02CB0119" in="-" t="639313366576922745" />
@@ -896,19 +909,6 @@
   <portal n="Golem Sanctum Portal" a="61.70137,-99.89969" al="717" e="76.96667,-99.05833" el="737" c="02CD0181" in="-" t="639313373322662654" />
   <portal n="Direlands Southeast Shore" a="77.00833,-99.05833" al="737" c="02E1028D" t="639313373307001443" />
   <portal n="The Floating City" a="76.925,-99.05833" al="737" c="02E10295" in="-" t="639313373307001760" />
-  <portal n="Bellig Tower Base" a="17.82083,15.99375" e="67.525,-100.98333" el="468" t="639313600424040802" />
-  <portal n="Bellig Tower" a="17.52283,16.07653" in="-" t="639313600259214318" />
-  <portal n="North Gemm" a="17.25708,15.9675" t="639313600259214475" />
-  <portal n="Surface" a="67.60833,-101.06667" al="468" c="01D40100" t="639313600408618803" />
-  <portal n="Surface" a="67.44167,-100.9" al="468" c="01D40123" in="-" t="639313600408619205" />
-  <portal n="Mt. Alphus Valley" a="19.54125,16.89" t="639313601112759345" />
-  <portal n="Base of Mt. Alphus" a="19.49208,17.46584" t="639313602337841848" />
-  <portal n="Mount Alphus" a="20.755,18.4625" t="639313602608648273" />
-  <portal n="Top of Zabool Tower" a="21.14208,18.47458" t="639313602608648451" />
-  <portal n="Tiny Hive Portal" a="47.92679,-80.12886" t="639313641707758843" />
-  <portal n="Olthoi Warrior Nest" a="46.96481,-81.21066" t="639313641496140011" />
-  <portal n="Simple Hive Portal" a="47.44479,-81.30856" t="639313641467271321" />
-  <portal n="Small Hive Portal" a="47.43592,-81.4732" t="639313641447915767" />
   <portal n="Tiny Hive Portal" a="47.01328,-81.92917" t="639313641384643354" />
   <portal n="Secret Putiputi Place" a="46.25171,-82.05427" t="639313641245630824" />
   <portal n="Tiny Hive Portal" a="44.23729,-81.87305" t="639313640879614832" />
@@ -930,6 +930,38 @@
   <portal n="Mammet Foundry Portal" a="30.9241,56.39875" c="C5A6011B" t="639313929833382551" />
   <portal n="Caerbannog" a="1.90824,41.50057" min="100" in="v1" t="639313955762700929" />
   <portal n="Surface Portal" a="20.04585,-100.04699" al="665" e="2.03833,41.595" c="02990118" t="639313954926711613" />
+  <portal n="Breach Zero" a="91.88704,-99.94964" al="756" c="02F40297" si="v2" t="639314192111220971" />
+  <portal n="Billy's Hideout" a="-36.29624,-71.3302" min="60" in="v2" t="639314195896242567" />
+  <portal n="Viamontian Laboratory" a="39.41118,-75.33273" c="21B0013B" t="639314204730886080" />
+  <portal n="Portal to Town Network" a="39.34259,-75.40541" t="639314204730886323" />
+  <portal n="NightHollow Queen Lair" a="39.42018,-75.34941" in="-" t="639314204730886460" />
+  <portal n="Portal to Hebian-To" a="20.99458,69.30329" c="D6990125" in="-" t="639314224479699799" />
+  <portal n="Ancient Empyrean Grotto" a="52.5729,-73.05478" t="639314205646910844" />
+  <portal n="Simple Hive Portal" a="52.58141,-73.92917" t="639314205796620562" />
+  <portal n="North Fork Dam Hive Portal" a="51.42293,-76.00017" c="20BF0125" t="639314206239923301" />
+  <portal n="New Hive Portal" a="51.78849,-76.32524" t="639314206371143673" />
+  <portal n="Notumah's Haven" a="51.08369,-76.86499" in="v2" t="639314206452170343" />
+  <portal n="Asheron's Sanctum" a="21.17565,69.0918" al="54681" e="21.16956,69.12643" c="D599014C" t="639314226177522315" />
+  <portal n="Portal to Cragstone" a="20.99456,69.09658" al="54681" c="D5990117" t="639314224479701377" />
+  <portal n="Throne of the Tusker King" a="-48.46069,-26.25" al="24131" e="-48.11694,-24.99153" el="24388" c="5E430109" in="-" t="639314279841234569" />
+  <portal n="Idol of Wishes" a="-48.01809,-25.03298" al="24388" e="-47.71667,-25.825" el="24388" c="5F4401A0" t="639314280031948419" />
+  <portal n="Surface" a="-48.01729,-24.95218" al="24388" c="5F4401AA" in="-" t="639314279825840654" />
+  <portal n="Throne of the Tusker King" a="-47.75854,-25.69324" al="24388" c="5F44019A" in="-" t="639314280015219806" />
+  <portal n="Undead Temple" a="90.88522,-43.19012" t="639314289632357958" />
+  <portal n="Blighted Verdant Moarsman Tunnels" a="92.7,-42.35828" t="639314289934930257" />
+  <portal n="Forgotten Chasm" a="94.52643,-39.10026" e="-67.31151,-101.0994" el="44" t="639314291267372876" />
+  <portal n="Surface" a="-67.31047,-101.06922" al="44" c="002C02A2" in="-" t="639314291250043143" />
+  <portal n="Coral Caves" a="90.48742,-42.46187" t="639314304431234789" />
+  <portal n="Destroyed Mayoi Portal" a="-62.37875,-63.10936" in="-" t="639314317886787739" />
+  <portal n="South Gate" a="-65.00708,-63.7875" t="639314318862266957" />
+  <portal n="Destroyed Portal to Zaikhal" a="-64.65064,-64.32917" t="639314319053659543" />
+  <portal n="Destroyed Portal to Hebian-To" a="-64.24513,-64.28641" t="639314319113232917" />
+  <portal n="Destroyed Baishi Portal" a="-63.6327,-64.41861" t="639314319214637360" />
+  <portal n="Singularity Caul" a="-62.72917,-64.13379" t="639314319387786161" />
+  <portal n="Destroyed Eastham Portal" a="-63.87673,-63.92006" t="639314319516143390" />
+  <portal n="Destroyed Mayoi Portal" a="-66.07706,-63.16359" t="639314320374005861" />
+  <portal n="Heartland" a="-65.92732,-63.52917" t="639314320422575445" />
+  <portal n="Singularity Caul" a="-66.07979,-64.1153" t="639314320528992830" />
   <start k="gem" n="Tou Tou Endgame Portal Gem v12" e="-30.41333,94.68579" t="639300277850115401" />
   <start k="gem" n="Vaulted Dungeons Recall Gem" e="-17.23333,-30.66667" el="22890" o="1" t="639310456668194209" />
   <start k="spell" n="Bur Recall" e="22.55833,-101.28333" el="156" t="639300420948807759" />
@@ -938,7 +970,7 @@
   <start k="gem" n="Zerivax Recall Gem" e="-43.91491,-89.01518" t="639300422143390363" />
   <start k="gem" n="Wicked Wares Gem" e="45.59902,37.24148" t="639300422507984174" />
   <start k="gem" n="Valley of Death Encampment Gem" e="-32.98553,-63.51699" t="639300422732326512" />
-  <start k="gem" n="Tusker King Sending Gem" e="-47.77418,-25.40885" t="639300422916978433" />
+  <start k="gem" n="Tusker King Sending Gem" e="-47.77418,-25.40885" el="24388" o="1" in="-" t="639314278982550003" />
   <start k="gem" n="Tou Tou Endgame Portal Gem v11" e="-30.41333,94.68579" t="639300423414223587" />
   <start k="gem" n="Timaru Portal Sending Gem" e="44.05875,-78.33958" t="639300423604915557" />
   <start k="gem" n="Thaelaryn Lassel Recall Gem" e="-15.63084,95.83224" t="639314011796390477" />
@@ -950,7 +982,7 @@
   <start k="gem" n="Marketplace Recall Gem" e="-15.68306,-100.94497" el="364" t="639300425233842270" />
   <start k="gem" n="Igmo's Retreat Recall Gem" e="-96.4004,-6.09249" t="639300425549545487" />
   <start k="gem" n="Hoshino Tent Sending Gem" e="80.70047,-42.96781" t="639300425719257214" />
-  <start k="gem" n="Halls of Introduction Gem" e="-64.60052,-101.0246" el="303" o="1" t="639302042880124560" />
+  <start k="gem" n="Halls of Introduction Gem" e="-64.60052,-101.0246" el="303" t="639314210028523687" />
   <start k="gem" n="Gaerlan's Library Portal Sending Gem" e="-35.59568,-33.02043" t="639300425958709648" />
   <start k="gem" n="Frozen Valley Everlasting Portal Gem" e="83.7757,-4.2732" t="639300426152381614" />
   <start k="gem" n="Enlightened Facility Hub Portal Gem" e="-100.7248,8.69494" el="35330" o="1" in="v2" t="639302222189174554" />
@@ -968,6 +1000,7 @@
   <start k="spell" n="Celestial Hand Stronghold Recall" e="-39.66667,83.6312" in="-" t="639313309124262190" />
   <start k="spell" n="Viridian Rise Great Tree Recall" e="-42.70167,42.84917" t="639313343895941827" />
   <start k="spell" n="Paradox-touched Olthoi Infested Area Recall" e="43.75853,54.94461" t="639313959476103089" />
+  <start k="spell" n="Rynthid Recall" e="-61.57833,-63.20292" t="639314317763066893" />
   <avoid k="Humming Crystal Portal@-64.52442,81.86784" />
   <point n="Virindis Wisdom" ty="Dungeon" c="-66.5,-82.2" />
   <point n="Kinoko quests" ty="Custom" c="-49.3,64.5" />
@@ -2744,6 +2777,112 @@
   <point n="Scared Mossling" ty="NPC" c="-21.13,97.41" auto="1" />
   <point n="Sticky Bog Mud" ty="NPC" c="-21.24,97.38" auto="1" />
   <point n="Sticky Bog Mud" ty="NPC" c="-21.19,97.74" auto="1" />
+  <point n="True Hive Scout" ty="NPC" c="1.31,-71.8" auto="1" />
+  <point n="True Hive Scout" ty="NPC" c="1.58,-71.94" auto="1" />
+  <point n="True Hive Scout" ty="NPC" c="1.42,-71.42" auto="1" />
+  <point n="Town Crier" ty="NPC" c="39.43,-75.38" auto="1" />
+  <point n="Aun Shamone" ty="NPC" c="39.29,-75.63" auto="1" />
+  <point n="Exploration Marker" ty="NPC" c="51.22,-76.26" auto="1" />
+  <point n="Asheron" ty="NPC" c="21.15,69.25" auto="1" />
+  <point n="Emissary of Asheron" ty="NPC" c="21.16,69.24" auto="1" />
+  <point n="The Projection of Theo" ty="NPC" c="21.02,69.21" auto="1" />
+  <point n="Exploration Marker" ty="NPC" c="21.22,69.19" auto="1" />
+  <point n="Weapon Tinkering Warden of Enlightenment" ty="NPC" c="21.21,69.15" auto="1" />
+  <point n="War Magic Warden of Enlightenment" ty="NPC" c="21.15,69.09" auto="1" />
+  <point n="Void Magic Warden of Enlightenment" ty="NPC" c="21.14,69.09" auto="1" />
+  <point n="Two Handed Combat Warden of Enlightenment" ty="NPC" c="21.13,69.09" auto="1" />
+  <point n="Summoning Warden of Enlightenment" ty="NPC" c="21.11,69.09" auto="1" />
+  <point n="Shield Warden of Enlightenment" ty="NPC" c="21.08,69.09" auto="1" />
+  <point n="Run Warden of Enlightenment" ty="NPC" c="21.07,69.09" auto="1" />
+  <point n="Recklessness Warden of Enlightenment" ty="NPC" c="21.05,69.09" auto="1" />
+  <point n="Missile Weapons Warden of Enlightenment" ty="NPC" c="21.04,69.09" auto="1" />
+  <point n="Magic Item Tinkering Warden of Enlightenment" ty="NPC" c="20.99,69.16" auto="1" />
+  <point n="Magic Defense Warden of Enlightenment" ty="NPC" c="20.99,69.17" auto="1" />
+  <point n="Missile Defense Warden of Enlightenment" ty="NPC" c="21.02,69.09" auto="1" />
+  <point n="Melee Defense Warden of Enlightenment" ty="NPC" c="20.99,69.13" auto="1" />
+  <point n="Mana Conversion Warden of Enlightenment" ty="NPC" c="20.99,69.14" auto="1" />
+  <point n="Loyalty Warden of Enlightenment" ty="NPC" c="20.99,69.19" auto="1" />
+  <point n="Lockpick Warden of Enlightenment" ty="NPC" c="20.99,69.2" auto="1" />
+  <point n="Light Weapons Warden of Enlightenment" ty="NPC" c="20.99,69.22" auto="1" />
+  <point n="Life Magic Warden of Enlightenment" ty="NPC" c="20.99,69.23" auto="1" />
+  <point n="Leadership Warden of Enlightenment" ty="NPC" c="20.99,69.25" auto="1" />
+  <point n="Arcane Lore Warden of Enlightenment" ty="NPC" c="21.21,69.24" auto="1" />
+  <point n="Alchemy Warden of Enlightenment" ty="NPC" c="21.21,69.22" auto="1" />
+  <point n="Warden of Raising Self" ty="NPC" c="21.18,69.22" auto="1" />
+  <point n="Sneak Attack Warden of Enlightenment" ty="NPC" c="21.1,69.09" auto="1" />
+  <point n="Warden of Raising Focus" ty="NPC" c="21.18,69.23" auto="1" />
+  <point n="Warden of Raising Quickness" ty="NPC" c="21.18,69.24" auto="1" />
+  <point n="Strange Device" ty="NPC" c="21.24,69.23" auto="1" />
+  <point n="Fianhe" ty="NPC" c="21.06,69.15" auto="1" />
+  <point n="Asheron's Servant" ty="NPC" c="21.21,69.07" auto="1" />
+  <point n="Soulbound Shade of Ferah" ty="NPC" c="21.11,69.26" auto="1" />
+  <point n="Armor Tinkering Warden of Enlightenment" ty="NPC" c="21.21,69.26" auto="1" />
+  <point n="Assess Person Warden of Enlightenment" ty="NPC" c="21.18,69.31" auto="1" />
+  <point n="Item Tinkering Warden of Enlightenment" ty="NPC" c="21.03,69.31" auto="1" />
+  <point n="Jump Warden of Enlightenment" ty="NPC" c="20.99,69.26" auto="1" />
+  <point n="Heavy Weapons Warden of Enlightenment" ty="NPC" c="21.04,69.31" auto="1" />
+  <point n="Item Enchantment Warden of Enlightenment" ty="NPC" c="20.99,69.27" auto="1" />
+  <point n="Healing Warden of Enlightenment" ty="NPC" c="21.06,69.31" auto="1" />
+  <point n="Fletching Warden of Enlightenment" ty="NPC" c="21.07,69.31" auto="1" />
+  <point n="Finesse Weapons Warden of Enlightenment" ty="NPC" c="21.09,69.31" auto="1" />
+  <point n="Dual Wield Warden of Enlightenment" ty="NPC" c="21.1,69.31" auto="1" />
+  <point n="Dirty Fighting Warden of Enlightenment" ty="NPC" c="21.12,69.31" auto="1" />
+  <point n="Cooking Warden of Enlightenment" ty="NPC" c="21.16,69.31" auto="1" />
+  <point n="Assess Creature Warden of Enlightenment" ty="NPC" c="21.21,69.27" auto="1" />
+  <point n="Warden of Raising Coordination" ty="NPC" c="21.18,69.25" auto="1" />
+  <point n="Deception Warden of Enlightenment" ty="NPC" c="21.13,69.31" auto="1" />
+  <point n="Creature Enchantment Warden of Enlightenment" ty="NPC" c="21.15,69.31" auto="1" />
+  <point n="Warden of Raising Endurance" ty="NPC" c="21.18,69.26" auto="1" />
+  <point n="Warden of Raising Strength" ty="NPC" c="21.18,69.27" auto="1" />
+  <point n="Warden of Lowering Self" ty="NPC" c="21.14,69.27" auto="1" />
+  <point n="Warden of Lowering Focus" ty="NPC" c="21.14,69.28" auto="1" />
+  <point n="Warden of Lowering Endurance" ty="NPC" c="21.16,69.29" auto="1" />
+  <point n="Warden of Lowering Strength" ty="NPC" c="21.17,69.29" auto="1" />
+  <point n="Warden of Lowering Quickness" ty="NPC" c="21.14,69.28" auto="1" />
+  <point n="Warden of Lowering Coordination" ty="NPC" c="21.15,69.29" auto="1" />
+  <point n="Beldin the Gem Dealer" ty="Vendor" c="-12.79,46" auto="1" />
+  <point n="Stone of Yanshi" ty="NPC" c="-12.7,46.4" auto="1" />
+  <point n="Emissary of Asheron" ty="NPC" c="-12.69,46.45" auto="1" />
+  <point n="Tunnels to the Harbinger" ty="NPC" c="-12.92,46.46" auto="1" />
+  <point n="Tunnels to the Harbinger" ty="NPC" c="-12.62,46.67" auto="1" />
+  <point n="Fountain" ty="NPC" c="-87.45,-67.01" auto="1" />
+  <point n="Fountain" ty="NPC" c="-87.71,-67.24" auto="1" />
+  <point n="Lugian Prospector" ty="NPC" c="20.7,-73.94" auto="1" />
+  <point n="Glonn, the Overseer" ty="NPC" c="20.62,-73.82" auto="1" />
+  <point n="Lugian Lookout" ty="NPC" c="20.7,-73.67" auto="1" />
+  <point n="Tunlok Weapons Master" ty="Vendor" c="20.66,-73.88" auto="1" />
+  <point n="Ianto" ty="Vendor" c="20.76,-73.7" auto="1" />
+  <point n="Ealdred" ty="NPC" c="20.78,-73.73" auto="1" />
+  <point n="Garbage Barrel" ty="NPC" c="20.66,-73.72" auto="1" />
+  <point n="Sorrel the Dyer" ty="Vendor" c="20.78,-73.71" auto="1" />
+  <point n="Aldous" ty="NPC" c="20.78,-73.7" auto="1" />
+  <point n="Grand Master Scrivener of Creature Magic" ty="Vendor" c="90.19,-42.91" auto="1" />
+  <point n="Grand Master Scrivener of Life Magic" ty="Vendor" c="90.21,-42.91" auto="1" />
+  <point n="Grand Master Scrivener of War Magic" ty="Vendor" c="90.29,-43.31" auto="1" />
+  <point n="Grand Master Scrivener of Item Magic" ty="Vendor" c="90.29,-43.31" auto="1" />
+  <point n="Olthoi Slayer Hunter" ty="NPC" c="90.21,-43.13" auto="1" />
+  <point n="Olthoi Slasher Hunter" ty="NPC" c="90.21,-43.13" auto="1" />
+  <point n="Augmented Swarm Demon Hunter" ty="NPC" c="90.19,-43.13" auto="1" />
+  <point n="Rynthid Defector" ty="NPC" c="-61.61,-63.22" auto="1" />
+  <point n="Straving Escaped Slave" ty="Vendor" c="-61.61,-63.22" auto="1" />
+  <point n="Royal Guard" ty="NPC" c="-61.56,-63.28" auto="1" />
+  <point n="Lohrn" ty="NPC" c="-61.64,-63.29" auto="1" />
+  <point n="Morgethais" ty="NPC" c="-61.63,-63.34" auto="1" />
+  <point n="Aun Ol'tra" ty="NPC" c="-61.56,-63.34" auto="1" />
+  <point n="Sylvanus" ty="NPC" c="-61.56,-63.3" auto="1" />
+  <point n="Rhys" ty="NPC" c="-61.64,-63.32" auto="1" />
+  <point n="Wido" ty="NPC" c="-61.64,-63.3" auto="1" />
+  <point n="Ranulf" ty="NPC" c="-61.56,-63.32" auto="1" />
+  <point n="Marcus" ty="NPC" c="-61.56,-63.29" auto="1" />
+  <point n="Ilte Krongal" ty="NPC" c="-61.6,-63.29" auto="1" />
+  <point n="Virindi Delegate" ty="NPC" c="-61.58,-63.25" auto="1" />
+  <point n="Hernd" ty="NPC" c="-61.64,-63.27" auto="1" />
+  <point n="Tillahan" ty="NPC" c="-61.57,-63.27" auto="1" />
+  <point n="Rinne Gorber" ty="NPC" c="-61.59,-63.33" auto="1" />
+  <point n="Geilla" ty="NPC" c="-61.62,-63.32" auto="1" />
+  <point n="Vision of Horror" ty="NPC" c="-61.63,-63.25" auto="1" />
+  <point n="Raksaa" ty="NPC" c="-61.63,-63.23" auto="1" />
+  <point n="The Bringer of Light" ty="NPC" c="-61.59,-63.24" auto="1" />
   <boundary k="tier11+" pts="-33.10378,93.44498;-33.09833,93.33494;-33.10546,93.2752;-33.09536,92.97287;-33.10355,92.90133;-33.10332,92.83536;-33.07158,92.78073;-33.05315,92.7615;-33.0528,92.74958;-33.09754,92.67893;-33.10269,92.63671;-33.09517,92.28528;-33.10245,92.172;-33.09765,92.07896;-33.1051,91.99235;-33.10088,91.91155;-33.10669,91.85976;-33.10126,91.74711;-33.10723,91.7143;-33.09651,91.51711;-33.10314,91.48469;-33.09558,91.34978;-33.0992,91.0183;-33.08009,90.91866;-33.08165,90.87918;-33.07261,90.82575;-33.09112,90.80898;-33.15379,90.77341;-33.1086,90.74757;-33.02792,90.75559;-33.00643,90.75;-32.9778,90.71414;-32.94751,90.7036;-32.90978,90.71049;-32.86421,90.72732;-32.84978,90.74032;-32.84491,90.77659;-32.83165,90.79712;-32.79427,90.81587;-32.70252,90.89749;-32.56773,90.88179;-32.53173,90.90477;-32.49235,90.91492;-32.4544,90.93406;-32.3789,90.90593;-32.29504,90.89509;-32.01299,90.89515;-31.80893,90.90232;-31.78591,90.89714;-31.55767,90.90541;-31.53023,90.89923;-31.29083,90.9027;-31.26192,90.89619;-31.12735,90.90107;-31.10421,90.89586;-30.94905,90.90148;-30.86412,90.89193;-30.75118,90.89603|-33.10145,96.44811;-33.10378,93.44498" t="639300585855428779" />
   <random k="Stabilized Island Portal@-15.69305,95.80537" />
   <random k="Test Portal: A Red Rat Lair@42.09917,33.62209" />
@@ -2767,6 +2906,9 @@
   <vname k="00E5v3" n="Tyrant's Quarry" />
   <vname k="013Bv2" n="Forgotten Past" />
   <vname k="02D3v1" n="Caerbannog" />
+  <vname k="02F4v2" n="Breach Zero" />
+  <vname k="00CAv2" n="Billy's Hideout" />
+  <vname k="028Ev2" n="Notumah's Haven" />
   <indoor lb="01C2" />
   <indoor lb="7400" />
   <indoor lb="012F" />
@@ -2807,8 +2949,8 @@
     <start k="spell" n="Lifestone Recall" e="33.59831,56.78439" t="639300421824097012" />
     <start k="spell" n="Lifestone Sending" e="-29.03717,91.65908" t="639314070330167450" />
     <start k="cmd" n="/hr" e="-102.15833,-8.82507" el="29696" in="-" t="639312665016555990" />
-    <start k="spell" n="Portal Recall" e="-37.05708,-65.95" t="639314011558640090" />
-    <start k="gem" n="Portal Recall Gem" e="-37.05708,-65.95" in="-" t="639314011558640109" />
+    <start k="spell" n="Portal Recall" e="90.34167,-43.25833" t="639314303337954567" />
+    <start k="gem" n="Portal Recall Gem" e="90.34167,-43.25833" in="-" t="639314303337954585" />
     <start k="cmd" n="/ls" e="-29.03717,91.65908" t="639314070088277605" />
     <start k="spell" n="Primary Portal Recall" e="-16.5721,-35.31268" el="21355" t="639309929287597128" />
     <start k="spell" n="Secondary Portal Recall" e="30.51714,-40.69365" t="639309930148047343" />
